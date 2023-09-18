@@ -2,10 +2,10 @@
 title: "Protocol: TITLE"
 # Add all *direct* contributors to the protocol here
 author: 
-  - name: NAME
-    affiliation: 
+  - name: Jie Zhang
+    affiliation: Aarhus University
       - name: INSTITUTION
-date: last-modified
+date: 18/09/2023
 format: html
 # bibliography: "file/path"
 execute: 
@@ -33,7 +33,7 @@ describing the study. Find checklists
 
 # Study information
 
-## Title
+## KIMO-disentangle the relationship between kidney function and cardiovascular diseases 
 
 ::: content-hidden
 *Put in the title of your study. Remember to include your study design
