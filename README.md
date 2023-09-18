@@ -1,8 +1,8 @@
 # TODO: Write your project abbreviated title and full title here.
 
-TODO: Give a brief description of what your project is about
+KIMO
 
-This project...
+This project aims to examine the association between eGFR, CVD and mortality in the general population, and examine whether this potential association is causal by employing the MR approach.
 
 # Installing and setting up the project
 
