@@ -71,30 +71,13 @@ p95_i0,Pulse rate (during blood-pressure measurement) | Instance 0,p95
 p95_i1,Pulse rate (during blood-pressure measurement) | Instance 1,p95
 p95_i2,Pulse rate (during blood-pressure measurement) | Instance 2,p95
 p95_i3,Pulse rate (during blood-pressure measurement) | Instance 3,p95
-p96_i0,Time since interview start at which blood pressure screen(s) shown | Instance 0,p96
-p96_i1,Time since interview start at which blood pressure screen(s) shown | Instance 1,p96
-p96_i2,Time since interview start at which blood pressure screen(s) shown | Instance 2,p96
-p96_i3,Time since interview start at which blood pressure screen(s) shown | Instance 3,p96
-p115_i0,Father's month of birth | Instance 0,p115
-p117_i0,Mother's month of birth | Instance 0,p117
-p118_i0,Mother's day of birth | Instance 0,p118
 p120_i0,Birth weight known | Instance 0,p120
 p120_i1,Birth weight known | Instance 1,p120
 p120_i2,Birth weight known | Instance 2,p120
-p129_i0,Place of birth in UK - north co-ordinate | Instance 0,p129
-p129_i1,Place of birth in UK - north co-ordinate | Instance 1,p129
-p129_i2,Place of birth in UK - north co-ordinate | Instance 2,p129
-p130_i0,Place of birth in UK - east co-ordinate | Instance 0,p130
-p130_i1,Place of birth in UK - east co-ordinate | Instance 1,p130
-p130_i2,Place of birth in UK - east co-ordinate | Instance 2,p130
 p132_i0,Job code at visit - entered | Instance 0,p132
 p132_i1,Job code at visit - entered | Instance 1,p132
 p132_i2,Job code at visit - entered | Instance 2,p132
 p132_i3,Job code at visit - entered | Instance 3,p132
-p134_i0,Number of self-reported cancers | Instance 0,p134
-p134_i1,Number of self-reported cancers | Instance 1,p134
-p134_i2,Number of self-reported cancers | Instance 2,p134
-p134_i3,Number of self-reported cancers | Instance 3,p134
 p135_i0,Number of self-reported non-cancer illnesses | Instance 0,p135
 p135_i1,Number of self-reported non-cancer illnesses | Instance 1,p135
 p135_i2,Number of self-reported non-cancer illnesses | Instance 2,p135
@@ -107,7 +90,6 @@ p137_i0,Number of treatments/medications taken | Instance 0,p137
 p137_i1,Number of treatments/medications taken | Instance 1,p137
 p137_i2,Number of treatments/medications taken | Instance 2,p137
 p137_i3,Number of treatments/medications taken | Instance 3,p137
-p146_i0,Father's day of birth | Instance 0,p146
 p189,Townsend deprivation index at recruitment,p189
 p190,Reason lost to follow-up,p190
 p191,Date lost to follow-up,p191
@@ -389,9 +371,6 @@ p1647_i2,Country of birth (UK/elsewhere) | Instance 2,p1647
 p1677_i0,Breastfed as a baby | Instance 0,p1677
 p1677_i1,Breastfed as a baby | Instance 1,p1677
 p1677_i2,Breastfed as a baby | Instance 2,p1677
-p1737_i0,Childhood sunburn occasions | Instance 0,p1737
-p1737_i1,Childhood sunburn occasions | Instance 1,p1737
-p1737_i2,Childhood sunburn occasions | Instance 2,p1737
 p1787_i0,Maternal smoking around birth | Instance 0,p1787
 p1787_i1,Maternal smoking around birth | Instance 1,p1787
 p1787_i2,Maternal smoking around birth | Instance 2,p1787
@@ -423,10 +402,6 @@ p2443_i0,Diabetes diagnosed by doctor | Instance 0,p2443
 p2443_i1,Diabetes diagnosed by doctor | Instance 1,p2443
 p2443_i2,Diabetes diagnosed by doctor | Instance 2,p2443
 p2443_i3,Diabetes diagnosed by doctor | Instance 3,p2443
-p2453_i0,Cancer diagnosed by doctor | Instance 0,p2453
-p2453_i1,Cancer diagnosed by doctor | Instance 1,p2453
-p2453_i2,Cancer diagnosed by doctor | Instance 2,p2453
-p2453_i3,Cancer diagnosed by doctor | Instance 3,p2453
 p2473_i0,Other serious medical condition/disability diagnosed by doctor | Instance 0,p2473
 p2473_i1,Other serious medical condition/disability diagnosed by doctor | Instance 1,p2473
 p2473_i2,Other serious medical condition/disability diagnosed by doctor | Instance 2,p2473
@@ -599,10 +574,6 @@ p3546_i0,Age last used hormone-replacement therapy (HRT) | Instance 0,p3546
 p3546_i1,Age last used hormone-replacement therapy (HRT) | Instance 1,p3546
 p3546_i2,Age last used hormone-replacement therapy (HRT) | Instance 2,p3546
 p3546_i3,Age last used hormone-replacement therapy (HRT) | Instance 3,p3546
-p3571_i0,Back pain for 3+ months | Instance 0,p3571
-p3571_i1,Back pain for 3+ months | Instance 1,p3571
-p3571_i2,Back pain for 3+ months | Instance 2,p3571
-p3571_i3,Back pain for 3+ months | Instance 3,p3571
 p3581_i0,Age at menopause (last menstrual period) | Instance 0,p3581
 p3581_i1,Age at menopause (last menstrual period) | Instance 1,p3581
 p3581_i2,Age at menopause (last menstrual period) | Instance 2,p3581
@@ -646,18 +617,6 @@ p3731_i0,Former alcohol drinker | Instance 0,p3731
 p3731_i1,Former alcohol drinker | Instance 1,p3731
 p3731_i2,Former alcohol drinker | Instance 2,p3731
 p3731_i3,Former alcohol drinker | Instance 3,p3731
-p3829_i0,Number of stillbirths | Instance 0,p3829
-p3829_i1,Number of stillbirths | Instance 1,p3829
-p3829_i2,Number of stillbirths | Instance 2,p3829
-p3829_i3,Number of stillbirths | Instance 3,p3829
-p3839_i0,Number of spontaneous miscarriages | Instance 0,p3839
-p3839_i1,Number of spontaneous miscarriages | Instance 1,p3839
-p3839_i2,Number of spontaneous miscarriages | Instance 2,p3839
-p3839_i3,Number of spontaneous miscarriages | Instance 3,p3839
-p3849_i0,Number of pregnancy terminations | Instance 0,p3849
-p3849_i1,Number of pregnancy terminations | Instance 1,p3849
-p3849_i2,Number of pregnancy terminations | Instance 2,p3849
-p3849_i3,Number of pregnancy terminations | Instance 3,p3849
 p3859_i0,Reason former drinker stopped drinking alcohol | Instance 0,p3859
 p3859_i1,Reason former drinker stopped drinking alcohol | Instance 1,p3859
 p3859_i2,Reason former drinker stopped drinking alcohol | Instance 2,p3859
@@ -714,38 +673,6 @@ p4196_i0,Pulse wave peak to peak time | Instance 0,p4196
 p4196_i1,Pulse wave peak to peak time | Instance 1,p4196
 p4196_i2,Pulse wave peak to peak time | Instance 2,p4196
 p4196_i3,Pulse wave peak to peak time | Instance 3,p4196
-p4198_i0,Position of the pulse wave peak | Instance 0,p4198
-p4198_i1,Position of the pulse wave peak | Instance 1,p4198
-p4198_i2,Position of the pulse wave peak | Instance 2,p4198
-p4198_i3,Position of the pulse wave peak | Instance 3,p4198
-p4199_i0,Position of pulse wave notch | Instance 0,p4199
-p4199_i1,Position of pulse wave notch | Instance 1,p4199
-p4199_i2,Position of pulse wave notch | Instance 2,p4199
-p4199_i3,Position of pulse wave notch | Instance 3,p4199
-p4200_i0,Position of the shoulder on the pulse waveform | Instance 0,p4200
-p4200_i1,Position of the shoulder on the pulse waveform | Instance 1,p4200
-p4200_i2,Position of the shoulder on the pulse waveform | Instance 2,p4200
-p4200_i3,Position of the shoulder on the pulse waveform | Instance 3,p4200
-p4204_i0,Absence of notch position in the pulse waveform | Instance 0,p4204
-p4204_i1,Absence of notch position in the pulse waveform | Instance 1,p4204
-p4204_i2,Absence of notch position in the pulse waveform | Instance 2,p4204
-p4204_i3,Absence of notch position in the pulse waveform | Instance 3,p4204
-p4205_i0,Pulse wave pressure versus time response curve | Instance 0,p4205
-p4205_i1,Pulse wave pressure versus time response curve | Instance 1,p4205
-p4205_i2,Pulse wave pressure versus time response curve | Instance 2,p4205
-p4205_i3,Pulse wave pressure versus time response curve | Instance 3,p4205
-p4206_i0,Arterial stiffness device ID | Instance 0,p4206
-p4206_i1,Arterial stiffness device ID | Instance 1,p4206
-p4206_i2,Arterial stiffness device ID | Instance 2,p4206
-p4206_i3,Arterial stiffness device ID | Instance 3,p4206
-p4258_i0,Number entered by participant | Instance 0,p4258
-p4258_i1,Number entered by participant | Instance 1,p4258
-p4258_i2,Number entered by participant | Instance 2,p4258
-p4258_i3,Number entered by participant | Instance 3,p4258
-p4259_i0,Digits entered correctly | Instance 0,p4259
-p4259_i1,Digits entered correctly | Instance 1,p4259
-p4259_i2,Digits entered correctly | Instance 2,p4259
-p4259_i3,Digits entered correctly | Instance 3,p4259
 p4407_i0,Average monthly red wine intake | Instance 0,p4407
 p4407_i1,Average monthly red wine intake | Instance 1,p4407
 p4407_i2,Average monthly red wine intake | Instance 2,p4407
@@ -798,58 +725,16 @@ p4674_i0,Private healthcare | Instance 0,p4674
 p4674_i1,Private healthcare | Instance 1,p4674
 p4674_i2,Private healthcare | Instance 2,p4674
 p4674_i3,Private healthcare | Instance 3,p4674
-p4717_i0,Shortness of breath walking on level ground | Instance 0,p4717
-p4717_i1,Shortness of breath walking on level ground | Instance 1,p4717
-p4717_i2,Shortness of breath walking on level ground | Instance 2,p4717
-p4717_i3,Shortness of breath walking on level ground | Instance 3,p4717
 p5364_i0,Average weekly intake of other alcoholic drinks | Instance 0,p5364
 p5364_i1,Average weekly intake of other alcoholic drinks | Instance 1,p5364
 p5364_i2,Average weekly intake of other alcoholic drinks | Instance 2,p5364
 p5364_i3,Average weekly intake of other alcoholic drinks | Instance 3,p5364
-p5386_i0,Number of unenthusiastic/disinterested episodes | Instance 0,p5386
-p5386_i1,Number of unenthusiastic/disinterested episodes | Instance 1,p5386
-p5386_i2,Number of unenthusiastic/disinterested episodes | Instance 2,p5386
-p5386_i3,Number of unenthusiastic/disinterested episodes | Instance 3,p5386
-p5674_i0,Severity of manic/irritable episodes | Instance 0,p5674
-p5674_i1,Severity of manic/irritable episodes | Instance 1,p5674
-p5674_i2,Severity of manic/irritable episodes | Instance 2,p5674
-p5674_i3,Severity of manic/irritable episodes | Instance 3,p5674
 p5959_i0,Previously smoked cigarettes on most/all days | Instance 0,p5959
 p5959_i1,Previously smoked cigarettes on most/all days | Instance 1,p5959
 p5959_i2,Previously smoked cigarettes on most/all days | Instance 2,p5959
 p5959_i3,Previously smoked cigarettes on most/all days | Instance 3,p5959
 p6014_i0,Doctor restricts physical activity due to heart condition | Instance 0,p6014
 p6014_i1,Doctor restricts physical activity due to heart condition | Instance 1,p6014
-p6015_i0,Chest pain felt during physical activity | Instance 0,p6015
-p6015_i1,Chest pain felt during physical activity | Instance 1,p6015
-p6016_i0,Chest pain felt outside physical activity | Instance 0,p6016
-p6016_i1,Chest pain felt outside physical activity | Instance 1,p6016
-p6017_i0,Able to walk or cycle unaided for 10 minutes | Instance 0,p6017
-p6017_i1,Able to walk or cycle unaided for 10 minutes | Instance 1,p6017
-p6019_i0,ECG/bike method for fitness test | Instance 0,p6019
-p6019_i1,ECG/bike method for fitness test | Instance 1,p6019
-p6020_i0,Completion status of test | Instance 0,p6020
-p6020_i1,Completion status of test | Instance 1,p6020
-p6022_i0,ECG during exercise duration | Instance 0,p6022
-p6022_i1,ECG during exercise duration | Instance 1,p6022
-p6023_i0,Description of exercise protocol recommended | Instance 0,p6023
-p6023_i1,Description of exercise protocol recommended | Instance 1,p6023
-p6024_i0,Program category | Instance 0,p6024
-p6024_i1,Program category | Instance 1,p6024
-p6025_i0,"Fitness test results, including ECG data | Instance 0",p6025
-p6025_i1,"Fitness test results, including ECG data | Instance 1",p6025
-p6032_i0,Maximum workload during fitness test | Instance 0,p6032
-p6032_i1,Maximum workload during fitness test | Instance 1,p6032
-p6033_i0,Maximum heart rate during fitness test | Instance 0,p6033
-p6033_i1,Maximum heart rate during fitness test | Instance 1,p6033
-p6034_i0,Target heart rate achieved | Instance 0,p6034
-p6034_i1,Target heart rate achieved | Instance 1,p6034
-p6038_i0,Number of trend entries | Instance 0,p6038
-p6038_i1,Number of trend entries | Instance 1,p6038
-p6138_i0,Qualifications | Instance 0,p6138
-p6138_i1,Qualifications | Instance 1,p6138
-p6138_i2,Qualifications | Instance 2,p6138
-p6138_i3,Qualifications | Instance 3,p6138
 p6139_i0,Gas or solid-fuel cooking/heating | Instance 0,p6139
 p6139_i1,Gas or solid-fuel cooking/heating | Instance 1,p6139
 p6139_i2,Gas or solid-fuel cooking/heating | Instance 2,p6139
@@ -874,10 +759,6 @@ p6144_i0,"Never eat eggs, dairy, wheat, sugar | Instance 0",p6144
 p6144_i1,"Never eat eggs, dairy, wheat, sugar | Instance 1",p6144
 p6144_i2,"Never eat eggs, dairy, wheat, sugar | Instance 2",p6144
 p6144_i3,"Never eat eggs, dairy, wheat, sugar | Instance 3",p6144
-p6152_i0,"Blood clot, DVT, bronchitis, emphysema, asthma, rhinitis, eczema, allergy diagnosed by doctor | Instance 0",p6152
-p6152_i1,"Blood clot, DVT, bronchitis, emphysema, asthma, rhinitis, eczema, allergy diagnosed by doctor | Instance 1",p6152
-p6152_i2,"Blood clot, DVT, bronchitis, emphysema, asthma, rhinitis, eczema, allergy diagnosed by doctor | Instance 2",p6152
-p6152_i3,"Blood clot, DVT, bronchitis, emphysema, asthma, rhinitis, eczema, allergy diagnosed by doctor | Instance 3",p6152
 p6153_i0,"Medication for cholesterol, blood pressure, diabetes, or take exogenous hormones | Instance 0",p6153
 p6153_i1,"Medication for cholesterol, blood pressure, diabetes, or take exogenous hormones | Instance 1",p6153
 p6153_i2,"Medication for cholesterol, blood pressure, diabetes, or take exogenous hormones | Instance 2",p6153
@@ -890,10 +771,6 @@ p6155_i0,Vitamin and mineral supplements | Instance 0,p6155
 p6155_i1,Vitamin and mineral supplements | Instance 1,p6155
 p6155_i2,Vitamin and mineral supplements | Instance 2,p6155
 p6155_i3,Vitamin and mineral supplements | Instance 3,p6155
-p6156_i0,Manic/hyper symptoms | Instance 0,p6156
-p6156_i1,Manic/hyper symptoms | Instance 1,p6156
-p6156_i2,Manic/hyper symptoms | Instance 2,p6156
-p6156_i3,Manic/hyper symptoms | Instance 3,p6156
 p6157_i0,Why stopped smoking | Instance 0,p6157
 p6157_i1,Why stopped smoking | Instance 1,p6157
 p6157_i2,Why stopped smoking | Instance 2,p6157
@@ -945,12 +822,6 @@ p12697_i2,Systolic brachial blood pressure | Instance 2,p12697
 p12697_i3,Systolic brachial blood pressure | Instance 3,p12697
 p12698_i2,Diastolic brachial blood pressure | Instance 2,p12698
 p12698_i3,Diastolic brachial blood pressure | Instance 3,p12698
-p12706_i2,Eprime error flag | Instance 2,p12706
-p12706_i3,Eprime error flag | Instance 3,p12706
-p20001_i0,"Cancer code, self-reported | Instance 0",p20001
-p20001_i1,"Cancer code, self-reported | Instance 1",p20001
-p20001_i2,"Cancer code, self-reported | Instance 2",p20001
-p20001_i3,"Cancer code, self-reported | Instance 3",p20001
 p20002_i0,"Non-cancer illness code, self-reported | Instance 0",p20002
 p20002_i1,"Non-cancer illness code, self-reported | Instance 1",p20002
 p20002_i2,"Non-cancer illness code, self-reported | Instance 2",p20002
@@ -1102,14 +973,10 @@ p26212,Standard PRS for atrial fibrillation (AF),p26212
 p26213,Enhanced PRS for atrial fibrillation (AF),p26213
 p26216,Standard PRS for body mass index (BMI),p26216
 p26217,Enhanced PRS for body mass index (BMI),p26217
-p26222,Enhanced PRS for calcium (CAL),p26222
 p26223,Standard PRS for cardiovascular disease (CVD),p26223
 p26224,Enhanced PRS for cardiovascular disease (CVD),p26224
-p26225,Standard PRS for coeliac disease (CED),p26225
-p26226,Enhanced PRS for coeliac disease (CED),p26226
 p26227,Standard PRS for coronary artery disease (CAD),p26227
 p26228,Enhanced PRS for coronary artery disease (CAD),p26228
-p26231,Enhanced PRS for docosahexaenoic acid (DOA),p26231
 p26236,Enhanced PRS for estimated glomerular filtration rate (creatinine based) (EGCR),p26236
 p26237,Enhanced PRS for estimated glomerular filtration rate (cystatin based) (EGCY),p26237
 p26238,Standard PRS for glycated haemoglobin (HBA1C_DF),p26238
@@ -1559,10 +1426,7 @@ p41202,Diagnoses - main ICD10,p41202
 p41203,Diagnoses - main ICD9,p41203
 p41204,Diagnoses - secondary ICD10,p41204
 p41205,Diagnoses - secondary ICD9,p41205
-p41206,Intended management of patient (polymorphic),p41206
-p41209,Patient classification on admission (polymorphic),p41209
 p41210,Operative procedures - secondary OPCS4,p41210
-p41211,Destinations on discharge from hospital (polymorphic),p41211
 p41226,Sex of baby,p41226
 p41232,Administrative and legal statuses,p41232
 p41233,Sources of admission to hospital (polymorphic),p41233
