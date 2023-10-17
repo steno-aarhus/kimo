@@ -1,10 +1,8 @@
-# TODO: Write your project abbreviated title and full title here.
-
-KIMO
+# kimo: Unraveling the Relationship Between Kidney Function and Cardiovascular Risk
 
 This project aims to examine the association between eGFR, CVD and mortality in the general population, and examine whether this potential association is causal by employing the MR approach.
 
-# Installing and setting up the project
+## Installing and setting up the project
 
 If dependencies have been managed by using
 `usethis::use_package("packagename")` through the `DESCRIPTION` file,
@@ -23,7 +21,7 @@ code whenever you enter the RAP project.
 targets::tar_make()
 ```
 
-# Brief description of folder and file contents
+## Brief description of folder and file contents
 
 The following folders contain:
 
