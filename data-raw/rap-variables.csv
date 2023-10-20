@@ -1,465 +1,1570 @@
-id,ukb_variable_description,number_participants,link
-p31,Sex,502366,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=31
-p33,Date of birth,502366,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=33
-p34,Year of birth,502366,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=34
-p48,Waist circumference,500290,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=48
-p49,Hip circumference,500226,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=49
-p50,Standing height,499930,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=50
-p51,Seated height,497269,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=51
-p52,Month of birth,502366,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=52
-p53,Date of attending assessment centre,502366,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=53
-p54,UK Biobank assessment centre,502366,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=54
-p55,Month of attending assessment centre,502366,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=55
-p74,Fasting time,501183,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=74
-p87,Non-cancer illness year/age first occurred,391820,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=87
-p95,Pulse rate (during blood-pressure measurement),51604,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=95
-p120,Birth weight known,501507,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=120
-p132,Job code at visit - entered,347110,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=132
-p135,Number of self-reported non-cancer illnesses,501525,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=135
-p137,Number of treatments/medications taken,501525,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=137
-p189,Townsend deprivation index at recruitment,501740,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=189
-p190,Reason lost to follow-up,1297,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=190
-p191,Date lost to follow-up,1297,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=191
-p200,Date of consenting to join UK Biobank,502364,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=200
-p670,Type of accommodation lived in,501527,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=670
-p680,Own or rent accommodation lived in,500149,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=680
-p699,Length of time at current address,501523,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=699
-p709,Number in household,500147,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=709
-p728,Number of vehicles in household,500147,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=728
-p738,Average total household income before tax,497480,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=738
-p757,Time employed in main current job,288701,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=757
-p767,Length of working week for main job,288702,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=767
-p777,Frequency of travelling from home to job workplace,286787,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=777
-p796,Distance between home and job workplace,268132,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=796
-p806,Job involves mainly walking or standing,288702,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=806
-p816,Job involves heavy manual or physical work,288702,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=816
-p826,Job involves shift work,288702,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=826
-p845,Age completed full time education,337333,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=845
-p864,Number of days/week walked 10+ minutes,501516,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=864
-p874,Duration of walks,480650,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=874
-p884,Number of days/week of moderate physical activity 10+ minutes,501512,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=884
-p894,Duration of moderate activity,420364,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=894
-p904,Number of days/week of vigorous physical activity 10+ minutes,501512,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=904
-p914,Duration of vigorous activity,307765,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=914
-p924,Usual walking pace,499626,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=924
-p943,Frequency of stair climbing in last 4 weeks,496960,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=943
-p971,Frequency of walking for pleasure in last 4 weeks,363526,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=971
-p981,Duration walking for pleasure,363526,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=981
-p991,Frequency of strenuous sports in last 4 weeks,54748,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=991
-p1001,Duration of strenuous sports,54748,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1001
-p1031,Frequency of friend/family visits,498826,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1031
-p1160,Sleep duration,501504,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1160
-p1200,Sleeplessness / insomnia,501500,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1200
-p1239,Current tobacco smoking,501500,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1239
-p1249,Past tobacco smoking,464200,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1249
-p1259,Smoking/smokers in household,461855,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1259
-p1269,Exposure to tobacco smoke at home,464571,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1269
-p1279,Exposure to tobacco smoke outside home,464571,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1279
-p1289,Cooked vegetable intake,501498,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1289
-p1299,Salad / raw vegetable intake,501498,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1299
-p1309,Fresh fruit intake,501498,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1309
-p1319,Dried fruit intake,501497,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1319
-p1329,Oily fish intake,501497,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1329
-p1339,Non-oily fish intake,501497,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1339
-p1349,Processed meat intake,501496,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1349
-p1359,Poultry intake,501496,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1359
-p1369,Beef intake,501496,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1369
-p1379,Lamb/mutton intake,501496,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1379
-p1389,Pork intake,501494,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1389
-p1408,Cheese intake,490408,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1408
-p1418,Milk type used,501432,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1418
-p1428,Spread type,498812,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1428
-p1438,Bread intake,498812,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1438
-p1448,Bread type,484235,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1448
-p1458,Cereal intake,501400,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1458
-p1468,Cereal type,420594,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1468
-p1478,Salt added to food,501494,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1478
-p1488,Tea intake,501494,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1488
-p1498,Coffee intake,501494,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1498
-p1508,Coffee type,393233,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1508
-p1518,Hot drink temperature,501494,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1518
-p1528,Water intake,501494,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1528
-p1538,Major dietary changes in the last 5 years,501494,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1538
-p1548,Variation in diet,498812,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1548
-p1558,Alcohol intake frequency.,501494,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1558
-p1568,Average weekly red wine intake,349990,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1568
-p1578,Average weekly champagne plus white wine intake,349989,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1578
-p1588,Average weekly beer plus cider intake,349989,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1588
-p1598,Average weekly spirits intake,349989,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1598
-p1608,Average weekly fortified wine intake,349989,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1608
-p1618,Alcohol usually taken with meals,397424,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1618
-p1628,Alcohol intake versus 10 years previously,460996,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1628
-p1647,Country of birth (UK/elsewhere),501472,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1647
-p1677,Breastfed as a baby,501472,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1677
-p1787,Maternal smoking around birth,494132,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1787
-p1807,Father's age at death,390993,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1807
-p1845,Mother's age,199383,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1845
-p1873,Number of full brothers,494177,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1873
-p1883,Number of full sisters,494177,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1883
-p2178,Overall health rating,501473,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2178
-p2415,Had major operations,228611,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2415
-p2443,Diabetes diagnosed by doctor,501460,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2443
-p2473,Other serious medical condition/disability diagnosed by doctor,501460,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2473
-p2492,Taking other prescription medications,501460,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2492
-p2644,"Light smokers, at least 100 smokes in lifetime",143238,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2644
-p2714,Age when periods started (menarche),272839,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2714
-p2724,Had menopause,272839,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2724
-p2734,Number of live births,272837,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2734
-p2784,Ever taken oral contraceptive pill,272836,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2784
-p2814,Ever used hormone-replacement therapy (HRT),272836,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2814
-p2844,Had other major operations,272836,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2844
-p2867,Age started smoking in former smokers,124379,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2867
-p2877,Type of tobacco previously smoked,124379,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2877
-p2887,Number of cigarettes previously smoked daily,118902,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2887
-p2897,Age stopped smoking,124379,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2897
-p2907,Ever stopped smoking for 6+ months,123655,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2907
-p2926,Number of unsuccessful stop-smoking attempts,123655,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2926
-p2936,Likelihood of resuming smoking,123655,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2936
-p2946,Father's age,114695,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2946
-p2966,Age high blood pressure diagnosed,143703,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2966
-p2976,Age diabetes diagnosed,27887,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2976
-p2986,Started insulin within one year diagnosis of diabetes,27913,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2986
-p3089,Caffeine drink within last hour,462822,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3089
-p3140,Pregnant,272489,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3140
-p3159,Smoked cigarette or pipe within last hour,78893,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3159
-p3166,Time blood sample collected,499784,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3166
-p3426,Job involves night shift work,52131,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3426
-p3436,Age started smoking in current smokers,39595,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3436
-p3446,Type of tobacco currently smoked,39595,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3446
-p3456,Number of cigarettes currently smoked daily (current cigarette smokers),36798,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3456
-p3506,Smoking compared to 10 years previous,39595,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3506
-p3526,Mother's age at death,316884,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3526
-p3536,Age started hormone-replacement therapy (HRT),107176,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3536
-p3546,Age last used hormone-replacement therapy (HRT),107176,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3546
-p3581,Age at menopause (last menstrual period),177882,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3581
-p3591,Ever had hysterectomy (womb removed),242944,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3591
-p3627,Age angina diagnosed,17134,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3627
-p3637,Frequency of other exercises in last 4 weeks,248738,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3637
-p3647,Duration of other exercises,248738,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3647
-p3659,Year immigrated to UK (United Kingdom),44539,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3659
-p3700,Time since last menstrual period,64164,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3700
-p3710,Length of menstrual cycle,64164,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3710
-p3720,Menstruating today,76501,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3720
-p3731,Former alcohol drinker,43179,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3731
-p3894,Age heart attack diagnosed,12571,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3894
-p3992,Age emphysema/chronic bronchitis diagnosed,8987,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3992
-p4056,Age stroke diagnosed,8527,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=4056
-p4186,Stiffness method,223543,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=4186
-p4194,Pulse rate,219575,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=4194
-p4195,Pulse wave reflection index,219575,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=4195
-p4196,Pulse wave peak to peak time,219452,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=4196
-p4407,Average monthly red wine intake,56008,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=4407
-p4418,Average monthly champagne plus white wine intake,56008,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=4418
-p4429,Average monthly beer plus cider intake,56008,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=4429
-p4440,Average monthly spirits intake,56008,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=4440
-p4451,Average monthly fortified wine intake,56008,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=4451
-p4462,Average monthly intake of other alcoholic drinks,56008,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=4462
-p4501,Non-accidental death in close genetic family,224839,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=4501
-p4537,Work/job satisfaction,227981,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=4537
-p4548,Health satisfaction,227981,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=4548
-p4581,Financial situation satisfaction,227981,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=4581
-p4674,Private healthcare,227981,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=4674
-p5364,Average weekly intake of other alcoholic drinks,156763,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=5364
-p5959,Previously smoked cigarettes on most/all days,2681,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=5959
-p6014,Doctor restricts physical activity due to heart condition,96522,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6014
-p6139,Gas or solid-fuel cooking/heating,498841,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6139
-p6140,Heating type(s) in home,227981,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6140
-p6141,How are people in household related to participant,410124,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6141
-p6142,Current employment status,501520,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6142
-p6143,Transport type for commuting to job workplace,268132,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6143
-p6153,"Medication for cholesterol, blood pressure, diabetes, or take exogenous hormones",271367,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6153
-p6155,Vitamin and mineral supplements,498777,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6155
-p6160,Leisure/social activities,501508,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6160
-p6162,Types of transport used (excluding work),496959,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6162
-p6164,Types of physical activity in last 4 weeks,497212,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6164
-p6177,"Medication for cholesterol, blood pressure or diabetes",227398,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6177
-p6179,Mineral and other dietary supplements,498776,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6179
-p6183,Number of cigarettes previously smoked daily (current cigar/pipe smokers),1821,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6183
-p6194,Age stopped smoking cigarettes (current cigar/pipe or previous cigarette smoker),1821,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6194
-p10005,"Medication for smoking cessation, constipation, heartburn, allergies (pilot)",3770,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=10005
-p12143,Weight (pre-imaging),70442,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=12143
-p12144,Height,70442,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=12144
-p12697,Systolic brachial blood pressure,59876,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=12697
-p12698,Diastolic brachial blood pressure,59878,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=12698
-p20002,"Non-cancer illness code, self-reported",391819,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20002
-p20003,Treatment/medication code,376448,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20003
-p20004,Operation code,401986,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20004
-p20008,Interpolated Year when non-cancer illness first diagnosed,391819,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20008
-p20015,Sitting height,497268,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20015
-p20022,Birth weight,280170,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20022
-p20024,Job code at visit - deduced,14546,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20024
-p20076,Treatment/medication READ-code,-1,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20076
-p20107,Illnesses of father,488092,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20107
-p20110,Illnesses of mother,492905,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20110
-p20111,Illnesses of siblings,434161,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20111
-p20115,Country of Birth (non-UK origin),40557,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20115
-p20116,Smoking status,501500,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20116
-p20117,Alcohol drinker status,501494,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20117
-p20118,Home area population density - urban or rural,497314,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20118
-p20119,Current employment status - corrected,3364,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20119
-p20160,Ever smoked,499652,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20160
-p20161,Pack years of smoking,153151,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20161
-p20162,Pack years adult smoking as proportion of life span exposed to smoking,153151,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20162
-p20277,Job code at visit,342563,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20277
-p21000,Ethnic background,501479,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21000
-p21001,Body mass index (BMI),499393,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21001
-p21002,Weight,499705,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21002
-p21003,Age when attended assessment centre,502366,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21003
-p21021,Pulse wave Arterial Stiffness index,218468,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21021
-p21022,Age at recruitment,502366,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21022
-p21110,Android fat free mass,36131,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21110
-p21111,Android tissue mass,36131,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21111
-p21123,Gynoid fat free mass,36131,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21123
-p21124,Gynoid tissue mass,36131,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21124
-p22033,Summed days activity,394466,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22033
-p22034,Summed minutes activity,394466,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22034
-p22035,At or above moderate/vigorous recommendation,394466,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22035
-p22036,At or above moderate/vigorous/walking recommendation,394466,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22036
-p22037,MET minutes per week for walking,394466,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22037
-p22038,MET minutes per week for moderate activity,394466,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22038
-p22039,MET minutes per week for vigorous activity,394466,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22039
-p22040,Summed MET minutes per week for all activity,394466,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22040
-p22189,Townsend deprivation index at recruitment,501740,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22189
-p22190,Unadjusted T/S ratio,473953,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22190
-p22191,Adjusted T/S ratio,473953,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22191
-p22192,Z-adjusted T/S log,473953,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22192
-p22200,Year of birth,121248,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22200
-p22426,Average heart rate,39695,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22426
-p22433,Weight-to-muscle ratio,39436,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22433
-p22506,Tobacco smoking,121248,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22506
-p22507,Age of stopping smoking,43998,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22507
-p22508,Amount of tobacco currently smoked,2870,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22508
-p22599,Number of jobs held,118651,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22599
-p22600,Job title,120271,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22600
-p22601,Job coding,120271,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22601
-p26212,Standard PRS for atrial fibrillation (AF),486128,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26212
-p26213,Enhanced PRS for atrial fibrillation (AF),104592,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26213
-p26216,Standard PRS for body mass index (BMI),486128,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26216
-p26217,Enhanced PRS for body mass index (BMI),104592,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26217
-p26223,Standard PRS for cardiovascular disease (CVD),486128,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26223
-p26224,Enhanced PRS for cardiovascular disease (CVD),104592,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26224
-p26227,Standard PRS for coronary artery disease (CAD),486128,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26227
-p26228,Enhanced PRS for coronary artery disease (CAD),104592,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26228
-p26236,Enhanced PRS for estimated glomerular filtration rate (creatinine based) (EGCR),104592,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26236
-p26237,Enhanced PRS for estimated glomerular filtration rate (cystatin based) (EGCY),104592,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26237
-p26238,Standard PRS for glycated haemoglobin (HBA1C_DF),486128,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26238
-p26239,Enhanced PRS for glycated haemoglobin (HBA1C_DF),104592,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26239
-p26242,Standard PRS for high density lipoprotein cholesterol (HDL),486128,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26242
-p26243,Enhanced PRS for high density lipoprotein cholesterol (HDL),104592,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26243
-p26244,Standard PRS for hypertension (HT),486128,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26244
-p26245,Enhanced PRS for hypertension (HT),104592,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26245
-p26246,Standard PRS for intraocular pressure (IOP),486128,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26246
-p26247,Enhanced PRS for intraocular pressure (IOP),104592,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26247
-p26248,Standard PRS for ischaemic stroke (ISS),486128,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26248
-p26249,Enhanced PRS for ischaemic stroke (ISS),104592,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26249
-p26250,Standard PRS for low density lipoprotein cholesterol (LDL_SF),486128,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26250
-p26251,Enhanced PRS for low density lipoprotein cholesterol (LDL_SF),104592,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26251
-p26256,Enhanced PRS for omega-3 fatty acids (OTFA),104592,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26256
-p26257,Enhanced PRS for omega-6 fatty acids (OSFA),104592,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26257
-p26271,"Enhanced PRS for remnant cholesterol (Non-HDL, Non-LDL cholesterol) (RMNC)",104592,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26271
-p26272,Enhanced PRS for resting heart rate (RHR),104592,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26272
-p26280,Enhanced PRS for total cholesterol (TCH),104592,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26280
-p26281,Enhanced PRS for total fatty acids (TFA),104592,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26281
-p26282,Enhanced PRS for total triglycerides (TTG),104592,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26282
-p26283,Standard PRS for type 1 diabetes (T1D),486128,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26283
-p26284,Enhanced PRS for type 1 diabetes (T1D),104592,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26284
-p26285,Standard PRS for type 2 diabetes (T2D),486128,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26285
-p26286,Enhanced PRS for type 2 diabetes (T2D),104592,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26286
-p26410,Index of Multiple Deprivation (England),432607,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26410
-p26411,Income score (England),432607,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26411
-p26412,Employment score (England),432607,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26412
-p26413,Health score (England),432607,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26413
-p26414,Education score (England),432607,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26414
-p26415,Housing score (England),432607,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26415
-p26416,Crime score (England),432607,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26416
-p26417,Living environment score (England),432607,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26417
-p26418,Income score (Wales),21182,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26418
-p26419,Employment score (Wales),21182,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26419
-p26420,Health score (Wales),21182,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26420
-p26421,Education score (Wales),21182,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26421
-p26422,Access to services score (Wales),21182,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26422
-p26423,Housing score (Wales),21182,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26423
-p26424,Physical environment score (Wales),21182,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26424
-p26425,Community safety score (Wales),21182,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26425
-p26426,Index of Multiple Deprivation (Wales),21182,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26426
-p26427,Index of Multiple Deprivation (Scotland),35845,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26427
-p26428,Income score (Scotland),35845,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26428
-p26429,Employment score (Scotland),35845,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26429
-p26430,Health score (Scotland),35845,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26430
-p26431,Education score (Scotland),35845,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26431
-p26432,Housing score (Scotland),35845,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26432
-p26433,Access to services score (Scotland),35845,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26433
-p26434,Crime score (Scotland),33485,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26434
-p28034,Description of main home,9952,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=28034
-p28057,Employment situation between mid-March and the end of June 2020 (i.e the first UK lockdown),9952,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=28057
-p30020,Haemoglobin concentration,479219,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30020
-p30022,Haemoglobin concentration acquisition time,479219,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30022
-p30024,Haemoglobin concentration acquisition route,479219,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30024
-p30030,Haematocrit percentage,479220,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30030
-p30031,Haematocrit freeze-thaw cycles,474767,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30031
-p30032,Haematocrit acquisition time,479220,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30032
-p30050,Mean corpuscular haemoglobin,479216,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30050
-p30054,Mean corpuscular haemoglobin acquisition route,479216,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30054
-p30060,Mean corpuscular haemoglobin concentration,479213,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30060
-p30500,Microalbumin in urine,156559,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30500
-p30502,Microalbumin in urine acquisition time,484804,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30502
-p30510,Creatinine (enzymatic) in urine,484824,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30510
-p30512,Creatinine (enzymatic) in urine acquisition time,484828,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30512
-p30600,Albumin,432221,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30600
-p30610,Alkaline phosphatase,470729,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30610
-p30630,Apolipoprotein A,429675,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30630
-p30640,Apolipoprotein B,468384,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30640
-p30660,Direct bilirubin,400913,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30660
-p30670,Urea,470408,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30670
-p30676,Urea reportability,470418,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30676
-p30690,Cholesterol,470716,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30690
-p30700,Creatinine,470493,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30700
-p30710,C-reactive protein,469727,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30710
-p30720,Cystatin C,470687,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30720
-p30730,Gamma glutamyltransferase,470474,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30730
-p30740,Glucose,431727,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30740
-p30750,Glycated haemoglobin (HbA1c),467782,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30750
-p30760,HDL cholesterol,432018,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30760
-p30770,IGF-1,468257,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30770
-p30780,LDL direct,469878,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30780
-p30790,Lipoprotein A,377555,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30790
-p30840,Total bilirubin,468757,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30840
-p30870,Triglycerides,470346,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30870
-p40000,Date of death,44499,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=40000
-p40001,Underlying (primary) cause of death: ICD10,44196,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=40001
-p40002,Contributory (secondary) causes of death: ICD10,29451,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=40002
-p40030,Sleep - Day hour average,99109,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=40030
-p40031,Sedentary - Day hour average,99109,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=40031
-p40032,Light - Day hour average,99109,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=40032
-p40033,Moderate-Vigorous - Day hour average,99109,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=40033
-p41150,Detention categories (recoded),43600,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41150
-p41201,External causes - ICD10,113758,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41201
-p41202,Diagnoses - main ICD10,446969,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41202
-p41203,Diagnoses - main ICD9,20390,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41203
-p41204,Diagnoses - secondary ICD10,399976,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41204
-p41205,Diagnoses - secondary ICD9,8742,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41205
-p41210,Operative procedures - secondary OPCS4,417076,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41210
-p41247,Patient classification on admission (recoded),446789,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41247
-p41248,Destinations on discharge from hospital (recoded),446821,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41248
-p41249,Methods of admission to hospital (recoded),449167,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41249
-p41250,Methods of discharge from hospital (recoded),449193,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41250
-p41251,Sources of admission to hospital (recoded),449185,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41251
-p41253,Inpatient record format,449193,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41253
-p41255,"Episodes containing ""Operative procedure - main OPCS3"" data",10697,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41255
-p41256,Operative procedures - main OPCS3,10699,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41256
-p41257,Date of first operative procedure - main OPCS3,10699,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41257
-p41259,Records in HES inpatient main dataset,449193,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41259
-p41260,Date of first operative procedure - main OPCS4,446538,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41260
-p41261,Records in HES inpatient maternity dataset,16657,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41261
-p41262,Date of first in-patient diagnosis - main ICD10,446969,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41262
-p41263,Date of first in-patient diagnosis - main ICD9,20390,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41263
-p41264,Records in HES inpatient delivery dataset,16656,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41264
-p41265,Records in HES inpatient birth dataset,16656,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41265
-p41270,Diagnoses - ICD10,446974,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41270
-p41271,Diagnoses - ICD9,20390,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41271
-p41272,Operative procedures - OPCS4,446548,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41272
-p41273,Operative procedures - OPCS3,10699,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41273
-p41280,Date of first in-patient diagnosis - ICD10,446974,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41280
-p41281,Date of first in-patient diagnosis - ICD9,20390,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41281
-p41282,Date of first operative procedure - OPCS4,446544,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41282
-p41283,Date of first operative procedure - OPCS3,10699,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41283
-p41284,Baby birth weight,16593,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41284
-p42000,Date of myocardial infarction,30142,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=42000
-p42001,Source of myocardial infarction report,30142,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=42001
-p42038,GP registration records,228888,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=42038
-p42039,GP prescription records,222053,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=42039
-p42040,GP clinical event records,230035,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=42040
-p130706,Date E10 first reported (insulin-dependent diabetes mellitus),5411,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=130706
-p130707,Source of report of E10 (insulin-dependent diabetes mellitus),5411,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=130707
-p130708,Date E11 first reported (non-insulin-dependent diabetes mellitus),47023,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=130708
-p130709,Source of report of E11 (non-insulin-dependent diabetes mellitus),47023,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=130709
-p130710,Date E12 first reported (malnutrition-related diabetes mellitus),8,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=130710
-p130711,Source of report of E12 (malnutrition-related diabetes mellitus),8,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=130711
-p130712,Date E13 first reported (other specified diabetes mellitus),610,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=130712
-p130713,Source of report of E13 (other specified diabetes mellitus),610,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=130713
-p130714,Date E14 first reported (unspecified diabetes mellitus),26233,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=130714
-p130715,Source of report of E14 (unspecified diabetes mellitus),26233,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=130715
-p130720,Date E20 first reported (hypoparathyroidism),280,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=130720
-p130721,Source of report of E20 (hypoparathyroidism),280,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=130721
-p130722,Date E21 first reported (hyperparathyroidism and other disorders of parathyroid gland),2983,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=130722
-p130723,Source of report of E21 (hyperparathyroidism and other disorders of parathyroid gland),2983,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=130723
-p131056,Date G45 first reported (transient cerebral ischaemic attacks and related syndromes),10567,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131056
-p131057,Source of report of G45 (transient cerebral ischaemic attacks and related syndromes),10567,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131057
-p131284,Date I09 first reported (other rheumatic heart diseases),140,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131284
-p131285,Source of report of I09 (other rheumatic heart diseases),140,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131285
-p131286,Date I10 first reported (essential (primary) hypertension),203053,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131286
-p131287,Source of report of I10 (essential (primary) hypertension),203053,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131287
-p131288,Date I11 first reported (hypertensive heart disease),1117,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131288
-p131289,Source of report of I11 (hypertensive heart disease),1117,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131289
-p131290,Date I12 first reported (hypertensive renal disease),2283,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131290
-p131291,Source of report of I12 (hypertensive renal disease),2283,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131291
-p131292,Date I13 first reported (hypertensive heart and renal disease),199,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131292
-p131293,Source of report of I13 (hypertensive heart and renal disease),199,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131293
-p131294,Date I15 first reported (secondary hypertension),314,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131294
-p131295,Source of report of I15 (secondary hypertension),314,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131295
-p131296,Date I20 first reported (angina pectoris),38636,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131296
-p131297,Source of report of I20 (angina pectoris),38636,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131297
-p131298,Date I21 first reported (acute myocardial infarction),25183,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131298
-p131299,Source of report of I21 (acute myocardial infarction),25183,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131299
-p131300,Date I22 first reported (subsequent myocardial infarction),969,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131300
-p131301,Source of report of I22 (subsequent myocardial infarction),969,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131301
-p131302,Date I23 first reported (certain current complications following acute myocardial infarction),110,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131302
-p131303,Source of report of I23 (certain current complications following acute myocardial infarction),110,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131303
-p131304,Date I24 first reported (other acute ischaemic heart diseases),5380,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131304
-p131305,Source of report of I24 (other acute ischaemic heart diseases),5380,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131305
-p131306,Date I25 first reported (chronic ischaemic heart disease),56053,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131306
-p131307,Source of report of I25 (chronic ischaemic heart disease),56053,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131307
-p131314,Date I30 first reported (acute pericarditis),741,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131314
-p131315,Source of report of I30 (acute pericarditis),741,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131315
-p131316,Date I31 first reported (other diseases of pericardium),4035,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131316
-p131317,Source of report of I31 (other diseases of pericardium),4035,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131317
-p131318,Date I32 first reported (pericarditis in diseases classified elsewhere),15,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131318
-p131319,Source of report of I32 (pericarditis in diseases classified elsewhere),15,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131319
-p131320,Date I33 first reported (acute and subacute endocarditis),687,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131320
-p131321,Source of report of I33 (acute and subacute endocarditis),687,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131321
-p131332,Date I39 first reported (endocarditis and heart valve disorders in diseases classified elsewhere),13,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131332
-p131333,Source of report of I39 (endocarditis and heart valve disorders in diseases classified elsewhere),13,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131333
-p131334,Date I40 first reported (acute myocarditis),106,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131334
-p131335,Source of report of I40 (acute myocarditis),106,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131335
-p131336,Date I41 first reported (myocarditis in diseases classified elsewhere),14,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131336
-p131337,Source of report of I41 (myocarditis in diseases classified elsewhere),14,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131337
-p131338,Date I42 first reported (cardiomyopathy),3947,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131338
-p131339,Source of report of I42 (cardiomyopathy),3947,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131339
-p131340,Date I43 first reported (cardiomyopathy in diseases classified elsewhere),159,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131340
-p131341,Source of report of I43 (cardiomyopathy in diseases classified elsewhere),159,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131341
-p131342,Date I44 first reported (atrioventricular and left bundle-branch block),14393,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131342
-p131343,Source of report of I44 (atrioventricular and left bundle-branch block),14393,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131343
-p131344,Date I45 first reported (other conduction disorders),8929,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131344
-p131345,Source of report of I45 (other conduction disorders),8929,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131345
-p131346,Date I46 first reported (cardiac arrest),3497,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131346
-p131347,Source of report of I46 (cardiac arrest),3497,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131347
-p131348,Date I47 first reported (paroxysmal tachycardia),8868,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131348
-p131349,Source of report of I47 (paroxysmal tachycardia),8868,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131349
-p131350,Date I48 first reported (atrial fibrillation and flutter),42821,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131350
-p131351,Source of report of I48 (atrial fibrillation and flutter),42821,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131351
-p131352,Date I49 first reported (other cardiac arrhythmias),14913,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131352
-p131353,Source of report of I49 (other cardiac arrhythmias),14913,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131353
-p131354,Date I50 first reported (heart failure),21419,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131354
-p131355,Source of report of I50 (heart failure),21419,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131355
-p131356,Date I51 first reported (complications and ill-defined descriptions of heart disease),25457,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131356
-p131357,Source of report of I51 (complications and ill-defined descriptions of heart disease),25457,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131357
-p131358,Date I52 first reported (other heart disorders in diseases classified elsewhere),4,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131358
-p131359,Source of report of I52 (other heart disorders in diseases classified elsewhere),4,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131359
-p131368,"Date I64 first reported (stroke, not specified as haemorrhage or infarction)",10313,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131368
-p131369,"Source of report of I64 (stroke, not specified as haemorrhage or infarction)",10313,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131369
-p131370,"Date I65 first reported (occlusion and stenosis of precerebral arteries, not resulting in cerebral infarction)",3261,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131370
-p131371,"Source of report of I65 (occlusion and stenosis of precerebral arteries, not resulting in cerebral infarction)",3261,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131371
-p131372,"Date I66 first reported (occlusion and stenosis of cerebral arteries, not resulting in cerebral infarction)",248,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131372
-p131373,"Source of report of I66 (occlusion and stenosis of cerebral arteries, not resulting in cerebral infarction)",248,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131373
-p131374,Date I67 first reported (other cerebrovascular diseases),13140,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131374
-p131375,Source of report of I67 (other cerebrovascular diseases),13140,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131375
-p131376,Date I68 first reported (cerebrovascular disorders in diseases classified elsewhere),208,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131376
-p131377,Source of report of I68 (cerebrovascular disorders in diseases classified elsewhere),208,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131377
-p131378,Date I69 first reported (sequelae of cerebrovascular disease),3963,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131378
-p131379,Source of report of I69 (sequelae of cerebrovascular disease),3963,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131379
-p131380,Date I70 first reported (atherosclerosis),4532,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131380
-p131381,Source of report of I70 (atherosclerosis),4532,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131381
-p131414,Date I89 first reported (other non-infective disorders of lymphatic vessels and lymph nodes),3435,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131414
-p131415,Source of report of I89 (other non-infective disorders of lymphatic vessels and lymph nodes),3435,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131415
-p131416,Date I95 first reported (hypotension),23230,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131416
-p131417,Source of report of I95 (hypotension),23230,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=131417
+field_id,rap_variable_name,id
+p31,Sex,p31
+p33,Date of birth,p33
+p34,Year of birth,p34
+p48_i0,Waist circumference | Instance 0,p48
+p48_i1,Waist circumference | Instance 1,p48
+p48_i2,Waist circumference | Instance 2,p48
+p48_i3,Waist circumference | Instance 3,p48
+p49_i0,Hip circumference | Instance 0,p49
+p49_i1,Hip circumference | Instance 1,p49
+p49_i2,Hip circumference | Instance 2,p49
+p49_i3,Hip circumference | Instance 3,p49
+p50_i0,Standing height | Instance 0,p50
+p50_i1,Standing height | Instance 1,p50
+p50_i2,Standing height | Instance 2,p50
+p50_i3,Standing height | Instance 3,p50
+p52,Month of birth,p52
+p54_i0,UK Biobank assessment centre | Instance 0,p54
+p54_i1,UK Biobank assessment centre | Instance 1,p54
+p54_i2,UK Biobank assessment centre | Instance 2,p54
+p54_i3,UK Biobank assessment centre | Instance 3,p54
+p87_i0,Non-cancer illness year/age first occurred | Instance 0,p87
+p87_i1,Non-cancer illness year/age first occurred | Instance 1,p87
+p87_i2,Non-cancer illness year/age first occurred | Instance 2,p87
+p87_i3,Non-cancer illness year/age first occurred | Instance 3,p87
+p95_i0,Pulse rate (during blood-pressure measurement) | Instance 0,p95
+p95_i1,Pulse rate (during blood-pressure measurement) | Instance 1,p95
+p95_i2,Pulse rate (during blood-pressure measurement) | Instance 2,p95
+p95_i3,Pulse rate (during blood-pressure measurement) | Instance 3,p95
+p120_i0,Birth weight known | Instance 0,p120
+p120_i1,Birth weight known | Instance 1,p120
+p120_i2,Birth weight known | Instance 2,p120
+p132_i0,Job code at visit - entered | Instance 0,p132
+p132_i1,Job code at visit - entered | Instance 1,p132
+p132_i2,Job code at visit - entered | Instance 2,p132
+p132_i3,Job code at visit - entered | Instance 3,p132
+p135_i0,Number of self-reported non-cancer illnesses | Instance 0,p135
+p135_i1,Number of self-reported non-cancer illnesses | Instance 1,p135
+p135_i2,Number of self-reported non-cancer illnesses | Instance 2,p135
+p135_i3,Number of self-reported non-cancer illnesses | Instance 3,p135
+p137_i0,Number of treatments/medications taken | Instance 0,p137
+p137_i1,Number of treatments/medications taken | Instance 1,p137
+p137_i2,Number of treatments/medications taken | Instance 2,p137
+p137_i3,Number of treatments/medications taken | Instance 3,p137
+p189,Townsend deprivation index at recruitment,p189
+p190,Reason lost to follow-up,p190
+p191,Date lost to follow-up,p191
+p200,Date of consenting to join UK Biobank,p200
+p670_i0,Type of accommodation lived in | Instance 0,p670
+p670_i1,Type of accommodation lived in | Instance 1,p670
+p670_i2,Type of accommodation lived in | Instance 2,p670
+p670_i3,Type of accommodation lived in | Instance 3,p670
+p680_i0,Own or rent accommodation lived in | Instance 0,p680
+p680_i1,Own or rent accommodation lived in | Instance 1,p680
+p680_i2,Own or rent accommodation lived in | Instance 2,p680
+p680_i3,Own or rent accommodation lived in | Instance 3,p680
+p699_i0,Length of time at current address | Instance 0,p699
+p699_i1,Length of time at current address | Instance 1,p699
+p699_i2,Length of time at current address | Instance 2,p699
+p699_i3,Length of time at current address | Instance 3,p699
+p709_i0,Number in household | Instance 0,p709
+p709_i1,Number in household | Instance 1,p709
+p709_i2,Number in household | Instance 2,p709
+p709_i3,Number in household | Instance 3,p709
+p728_i0,Number of vehicles in household | Instance 0,p728
+p728_i1,Number of vehicles in household | Instance 1,p728
+p728_i2,Number of vehicles in household | Instance 2,p728
+p728_i3,Number of vehicles in household | Instance 3,p728
+p738_i0,Average total household income before tax | Instance 0,p738
+p738_i1,Average total household income before tax | Instance 1,p738
+p738_i2,Average total household income before tax | Instance 2,p738
+p738_i3,Average total household income before tax | Instance 3,p738
+p757_i0,Time employed in main current job | Instance 0,p757
+p757_i1,Time employed in main current job | Instance 1,p757
+p757_i2,Time employed in main current job | Instance 2,p757
+p757_i3,Time employed in main current job | Instance 3,p757
+p767_i0,Length of working week for main job | Instance 0,p767
+p767_i1,Length of working week for main job | Instance 1,p767
+p767_i2,Length of working week for main job | Instance 2,p767
+p767_i3,Length of working week for main job | Instance 3,p767
+p777_i0,Frequency of travelling from home to job workplace | Instance 0,p777
+p777_i1,Frequency of travelling from home to job workplace | Instance 1,p777
+p777_i2,Frequency of travelling from home to job workplace | Instance 2,p777
+p777_i3,Frequency of travelling from home to job workplace | Instance 3,p777
+p845_i0,Age completed full time education | Instance 0,p845
+p845_i1,Age completed full time education | Instance 1,p845
+p845_i2,Age completed full time education | Instance 2,p845
+p864_i0,Number of days/week walked 10+ minutes | Instance 0,p864
+p864_i1,Number of days/week walked 10+ minutes | Instance 1,p864
+p864_i2,Number of days/week walked 10+ minutes | Instance 2,p864
+p864_i3,Number of days/week walked 10+ minutes | Instance 3,p864
+p874_i0,Duration of walks | Instance 0,p874
+p874_i1,Duration of walks | Instance 1,p874
+p874_i2,Duration of walks | Instance 2,p874
+p874_i3,Duration of walks | Instance 3,p874
+p884_i0,Number of days/week of moderate physical activity 10+ minutes | Instance 0,p884
+p884_i1,Number of days/week of moderate physical activity 10+ minutes | Instance 1,p884
+p884_i2,Number of days/week of moderate physical activity 10+ minutes | Instance 2,p884
+p884_i3,Number of days/week of moderate physical activity 10+ minutes | Instance 3,p884
+p894_i0,Duration of moderate activity | Instance 0,p894
+p894_i1,Duration of moderate activity | Instance 1,p894
+p894_i2,Duration of moderate activity | Instance 2,p894
+p894_i3,Duration of moderate activity | Instance 3,p894
+p904_i0,Number of days/week of vigorous physical activity 10+ minutes | Instance 0,p904
+p904_i1,Number of days/week of vigorous physical activity 10+ minutes | Instance 1,p904
+p904_i2,Number of days/week of vigorous physical activity 10+ minutes | Instance 2,p904
+p904_i3,Number of days/week of vigorous physical activity 10+ minutes | Instance 3,p904
+p914_i0,Duration of vigorous activity | Instance 0,p914
+p914_i1,Duration of vigorous activity | Instance 1,p914
+p914_i2,Duration of vigorous activity | Instance 2,p914
+p914_i3,Duration of vigorous activity | Instance 3,p914
+p991_i0,Frequency of strenuous sports in last 4 weeks | Instance 0,p991
+p991_i1,Frequency of strenuous sports in last 4 weeks | Instance 1,p991
+p991_i2,Frequency of strenuous sports in last 4 weeks | Instance 2,p991
+p991_i3,Frequency of strenuous sports in last 4 weeks | Instance 3,p991
+p1001_i0,Duration of strenuous sports | Instance 0,p1001
+p1001_i1,Duration of strenuous sports | Instance 1,p1001
+p1001_i2,Duration of strenuous sports | Instance 2,p1001
+p1001_i3,Duration of strenuous sports | Instance 3,p1001
+p1031_i0,Frequency of friend/family visits | Instance 0,p1031
+p1031_i1,Frequency of friend/family visits | Instance 1,p1031
+p1031_i2,Frequency of friend/family visits | Instance 2,p1031
+p1031_i3,Frequency of friend/family visits | Instance 3,p1031
+p1160_i0,Sleep duration | Instance 0,p1160
+p1160_i1,Sleep duration | Instance 1,p1160
+p1160_i2,Sleep duration | Instance 2,p1160
+p1160_i3,Sleep duration | Instance 3,p1160
+p1200_i0,Sleeplessness / insomnia | Instance 0,p1200
+p1200_i1,Sleeplessness / insomnia | Instance 1,p1200
+p1200_i2,Sleeplessness / insomnia | Instance 2,p1200
+p1200_i3,Sleeplessness / insomnia | Instance 3,p1200
+p1239_i0,Current tobacco smoking | Instance 0,p1239
+p1239_i1,Current tobacco smoking | Instance 1,p1239
+p1239_i2,Current tobacco smoking | Instance 2,p1239
+p1239_i3,Current tobacco smoking | Instance 3,p1239
+p1249_i0,Past tobacco smoking | Instance 0,p1249
+p1249_i1,Past tobacco smoking | Instance 1,p1249
+p1249_i2,Past tobacco smoking | Instance 2,p1249
+p1249_i3,Past tobacco smoking | Instance 3,p1249
+p1259_i0,Smoking/smokers in household | Instance 0,p1259
+p1259_i1,Smoking/smokers in household | Instance 1,p1259
+p1259_i2,Smoking/smokers in household | Instance 2,p1259
+p1259_i3,Smoking/smokers in household | Instance 3,p1259
+p1269_i0,Exposure to tobacco smoke at home | Instance 0,p1269
+p1269_i1,Exposure to tobacco smoke at home | Instance 1,p1269
+p1269_i2,Exposure to tobacco smoke at home | Instance 2,p1269
+p1269_i3,Exposure to tobacco smoke at home | Instance 3,p1269
+p1279_i0,Exposure to tobacco smoke outside home | Instance 0,p1279
+p1279_i1,Exposure to tobacco smoke outside home | Instance 1,p1279
+p1279_i2,Exposure to tobacco smoke outside home | Instance 2,p1279
+p1279_i3,Exposure to tobacco smoke outside home | Instance 3,p1279
+p1289_i0,Cooked vegetable intake | Instance 0,p1289
+p1289_i1,Cooked vegetable intake | Instance 1,p1289
+p1289_i2,Cooked vegetable intake | Instance 2,p1289
+p1289_i3,Cooked vegetable intake | Instance 3,p1289
+p1299_i0,Salad / raw vegetable intake | Instance 0,p1299
+p1299_i1,Salad / raw vegetable intake | Instance 1,p1299
+p1299_i2,Salad / raw vegetable intake | Instance 2,p1299
+p1299_i3,Salad / raw vegetable intake | Instance 3,p1299
+p1309_i0,Fresh fruit intake | Instance 0,p1309
+p1309_i1,Fresh fruit intake | Instance 1,p1309
+p1309_i2,Fresh fruit intake | Instance 2,p1309
+p1309_i3,Fresh fruit intake | Instance 3,p1309
+p1319_i0,Dried fruit intake | Instance 0,p1319
+p1319_i1,Dried fruit intake | Instance 1,p1319
+p1319_i2,Dried fruit intake | Instance 2,p1319
+p1319_i3,Dried fruit intake | Instance 3,p1319
+p1329_i0,Oily fish intake | Instance 0,p1329
+p1329_i1,Oily fish intake | Instance 1,p1329
+p1329_i2,Oily fish intake | Instance 2,p1329
+p1329_i3,Oily fish intake | Instance 3,p1329
+p1339_i0,Non-oily fish intake | Instance 0,p1339
+p1339_i1,Non-oily fish intake | Instance 1,p1339
+p1339_i2,Non-oily fish intake | Instance 2,p1339
+p1339_i3,Non-oily fish intake | Instance 3,p1339
+p1349_i0,Processed meat intake | Instance 0,p1349
+p1349_i1,Processed meat intake | Instance 1,p1349
+p1349_i2,Processed meat intake | Instance 2,p1349
+p1349_i3,Processed meat intake | Instance 3,p1349
+p1359_i0,Poultry intake | Instance 0,p1359
+p1359_i1,Poultry intake | Instance 1,p1359
+p1359_i2,Poultry intake | Instance 2,p1359
+p1359_i3,Poultry intake | Instance 3,p1359
+p1369_i0,Beef intake | Instance 0,p1369
+p1369_i1,Beef intake | Instance 1,p1369
+p1369_i2,Beef intake | Instance 2,p1369
+p1369_i3,Beef intake | Instance 3,p1369
+p1379_i0,Lamb/mutton intake | Instance 0,p1379
+p1379_i1,Lamb/mutton intake | Instance 1,p1379
+p1379_i2,Lamb/mutton intake | Instance 2,p1379
+p1379_i3,Lamb/mutton intake | Instance 3,p1379
+p1389_i0,Pork intake | Instance 0,p1389
+p1389_i1,Pork intake | Instance 1,p1389
+p1389_i2,Pork intake | Instance 2,p1389
+p1389_i3,Pork intake | Instance 3,p1389
+p1408_i0,Cheese intake | Instance 0,p1408
+p1408_i1,Cheese intake | Instance 1,p1408
+p1408_i2,Cheese intake | Instance 2,p1408
+p1408_i3,Cheese intake | Instance 3,p1408
+p1418_i0,Milk type used | Instance 0,p1418
+p1418_i1,Milk type used | Instance 1,p1418
+p1418_i2,Milk type used | Instance 2,p1418
+p1418_i3,Milk type used | Instance 3,p1418
+p1428_i0,Spread type | Instance 0,p1428
+p1428_i1,Spread type | Instance 1,p1428
+p1428_i2,Spread type | Instance 2,p1428
+p1428_i3,Spread type | Instance 3,p1428
+p1438_i0,Bread intake | Instance 0,p1438
+p1438_i1,Bread intake | Instance 1,p1438
+p1438_i2,Bread intake | Instance 2,p1438
+p1438_i3,Bread intake | Instance 3,p1438
+p1448_i0,Bread type | Instance 0,p1448
+p1448_i1,Bread type | Instance 1,p1448
+p1448_i2,Bread type | Instance 2,p1448
+p1448_i3,Bread type | Instance 3,p1448
+p1458_i0,Cereal intake | Instance 0,p1458
+p1458_i1,Cereal intake | Instance 1,p1458
+p1458_i2,Cereal intake | Instance 2,p1458
+p1458_i3,Cereal intake | Instance 3,p1458
+p1468_i0,Cereal type | Instance 0,p1468
+p1468_i1,Cereal type | Instance 1,p1468
+p1468_i2,Cereal type | Instance 2,p1468
+p1468_i3,Cereal type | Instance 3,p1468
+p1478_i0,Salt added to food | Instance 0,p1478
+p1478_i1,Salt added to food | Instance 1,p1478
+p1478_i2,Salt added to food | Instance 2,p1478
+p1478_i3,Salt added to food | Instance 3,p1478
+p1488_i0,Tea intake | Instance 0,p1488
+p1488_i1,Tea intake | Instance 1,p1488
+p1488_i2,Tea intake | Instance 2,p1488
+p1488_i3,Tea intake | Instance 3,p1488
+p1498_i0,Coffee intake | Instance 0,p1498
+p1498_i1,Coffee intake | Instance 1,p1498
+p1498_i2,Coffee intake | Instance 2,p1498
+p1498_i3,Coffee intake | Instance 3,p1498
+p1508_i0,Coffee type | Instance 0,p1508
+p1508_i1,Coffee type | Instance 1,p1508
+p1508_i2,Coffee type | Instance 2,p1508
+p1508_i3,Coffee type | Instance 3,p1508
+p1518_i0,Hot drink temperature | Instance 0,p1518
+p1518_i1,Hot drink temperature | Instance 1,p1518
+p1518_i2,Hot drink temperature | Instance 2,p1518
+p1518_i3,Hot drink temperature | Instance 3,p1518
+p1528_i0,Water intake | Instance 0,p1528
+p1528_i1,Water intake | Instance 1,p1528
+p1528_i2,Water intake | Instance 2,p1528
+p1528_i3,Water intake | Instance 3,p1528
+p1538_i0,Major dietary changes in the last 5 years | Instance 0,p1538
+p1538_i1,Major dietary changes in the last 5 years | Instance 1,p1538
+p1538_i2,Major dietary changes in the last 5 years | Instance 2,p1538
+p1538_i3,Major dietary changes in the last 5 years | Instance 3,p1538
+p1548_i0,Variation in diet | Instance 0,p1548
+p1548_i1,Variation in diet | Instance 1,p1548
+p1548_i2,Variation in diet | Instance 2,p1548
+p1548_i3,Variation in diet | Instance 3,p1548
+p1558_i0,Alcohol intake frequency. | Instance 0,p1558
+p1558_i1,Alcohol intake frequency. | Instance 1,p1558
+p1558_i2,Alcohol intake frequency. | Instance 2,p1558
+p1558_i3,Alcohol intake frequency. | Instance 3,p1558
+p1568_i0,Average weekly red wine intake | Instance 0,p1568
+p1568_i1,Average weekly red wine intake | Instance 1,p1568
+p1568_i2,Average weekly red wine intake | Instance 2,p1568
+p1568_i3,Average weekly red wine intake | Instance 3,p1568
+p1578_i0,Average weekly champagne plus white wine intake | Instance 0,p1578
+p1578_i1,Average weekly champagne plus white wine intake | Instance 1,p1578
+p1578_i2,Average weekly champagne plus white wine intake | Instance 2,p1578
+p1578_i3,Average weekly champagne plus white wine intake | Instance 3,p1578
+p1588_i0,Average weekly beer plus cider intake | Instance 0,p1588
+p1588_i1,Average weekly beer plus cider intake | Instance 1,p1588
+p1588_i2,Average weekly beer plus cider intake | Instance 2,p1588
+p1588_i3,Average weekly beer plus cider intake | Instance 3,p1588
+p1598_i0,Average weekly spirits intake | Instance 0,p1598
+p1598_i1,Average weekly spirits intake | Instance 1,p1598
+p1598_i2,Average weekly spirits intake | Instance 2,p1598
+p1598_i3,Average weekly spirits intake | Instance 3,p1598
+p1608_i0,Average weekly fortified wine intake | Instance 0,p1608
+p1608_i1,Average weekly fortified wine intake | Instance 1,p1608
+p1608_i2,Average weekly fortified wine intake | Instance 2,p1608
+p1608_i3,Average weekly fortified wine intake | Instance 3,p1608
+p1618_i0,Alcohol usually taken with meals | Instance 0,p1618
+p1618_i1,Alcohol usually taken with meals | Instance 1,p1618
+p1618_i2,Alcohol usually taken with meals | Instance 2,p1618
+p1618_i3,Alcohol usually taken with meals | Instance 3,p1618
+p1628_i0,Alcohol intake versus 10 years previously | Instance 0,p1628
+p1628_i1,Alcohol intake versus 10 years previously | Instance 1,p1628
+p1628_i2,Alcohol intake versus 10 years previously | Instance 2,p1628
+p1628_i3,Alcohol intake versus 10 years previously | Instance 3,p1628
+p1647_i0,Country of birth (UK/elsewhere) | Instance 0,p1647
+p1647_i1,Country of birth (UK/elsewhere) | Instance 1,p1647
+p1647_i2,Country of birth (UK/elsewhere) | Instance 2,p1647
+p1677_i0,Breastfed as a baby | Instance 0,p1677
+p1677_i1,Breastfed as a baby | Instance 1,p1677
+p1677_i2,Breastfed as a baby | Instance 2,p1677
+p1787_i0,Maternal smoking around birth | Instance 0,p1787
+p1787_i1,Maternal smoking around birth | Instance 1,p1787
+p1787_i2,Maternal smoking around birth | Instance 2,p1787
+p1845_i0,Mother's age | Instance 0,p1845
+p1845_i1,Mother's age | Instance 1,p1845
+p1845_i2,Mother's age | Instance 2,p1845
+p1845_i3,Mother's age | Instance 3,p1845
+p1873_i0,Number of full brothers | Instance 0,p1873
+p1873_i1,Number of full brothers | Instance 1,p1873
+p1873_i2,Number of full brothers | Instance 2,p1873
+p1873_i3,Number of full brothers | Instance 3,p1873
+p1883_i0,Number of full sisters | Instance 0,p1883
+p1883_i1,Number of full sisters | Instance 1,p1883
+p1883_i2,Number of full sisters | Instance 2,p1883
+p1883_i3,Number of full sisters | Instance 3,p1883
+p2178_i0,Overall health rating | Instance 0,p2178
+p2178_i1,Overall health rating | Instance 1,p2178
+p2178_i2,Overall health rating | Instance 2,p2178
+p2178_i3,Overall health rating | Instance 3,p2178
+p2415_i0,Had major operations | Instance 0,p2415
+p2415_i1,Had major operations | Instance 1,p2415
+p2415_i2,Had major operations | Instance 2,p2415
+p2415_i3,Had major operations | Instance 3,p2415
+p2443_i0,Diabetes diagnosed by doctor | Instance 0,p2443
+p2443_i1,Diabetes diagnosed by doctor | Instance 1,p2443
+p2443_i2,Diabetes diagnosed by doctor | Instance 2,p2443
+p2443_i3,Diabetes diagnosed by doctor | Instance 3,p2443
+p2473_i0,Other serious medical condition/disability diagnosed by doctor | Instance 0,p2473
+p2473_i1,Other serious medical condition/disability diagnosed by doctor | Instance 1,p2473
+p2473_i2,Other serious medical condition/disability diagnosed by doctor | Instance 2,p2473
+p2473_i3,Other serious medical condition/disability diagnosed by doctor | Instance 3,p2473
+p2492_i0,Taking other prescription medications | Instance 0,p2492
+p2492_i1,Taking other prescription medications | Instance 1,p2492
+p2492_i2,Taking other prescription medications | Instance 2,p2492
+p2492_i3,Taking other prescription medications | Instance 3,p2492
+p2644_i0,"Light smokers, at least 100 smokes in lifetime | Instance 0",p2644
+p2644_i1,"Light smokers, at least 100 smokes in lifetime | Instance 1",p2644
+p2644_i2,"Light smokers, at least 100 smokes in lifetime | Instance 2",p2644
+p2644_i3,"Light smokers, at least 100 smokes in lifetime | Instance 3",p2644
+p2714_i0,Age when periods started (menarche) | Instance 0,p2714
+p2714_i1,Age when periods started (menarche) | Instance 1,p2714
+p2714_i2,Age when periods started (menarche) | Instance 2,p2714
+p2714_i3,Age when periods started (menarche) | Instance 3,p2714
+p2724_i0,Had menopause | Instance 0,p2724
+p2724_i1,Had menopause | Instance 1,p2724
+p2724_i2,Had menopause | Instance 2,p2724
+p2724_i3,Had menopause | Instance 3,p2724
+p2784_i0,Ever taken oral contraceptive pill | Instance 0,p2784
+p2784_i1,Ever taken oral contraceptive pill | Instance 1,p2784
+p2784_i2,Ever taken oral contraceptive pill | Instance 2,p2784
+p2784_i3,Ever taken oral contraceptive pill | Instance 3,p2784
+p2814_i0,Ever used hormone-replacement therapy (HRT) | Instance 0,p2814
+p2814_i1,Ever used hormone-replacement therapy (HRT) | Instance 1,p2814
+p2814_i2,Ever used hormone-replacement therapy (HRT) | Instance 2,p2814
+p2814_i3,Ever used hormone-replacement therapy (HRT) | Instance 3,p2814
+p2844_i0,Had other major operations | Instance 0,p2844
+p2844_i1,Had other major operations | Instance 1,p2844
+p2844_i2,Had other major operations | Instance 2,p2844
+p2844_i3,Had other major operations | Instance 3,p2844
+p2867_i0,Age started smoking in former smokers | Instance 0,p2867
+p2867_i1,Age started smoking in former smokers | Instance 1,p2867
+p2867_i2,Age started smoking in former smokers | Instance 2,p2867
+p2867_i3,Age started smoking in former smokers | Instance 3,p2867
+p2877_i0,Type of tobacco previously smoked | Instance 0,p2877
+p2877_i1,Type of tobacco previously smoked | Instance 1,p2877
+p2877_i2,Type of tobacco previously smoked | Instance 2,p2877
+p2877_i3,Type of tobacco previously smoked | Instance 3,p2877
+p2887_i0,Number of cigarettes previously smoked daily | Instance 0,p2887
+p2887_i1,Number of cigarettes previously smoked daily | Instance 1,p2887
+p2887_i2,Number of cigarettes previously smoked daily | Instance 2,p2887
+p2887_i3,Number of cigarettes previously smoked daily | Instance 3,p2887
+p2897_i0,Age stopped smoking | Instance 0,p2897
+p2897_i1,Age stopped smoking | Instance 1,p2897
+p2897_i2,Age stopped smoking | Instance 2,p2897
+p2897_i3,Age stopped smoking | Instance 3,p2897
+p2946_i0,Father's age | Instance 0,p2946
+p2946_i1,Father's age | Instance 1,p2946
+p2946_i2,Father's age | Instance 2,p2946
+p2946_i3,Father's age | Instance 3,p2946
+p2966_i0,Age high blood pressure diagnosed | Instance 0,p2966
+p2966_i1,Age high blood pressure diagnosed | Instance 1,p2966
+p2966_i2,Age high blood pressure diagnosed | Instance 2,p2966
+p2966_i3,Age high blood pressure diagnosed | Instance 3,p2966
+p2976_i0,Age diabetes diagnosed | Instance 0,p2976
+p2976_i1,Age diabetes diagnosed | Instance 1,p2976
+p2976_i2,Age diabetes diagnosed | Instance 2,p2976
+p2976_i3,Age diabetes diagnosed | Instance 3,p2976
+p2986_i0,Started insulin within one year diagnosis of diabetes | Instance 0,p2986
+p2986_i1,Started insulin within one year diagnosis of diabetes | Instance 1,p2986
+p2986_i2,Started insulin within one year diagnosis of diabetes | Instance 2,p2986
+p2986_i3,Started insulin within one year diagnosis of diabetes | Instance 3,p2986
+p3140_i0,Pregnant | Instance 0,p3140
+p3140_i1,Pregnant | Instance 1,p3140
+p3140_i2,Pregnant | Instance 2,p3140
+p3140_i3,Pregnant | Instance 3,p3140
+p3159_i0,Smoked cigarette or pipe within last hour | Instance 0,p3159
+p3159_i1,Smoked cigarette or pipe within last hour | Instance 1,p3159
+p3159_i2,Smoked cigarette or pipe within last hour | Instance 2,p3159
+p3159_i3,Smoked cigarette or pipe within last hour | Instance 3,p3159
+p3166_i0,Time blood sample collected | Instance 0,p3166
+p3166_i1,Time blood sample collected | Instance 1,p3166
+p3166_i2,Time blood sample collected | Instance 2,p3166
+p3166_i3,Time blood sample collected | Instance 3,p3166
+p3426_i0,Job involves night shift work | Instance 0,p3426
+p3426_i1,Job involves night shift work | Instance 1,p3426
+p3426_i2,Job involves night shift work | Instance 2,p3426
+p3426_i3,Job involves night shift work | Instance 3,p3426
+p3436_i0,Age started smoking in current smokers | Instance 0,p3436
+p3436_i1,Age started smoking in current smokers | Instance 1,p3436
+p3436_i2,Age started smoking in current smokers | Instance 2,p3436
+p3436_i3,Age started smoking in current smokers | Instance 3,p3436
+p3446_i0,Type of tobacco currently smoked | Instance 0,p3446
+p3446_i1,Type of tobacco currently smoked | Instance 1,p3446
+p3446_i2,Type of tobacco currently smoked | Instance 2,p3446
+p3446_i3,Type of tobacco currently smoked | Instance 3,p3446
+p3456_i0,Number of cigarettes currently smoked daily (current cigarette smokers) | Instance 0,p3456
+p3456_i1,Number of cigarettes currently smoked daily (current cigarette smokers) | Instance 1,p3456
+p3456_i2,Number of cigarettes currently smoked daily (current cigarette smokers) | Instance 2,p3456
+p3456_i3,Number of cigarettes currently smoked daily (current cigarette smokers) | Instance 3,p3456
+p3536_i0,Age started hormone-replacement therapy (HRT) | Instance 0,p3536
+p3536_i1,Age started hormone-replacement therapy (HRT) | Instance 1,p3536
+p3536_i2,Age started hormone-replacement therapy (HRT) | Instance 2,p3536
+p3536_i3,Age started hormone-replacement therapy (HRT) | Instance 3,p3536
+p3546_i0,Age last used hormone-replacement therapy (HRT) | Instance 0,p3546
+p3546_i1,Age last used hormone-replacement therapy (HRT) | Instance 1,p3546
+p3546_i2,Age last used hormone-replacement therapy (HRT) | Instance 2,p3546
+p3546_i3,Age last used hormone-replacement therapy (HRT) | Instance 3,p3546
+p3581_i0,Age at menopause (last menstrual period) | Instance 0,p3581
+p3581_i1,Age at menopause (last menstrual period) | Instance 1,p3581
+p3581_i2,Age at menopause (last menstrual period) | Instance 2,p3581
+p3581_i3,Age at menopause (last menstrual period) | Instance 3,p3581
+p3627_i0,Age angina diagnosed | Instance 0,p3627
+p3627_i1,Age angina diagnosed | Instance 1,p3627
+p3627_i2,Age angina diagnosed | Instance 2,p3627
+p3627_i3,Age angina diagnosed | Instance 3,p3627
+p3700_i0,Time since last menstrual period | Instance 0,p3700
+p3700_i1,Time since last menstrual period | Instance 1,p3700
+p3700_i2,Time since last menstrual period | Instance 2,p3700
+p3700_i3,Time since last menstrual period | Instance 3,p3700
+p3710_i0,Length of menstrual cycle | Instance 0,p3710
+p3710_i1,Length of menstrual cycle | Instance 1,p3710
+p3710_i2,Length of menstrual cycle | Instance 2,p3710
+p3710_i3,Length of menstrual cycle | Instance 3,p3710
+p3731_i0,Former alcohol drinker | Instance 0,p3731
+p3731_i1,Former alcohol drinker | Instance 1,p3731
+p3731_i2,Former alcohol drinker | Instance 2,p3731
+p3731_i3,Former alcohol drinker | Instance 3,p3731
+p3894_i0,Age heart attack diagnosed | Instance 0,p3894
+p3894_i1,Age heart attack diagnosed | Instance 1,p3894
+p3894_i2,Age heart attack diagnosed | Instance 2,p3894
+p3894_i3,Age heart attack diagnosed | Instance 3,p3894
+p3992_i0,Age emphysema/chronic bronchitis diagnosed | Instance 0,p3992
+p3992_i1,Age emphysema/chronic bronchitis diagnosed | Instance 1,p3992
+p3992_i2,Age emphysema/chronic bronchitis diagnosed | Instance 2,p3992
+p3992_i3,Age emphysema/chronic bronchitis diagnosed | Instance 3,p3992
+p4056_i0,Age stroke diagnosed | Instance 0,p4056
+p4056_i1,Age stroke diagnosed | Instance 1,p4056
+p4056_i2,Age stroke diagnosed | Instance 2,p4056
+p4056_i3,Age stroke diagnosed | Instance 3,p4056
+p4194_i0,Pulse rate | Instance 0,p4194
+p4194_i1,Pulse rate | Instance 1,p4194
+p4194_i2,Pulse rate | Instance 2,p4194
+p4194_i3,Pulse rate | Instance 3,p4194
+p4195_i0,Pulse wave reflection index | Instance 0,p4195
+p4195_i1,Pulse wave reflection index | Instance 1,p4195
+p4195_i2,Pulse wave reflection index | Instance 2,p4195
+p4195_i3,Pulse wave reflection index | Instance 3,p4195
+p4196_i0,Pulse wave peak to peak time | Instance 0,p4196
+p4196_i1,Pulse wave peak to peak time | Instance 1,p4196
+p4196_i2,Pulse wave peak to peak time | Instance 2,p4196
+p4196_i3,Pulse wave peak to peak time | Instance 3,p4196
+p4407_i0,Average monthly red wine intake | Instance 0,p4407
+p4407_i1,Average monthly red wine intake | Instance 1,p4407
+p4407_i2,Average monthly red wine intake | Instance 2,p4407
+p4407_i3,Average monthly red wine intake | Instance 3,p4407
+p4418_i0,Average monthly champagne plus white wine intake | Instance 0,p4418
+p4418_i1,Average monthly champagne plus white wine intake | Instance 1,p4418
+p4418_i2,Average monthly champagne plus white wine intake | Instance 2,p4418
+p4418_i3,Average monthly champagne plus white wine intake | Instance 3,p4418
+p4429_i0,Average monthly beer plus cider intake | Instance 0,p4429
+p4429_i1,Average monthly beer plus cider intake | Instance 1,p4429
+p4429_i2,Average monthly beer plus cider intake | Instance 2,p4429
+p4429_i3,Average monthly beer plus cider intake | Instance 3,p4429
+p4440_i0,Average monthly spirits intake | Instance 0,p4440
+p4440_i1,Average monthly spirits intake | Instance 1,p4440
+p4440_i2,Average monthly spirits intake | Instance 2,p4440
+p4440_i3,Average monthly spirits intake | Instance 3,p4440
+p4451_i0,Average monthly fortified wine intake | Instance 0,p4451
+p4451_i1,Average monthly fortified wine intake | Instance 1,p4451
+p4451_i2,Average monthly fortified wine intake | Instance 2,p4451
+p4451_i3,Average monthly fortified wine intake | Instance 3,p4451
+p4462_i0,Average monthly intake of other alcoholic drinks | Instance 0,p4462
+p4462_i1,Average monthly intake of other alcoholic drinks | Instance 1,p4462
+p4462_i2,Average monthly intake of other alcoholic drinks | Instance 2,p4462
+p4462_i3,Average monthly intake of other alcoholic drinks | Instance 3,p4462
+p4501_i0,Non-accidental death in close genetic family | Instance 0,p4501
+p4501_i1,Non-accidental death in close genetic family | Instance 1,p4501
+p4501_i2,Non-accidental death in close genetic family | Instance 2,p4501
+p4501_i3,Non-accidental death in close genetic family | Instance 3,p4501
+p4537_i0,Work/job satisfaction | Instance 0,p4537
+p4537_i1,Work/job satisfaction | Instance 1,p4537
+p4537_i2,Work/job satisfaction | Instance 2,p4537
+p4537_i3,Work/job satisfaction | Instance 3,p4537
+p4548_i0,Health satisfaction | Instance 0,p4548
+p4548_i1,Health satisfaction | Instance 1,p4548
+p4548_i2,Health satisfaction | Instance 2,p4548
+p4548_i3,Health satisfaction | Instance 3,p4548
+p4581_i0,Financial situation satisfaction | Instance 0,p4581
+p4581_i1,Financial situation satisfaction | Instance 1,p4581
+p4581_i2,Financial situation satisfaction | Instance 2,p4581
+p4581_i3,Financial situation satisfaction | Instance 3,p4581
+p4674_i0,Private healthcare | Instance 0,p4674
+p4674_i1,Private healthcare | Instance 1,p4674
+p4674_i2,Private healthcare | Instance 2,p4674
+p4674_i3,Private healthcare | Instance 3,p4674
+p5364_i0,Average weekly intake of other alcoholic drinks | Instance 0,p5364
+p5364_i1,Average weekly intake of other alcoholic drinks | Instance 1,p5364
+p5364_i2,Average weekly intake of other alcoholic drinks | Instance 2,p5364
+p5364_i3,Average weekly intake of other alcoholic drinks | Instance 3,p5364
+p5959_i0,Previously smoked cigarettes on most/all days | Instance 0,p5959
+p5959_i1,Previously smoked cigarettes on most/all days | Instance 1,p5959
+p5959_i2,Previously smoked cigarettes on most/all days | Instance 2,p5959
+p5959_i3,Previously smoked cigarettes on most/all days | Instance 3,p5959
+p6014_i0,Doctor restricts physical activity due to heart condition | Instance 0,p6014
+p6014_i1,Doctor restricts physical activity due to heart condition | Instance 1,p6014
+p6139_i0,Gas or solid-fuel cooking/heating | Instance 0,p6139
+p6139_i1,Gas or solid-fuel cooking/heating | Instance 1,p6139
+p6139_i2,Gas or solid-fuel cooking/heating | Instance 2,p6139
+p6139_i3,Gas or solid-fuel cooking/heating | Instance 3,p6139
+p6140_i0,Heating type(s) in home | Instance 0,p6140
+p6140_i1,Heating type(s) in home | Instance 1,p6140
+p6140_i2,Heating type(s) in home | Instance 2,p6140
+p6140_i3,Heating type(s) in home | Instance 3,p6140
+p6142_i0,Current employment status | Instance 0,p6142
+p6142_i1,Current employment status | Instance 1,p6142
+p6142_i2,Current employment status | Instance 2,p6142
+p6142_i3,Current employment status | Instance 3,p6142
+p6143_i0,Transport type for commuting to job workplace | Instance 0,p6143
+p6143_i1,Transport type for commuting to job workplace | Instance 1,p6143
+p6143_i2,Transport type for commuting to job workplace | Instance 2,p6143
+p6143_i3,Transport type for commuting to job workplace | Instance 3,p6143
+p6153_i0,"Medication for cholesterol, blood pressure, diabetes, or take exogenous hormones | Instance 0",p6153
+p6153_i1,"Medication for cholesterol, blood pressure, diabetes, or take exogenous hormones | Instance 1",p6153
+p6153_i2,"Medication for cholesterol, blood pressure, diabetes, or take exogenous hormones | Instance 2",p6153
+p6153_i3,"Medication for cholesterol, blood pressure, diabetes, or take exogenous hormones | Instance 3",p6153
+p6155_i0,Vitamin and mineral supplements | Instance 0,p6155
+p6155_i1,Vitamin and mineral supplements | Instance 1,p6155
+p6155_i2,Vitamin and mineral supplements | Instance 2,p6155
+p6155_i3,Vitamin and mineral supplements | Instance 3,p6155
+p6160_i0,Leisure/social activities | Instance 0,p6160
+p6160_i1,Leisure/social activities | Instance 1,p6160
+p6160_i2,Leisure/social activities | Instance 2,p6160
+p6160_i3,Leisure/social activities | Instance 3,p6160
+p6162_i0,Types of transport used (excluding work) | Instance 0,p6162
+p6162_i1,Types of transport used (excluding work) | Instance 1,p6162
+p6162_i2,Types of transport used (excluding work) | Instance 2,p6162
+p6162_i3,Types of transport used (excluding work) | Instance 3,p6162
+p6164_i0,Types of physical activity in last 4 weeks | Instance 0,p6164
+p6164_i1,Types of physical activity in last 4 weeks | Instance 1,p6164
+p6164_i2,Types of physical activity in last 4 weeks | Instance 2,p6164
+p6164_i3,Types of physical activity in last 4 weeks | Instance 3,p6164
+p6177_i0,"Medication for cholesterol, blood pressure or diabetes | Instance 0",p6177
+p6177_i1,"Medication for cholesterol, blood pressure or diabetes | Instance 1",p6177
+p6177_i2,"Medication for cholesterol, blood pressure or diabetes | Instance 2",p6177
+p6177_i3,"Medication for cholesterol, blood pressure or diabetes | Instance 3",p6177
+p6179_i0,Mineral and other dietary supplements | Instance 0,p6179
+p6179_i1,Mineral and other dietary supplements | Instance 1,p6179
+p6179_i2,Mineral and other dietary supplements | Instance 2,p6179
+p6179_i3,Mineral and other dietary supplements | Instance 3,p6179
+p6183_i0,Number of cigarettes previously smoked daily (current cigar/pipe smokers) | Instance 0,p6183
+p6183_i1,Number of cigarettes previously smoked daily (current cigar/pipe smokers) | Instance 1,p6183
+p6183_i2,Number of cigarettes previously smoked daily (current cigar/pipe smokers) | Instance 2,p6183
+p6183_i3,Number of cigarettes previously smoked daily (current cigar/pipe smokers) | Instance 3,p6183
+p6194_i0,Age stopped smoking cigarettes (current cigar/pipe or previous cigarette smoker) | Instance 0,p6194
+p6194_i1,Age stopped smoking cigarettes (current cigar/pipe or previous cigarette smoker) | Instance 1,p6194
+p6194_i2,Age stopped smoking cigarettes (current cigar/pipe or previous cigarette smoker) | Instance 2,p6194
+p6194_i3,Age stopped smoking cigarettes (current cigar/pipe or previous cigarette smoker) | Instance 3,p6194
+p10005_i0,"Medication for smoking cessation, constipation, heartburn, allergies (pilot) | Instance 0",p10005
+p12697_i2,Systolic brachial blood pressure | Instance 2,p12697
+p12697_i3,Systolic brachial blood pressure | Instance 3,p12697
+p12698_i2,Diastolic brachial blood pressure | Instance 2,p12698
+p12698_i3,Diastolic brachial blood pressure | Instance 3,p12698
+p20002_i0,"Non-cancer illness code, self-reported | Instance 0",p20002
+p20002_i1,"Non-cancer illness code, self-reported | Instance 1",p20002
+p20002_i2,"Non-cancer illness code, self-reported | Instance 2",p20002
+p20002_i3,"Non-cancer illness code, self-reported | Instance 3",p20002
+p20003_i0,Treatment/medication code | Instance 0,p20003
+p20003_i1,Treatment/medication code | Instance 1,p20003
+p20003_i2,Treatment/medication code | Instance 2,p20003
+p20003_i3,Treatment/medication code | Instance 3,p20003
+p20004_i0,Operation code | Instance 0,p20004
+p20004_i1,Operation code | Instance 1,p20004
+p20004_i2,Operation code | Instance 2,p20004
+p20004_i3,Operation code | Instance 3,p20004
+p20015_i0,Sitting height | Instance 0,p20015
+p20015_i1,Sitting height | Instance 1,p20015
+p20015_i2,Sitting height | Instance 2,p20015
+p20015_i3,Sitting height | Instance 3,p20015
+p20022_i0,Birth weight | Instance 0,p20022
+p20022_i1,Birth weight | Instance 1,p20022
+p20022_i2,Birth weight | Instance 2,p20022
+p20024_i0,Job code at visit - deduced | Instance 0,p20024
+p20076_i0,Treatment/medication READ-code | Instance 0,p20076
+p20107_i0,Illnesses of father | Instance 0,p20107
+p20107_i1,Illnesses of father | Instance 1,p20107
+p20107_i2,Illnesses of father | Instance 2,p20107
+p20107_i3,Illnesses of father | Instance 3,p20107
+p20110_i0,Illnesses of mother | Instance 0,p20110
+p20110_i1,Illnesses of mother | Instance 1,p20110
+p20110_i2,Illnesses of mother | Instance 2,p20110
+p20110_i3,Illnesses of mother | Instance 3,p20110
+p20111_i0,Illnesses of siblings | Instance 0,p20111
+p20111_i1,Illnesses of siblings | Instance 1,p20111
+p20111_i2,Illnesses of siblings | Instance 2,p20111
+p20111_i3,Illnesses of siblings | Instance 3,p20111
+p20115_i0,Country of Birth (non-UK origin) | Instance 0,p20115
+p20116_i0,Smoking status | Instance 0,p20116
+p20116_i1,Smoking status | Instance 1,p20116
+p20116_i2,Smoking status | Instance 2,p20116
+p20116_i3,Smoking status | Instance 3,p20116
+p20117_i0,Alcohol drinker status | Instance 0,p20117
+p20117_i1,Alcohol drinker status | Instance 1,p20117
+p20117_i2,Alcohol drinker status | Instance 2,p20117
+p20117_i3,Alcohol drinker status | Instance 3,p20117
+p20118_i0,Home area population density - urban or rural | Instance 0,p20118
+p20119_i0,Current employment status - corrected | Instance 0,p20119
+p20160_i0,Ever smoked | Instance 0,p20160
+p20160_i1,Ever smoked | Instance 1,p20160
+p20160_i2,Ever smoked | Instance 2,p20160
+p20160_i3,Ever smoked | Instance 3,p20160
+p20161_i0,Pack years of smoking | Instance 0,p20161
+p20161_i1,Pack years of smoking | Instance 1,p20161
+p20161_i2,Pack years of smoking | Instance 2,p20161
+p20161_i3,Pack years of smoking | Instance 3,p20161
+p20162_i0,Pack years adult smoking as proportion of life span exposed to smoking | Instance 0,p20162
+p20162_i1,Pack years adult smoking as proportion of life span exposed to smoking | Instance 1,p20162
+p20162_i2,Pack years adult smoking as proportion of life span exposed to smoking | Instance 2,p20162
+p20162_i3,Pack years adult smoking as proportion of life span exposed to smoking | Instance 3,p20162
+p20277_i0,Job code at visit | Instance 0,p20277
+p20277_i1,Job code at visit | Instance 1,p20277
+p20277_i2,Job code at visit | Instance 2,p20277
+p20277_i3,Job code at visit | Instance 3,p20277
+p21000_i0,Ethnic background | Instance 0,p21000
+p21000_i1,Ethnic background | Instance 1,p21000
+p21000_i2,Ethnic background | Instance 2,p21000
+p21000_i3,Ethnic background | Instance 3,p21000
+p21001_i0,Body mass index (BMI) | Instance 0,p21001
+p21001_i1,Body mass index (BMI) | Instance 1,p21001
+p21001_i2,Body mass index (BMI) | Instance 2,p21001
+p21001_i3,Body mass index (BMI) | Instance 3,p21001
+p21002_i0,Weight | Instance 0,p21002
+p21002_i1,Weight | Instance 1,p21002
+p21002_i2,Weight | Instance 2,p21002
+p21002_i3,Weight | Instance 3,p21002
+p21003_i0,Age when attended assessment centre | Instance 0,p21003
+p21003_i1,Age when attended assessment centre | Instance 1,p21003
+p21003_i2,Age when attended assessment centre | Instance 2,p21003
+p21003_i3,Age when attended assessment centre | Instance 3,p21003
+p21021_i0,Pulse wave Arterial Stiffness index | Instance 0,p21021
+p21021_i1,Pulse wave Arterial Stiffness index | Instance 1,p21021
+p21021_i2,Pulse wave Arterial Stiffness index | Instance 2,p21021
+p21021_i3,Pulse wave Arterial Stiffness index | Instance 3,p21021
+p21022,Age at recruitment,p21022
+p21110_i2,Android fat free mass | Instance 2,p21110
+p21110_i3,Android fat free mass | Instance 3,p21110
+p21111_i2,Android tissue mass | Instance 2,p21111
+p21111_i3,Android tissue mass | Instance 3,p21111
+p21123_i2,Gynoid fat free mass | Instance 2,p21123
+p21123_i3,Gynoid fat free mass | Instance 3,p21123
+p21124_i2,Gynoid tissue mass | Instance 2,p21124
+p21124_i3,Gynoid tissue mass | Instance 3,p21124
+p22033_i0,Summed days activity | Instance 0,p22033
+p22033_i1,Summed days activity | Instance 1,p22033
+p22033_i2,Summed days activity | Instance 2,p22033
+p22033_i3,Summed days activity | Instance 3,p22033
+p22034_i0,Summed minutes activity | Instance 0,p22034
+p22034_i1,Summed minutes activity | Instance 1,p22034
+p22034_i2,Summed minutes activity | Instance 2,p22034
+p22034_i3,Summed minutes activity | Instance 3,p22034
+p22035_i0,At or above moderate/vigorous recommendation | Instance 0,p22035
+p22035_i1,At or above moderate/vigorous recommendation | Instance 1,p22035
+p22035_i2,At or above moderate/vigorous recommendation | Instance 2,p22035
+p22035_i3,At or above moderate/vigorous recommendation | Instance 3,p22035
+p22036_i0,At or above moderate/vigorous/walking recommendation | Instance 0,p22036
+p22036_i1,At or above moderate/vigorous/walking recommendation | Instance 1,p22036
+p22036_i2,At or above moderate/vigorous/walking recommendation | Instance 2,p22036
+p22036_i3,At or above moderate/vigorous/walking recommendation | Instance 3,p22036
+p22037_i0,MET minutes per week for walking | Instance 0,p22037
+p22037_i1,MET minutes per week for walking | Instance 1,p22037
+p22037_i2,MET minutes per week for walking | Instance 2,p22037
+p22037_i3,MET minutes per week for walking | Instance 3,p22037
+p22038_i0,MET minutes per week for moderate activity | Instance 0,p22038
+p22038_i1,MET minutes per week for moderate activity | Instance 1,p22038
+p22038_i2,MET minutes per week for moderate activity | Instance 2,p22038
+p22038_i3,MET minutes per week for moderate activity | Instance 3,p22038
+p22039_i0,MET minutes per week for vigorous activity | Instance 0,p22039
+p22039_i1,MET minutes per week for vigorous activity | Instance 1,p22039
+p22039_i2,MET minutes per week for vigorous activity | Instance 2,p22039
+p22039_i3,MET minutes per week for vigorous activity | Instance 3,p22039
+p22040_i0,Summed MET minutes per week for all activity | Instance 0,p22040
+p22189,Townsend deprivation index at recruitment,p22189
+p22190_i0,Unadjusted T/S ratio | Instance 0,p22190
+p22190_i1,Unadjusted T/S ratio | Instance 1,p22190
+p22190_i2,Unadjusted T/S ratio | Instance 2,p22190
+p22191_i0,Adjusted T/S ratio | Instance 0,p22191
+p22191_i1,Adjusted T/S ratio | Instance 1,p22191
+p22191_i2,Adjusted T/S ratio | Instance 2,p22191
+p22192_i0,Z-adjusted T/S log | Instance 0,p22192
+p22192_i1,Z-adjusted T/S log | Instance 1,p22192
+p22192_i2,Z-adjusted T/S log | Instance 2,p22192
+p22200,Year of birth,p22200
+p22426_i2,Average heart rate | Instance 2,p22426
+p22426_i3,Average heart rate | Instance 3,p22426
+p22433_i2,Weight-to-muscle ratio | Instance 2,p22433
+p22506,Tobacco smoking,p22506
+p22507,Age of stopping smoking,p22507
+p22508,Amount of tobacco currently smoked,p22508
+p22599,Number of jobs held,p22599
+p22600,Job title,p22600
+p22601,Job coding,p22601
+p26212,Standard PRS for atrial fibrillation (AF),p26212
+p26213,Enhanced PRS for atrial fibrillation (AF),p26213
+p26216,Standard PRS for body mass index (BMI),p26216
+p26217,Enhanced PRS for body mass index (BMI),p26217
+p26223,Standard PRS for cardiovascular disease (CVD),p26223
+p26224,Enhanced PRS for cardiovascular disease (CVD),p26224
+p26227,Standard PRS for coronary artery disease (CAD),p26227
+p26228,Enhanced PRS for coronary artery disease (CAD),p26228
+p26236,Enhanced PRS for estimated glomerular filtration rate (creatinine based) (EGCR),p26236
+p26237,Enhanced PRS for estimated glomerular filtration rate (cystatin based) (EGCY),p26237
+p26238,Standard PRS for glycated haemoglobin (HBA1C_DF),p26238
+p26239,Enhanced PRS for glycated haemoglobin (HBA1C_DF),p26239
+p26242,Standard PRS for high density lipoprotein cholesterol (HDL),p26242
+p26243,Enhanced PRS for high density lipoprotein cholesterol (HDL),p26243
+p26244,Standard PRS for hypertension (HT),p26244
+p26245,Enhanced PRS for hypertension (HT),p26245
+p26246,Standard PRS for intraocular pressure (IOP),p26246
+p26247,Enhanced PRS for intraocular pressure (IOP),p26247
+p26248,Standard PRS for ischaemic stroke (ISS),p26248
+p26249,Enhanced PRS for ischaemic stroke (ISS),p26249
+p26250,Standard PRS for low density lipoprotein cholesterol (LDL_SF),p26250
+p26251,Enhanced PRS for low density lipoprotein cholesterol (LDL_SF),p26251
+p26271,"Enhanced PRS for remnant cholesterol (Non-HDL, Non-LDL cholesterol) (RMNC)",p26271
+p26272,Enhanced PRS for resting heart rate (RHR),p26272
+p26280,Enhanced PRS for total cholesterol (TCH),p26280
+p26281,Enhanced PRS for total fatty acids (TFA),p26281
+p26282,Enhanced PRS for total triglycerides (TTG),p26282
+p26283,Standard PRS for type 1 diabetes (T1D),p26283
+p26284,Enhanced PRS for type 1 diabetes (T1D),p26284
+p26285,Standard PRS for type 2 diabetes (T2D),p26285
+p26286,Enhanced PRS for type 2 diabetes (T2D),p26286
+p26410,Index of Multiple Deprivation (England),p26410
+p26411,Income score (England),p26411
+p26412,Employment score (England),p26412
+p26413,Health score (England),p26413
+p26414,Education score (England),p26414
+p26415,Housing score (England),p26415
+p26416,Crime score (England),p26416
+p26417,Living environment score (England),p26417
+p26418,Income score (Wales),p26418
+p26419,Employment score (Wales),p26419
+p26420,Health score (Wales),p26420
+p26421,Education score (Wales),p26421
+p26422,Access to services score (Wales),p26422
+p26423,Housing score (Wales),p26423
+p26424,Physical environment score (Wales),p26424
+p26425,Community safety score (Wales),p26425
+p26426,Index of Multiple Deprivation (Wales),p26426
+p26427,Index of Multiple Deprivation (Scotland),p26427
+p26428,Income score (Scotland),p26428
+p26429,Employment score (Scotland),p26429
+p26430,Health score (Scotland),p26430
+p26431,Education score (Scotland),p26431
+p26432,Housing score (Scotland),p26432
+p26433,Access to services score (Scotland),p26433
+p26434,Crime score (Scotland),p26434
+p30020_i0,Haemoglobin concentration | Instance 0,p30020
+p30020_i1,Haemoglobin concentration | Instance 1,p30020
+p30020_i2,Haemoglobin concentration | Instance 2,p30020
+p30030_i0,Haematocrit percentage | Instance 0,p30030
+p30030_i1,Haematocrit percentage | Instance 1,p30030
+p30030_i2,Haematocrit percentage | Instance 2,p30030
+p30050_i0,Mean corpuscular haemoglobin | Instance 0,p30050
+p30050_i1,Mean corpuscular haemoglobin | Instance 1,p30050
+p30050_i2,Mean corpuscular haemoglobin | Instance 2,p30050
+p30060_i0,Mean corpuscular haemoglobin concentration | Instance 0,p30060
+p30060_i1,Mean corpuscular haemoglobin concentration | Instance 1,p30060
+p30060_i2,Mean corpuscular haemoglobin concentration | Instance 2,p30060
+p30500_i0,Microalbumin in urine | Instance 0,p30500
+p30500_i1,Microalbumin in urine | Instance 1,p30500
+p30510_i0,Creatinine (enzymatic) in urine | Instance 0,p30510
+p30510_i1,Creatinine (enzymatic) in urine | Instance 1,p30510
+p30600_i0,Albumin | Instance 0,p30600
+p30600_i1,Albumin | Instance 1,p30600
+p30610_i0,Alkaline phosphatase | Instance 0,p30610
+p30610_i1,Alkaline phosphatase | Instance 1,p30610
+p30630_i0,Apolipoprotein A | Instance 0,p30630
+p30630_i1,Apolipoprotein A | Instance 1,p30630
+p30640_i0,Apolipoprotein B | Instance 0,p30640
+p30640_i1,Apolipoprotein B | Instance 1,p30640
+p30660_i0,Direct bilirubin | Instance 0,p30660
+p30660_i1,Direct bilirubin | Instance 1,p30660
+p30670_i0,Urea | Instance 0,p30670
+p30670_i1,Urea | Instance 1,p30670
+p30690_i0,Cholesterol | Instance 0,p30690
+p30690_i1,Cholesterol | Instance 1,p30690
+p30700_i0,Creatinine | Instance 0,p30700
+p30700_i1,Creatinine | Instance 1,p30700
+p30710_i0,C-reactive protein | Instance 0,p30710
+p30710_i1,C-reactive protein | Instance 1,p30710
+p30720_i0,Cystatin C | Instance 0,p30720
+p30720_i1,Cystatin C | Instance 1,p30720
+p30730_i0,Gamma glutamyltransferase | Instance 0,p30730
+p30730_i1,Gamma glutamyltransferase | Instance 1,p30730
+p30740_i0,Glucose | Instance 0,p30740
+p30740_i1,Glucose | Instance 1,p30740
+p30750_i0,Glycated haemoglobin (HbA1c) | Instance 0,p30750
+p30750_i1,Glycated haemoglobin (HbA1c) | Instance 1,p30750
+p30760_i0,HDL cholesterol | Instance 0,p30760
+p30760_i1,HDL cholesterol | Instance 1,p30760
+p30770_i0,IGF-1 | Instance 0,p30770
+p30770_i1,IGF-1 | Instance 1,p30770
+p30780_i0,LDL direct | Instance 0,p30780
+p30780_i1,LDL direct | Instance 1,p30780
+p30790_i0,Lipoprotein A | Instance 0,p30790
+p30790_i1,Lipoprotein A | Instance 1,p30790
+p30840_i0,Total bilirubin | Instance 0,p30840
+p30840_i1,Total bilirubin | Instance 1,p30840
+p30870_i0,Triglycerides | Instance 0,p30870
+p30870_i1,Triglycerides | Instance 1,p30870
+p40000_i0,Date of death | Instance 0,p40000
+p40000_i1,Date of death | Instance 1,p40000
+p40001_i0,Underlying (primary) cause of death: ICD10 | Instance 0,p40001
+p40001_i1,Underlying (primary) cause of death: ICD10 | Instance 1,p40001
+p40002_i0,Contributory (secondary) causes of death: ICD10 | Instance 0,p40002
+p40002_i1,Contributory (secondary) causes of death: ICD10 | Instance 1,p40002
+p40030_i0,Sleep - Day hour average | Instance 0,p40030
+p40031_i0,Sedentary - Day hour average | Instance 0,p40031
+p40032_i0,Light - Day hour average | Instance 0,p40032
+p40033_i0,Moderate-Vigorous - Day hour average | Instance 0,p40033
+p41201,External causes - ICD10,p41201
+p41202,Diagnoses - main ICD10,p41202
+p41203,Diagnoses - main ICD9,p41203
+p41204,Diagnoses - secondary ICD10,p41204
+p41205,Diagnoses - secondary ICD9,p41205
+p41210,Operative procedures - secondary OPCS4,p41210
+p41247,Patient classification on admission (recoded),p41247
+p41249,Methods of admission to hospital (recoded),p41249
+p41250,Methods of discharge from hospital (recoded),p41250
+p41251,Sources of admission to hospital (recoded),p41251
+p41253,Inpatient record format,p41253
+p41255,"Episodes containing ""Operative procedure - main OPCS3"" data",p41255
+p41256,Operative procedures - main OPCS3,p41256
+p41257_a0,Date of first operative procedure - main OPCS3 | Array 0,p41257
+p41257_a1,Date of first operative procedure - main OPCS3 | Array 1,p41257
+p41257_a2,Date of first operative procedure - main OPCS3 | Array 2,p41257
+p41257_a3,Date of first operative procedure - main OPCS3 | Array 3,p41257
+p41257_a4,Date of first operative procedure - main OPCS3 | Array 4,p41257
+p41257_a5,Date of first operative procedure - main OPCS3 | Array 5,p41257
+p41257_a6,Date of first operative procedure - main OPCS3 | Array 6,p41257
+p41257_a7,Date of first operative procedure - main OPCS3 | Array 7,p41257
+p41257_a8,Date of first operative procedure - main OPCS3 | Array 8,p41257
+p41257_a9,Date of first operative procedure - main OPCS3 | Array 9,p41257
+p41257_a10,Date of first operative procedure - main OPCS3 | Array 10,p41257
+p41257_a11,Date of first operative procedure - main OPCS3 | Array 11,p41257
+p41257_a12,Date of first operative procedure - main OPCS3 | Array 12,p41257
+p41259,Records in HES inpatient main dataset,p41259
+p41260_a0,Date of first operative procedure - main OPCS4 | Array 0,p41260
+p41260_a1,Date of first operative procedure - main OPCS4 | Array 1,p41260
+p41260_a2,Date of first operative procedure - main OPCS4 | Array 2,p41260
+p41260_a3,Date of first operative procedure - main OPCS4 | Array 3,p41260
+p41260_a4,Date of first operative procedure - main OPCS4 | Array 4,p41260
+p41260_a5,Date of first operative procedure - main OPCS4 | Array 5,p41260
+p41260_a6,Date of first operative procedure - main OPCS4 | Array 6,p41260
+p41260_a7,Date of first operative procedure - main OPCS4 | Array 7,p41260
+p41260_a8,Date of first operative procedure - main OPCS4 | Array 8,p41260
+p41260_a9,Date of first operative procedure - main OPCS4 | Array 9,p41260
+p41260_a10,Date of first operative procedure - main OPCS4 | Array 10,p41260
+p41260_a11,Date of first operative procedure - main OPCS4 | Array 11,p41260
+p41260_a12,Date of first operative procedure - main OPCS4 | Array 12,p41260
+p41260_a13,Date of first operative procedure - main OPCS4 | Array 13,p41260
+p41260_a14,Date of first operative procedure - main OPCS4 | Array 14,p41260
+p41260_a15,Date of first operative procedure - main OPCS4 | Array 15,p41260
+p41260_a16,Date of first operative procedure - main OPCS4 | Array 16,p41260
+p41260_a17,Date of first operative procedure - main OPCS4 | Array 17,p41260
+p41260_a18,Date of first operative procedure - main OPCS4 | Array 18,p41260
+p41260_a19,Date of first operative procedure - main OPCS4 | Array 19,p41260
+p41260_a20,Date of first operative procedure - main OPCS4 | Array 20,p41260
+p41260_a21,Date of first operative procedure - main OPCS4 | Array 21,p41260
+p41260_a22,Date of first operative procedure - main OPCS4 | Array 22,p41260
+p41260_a23,Date of first operative procedure - main OPCS4 | Array 23,p41260
+p41260_a24,Date of first operative procedure - main OPCS4 | Array 24,p41260
+p41260_a25,Date of first operative procedure - main OPCS4 | Array 25,p41260
+p41260_a26,Date of first operative procedure - main OPCS4 | Array 26,p41260
+p41260_a27,Date of first operative procedure - main OPCS4 | Array 27,p41260
+p41260_a28,Date of first operative procedure - main OPCS4 | Array 28,p41260
+p41260_a29,Date of first operative procedure - main OPCS4 | Array 29,p41260
+p41260_a30,Date of first operative procedure - main OPCS4 | Array 30,p41260
+p41260_a31,Date of first operative procedure - main OPCS4 | Array 31,p41260
+p41260_a32,Date of first operative procedure - main OPCS4 | Array 32,p41260
+p41260_a33,Date of first operative procedure - main OPCS4 | Array 33,p41260
+p41260_a34,Date of first operative procedure - main OPCS4 | Array 34,p41260
+p41260_a35,Date of first operative procedure - main OPCS4 | Array 35,p41260
+p41260_a36,Date of first operative procedure - main OPCS4 | Array 36,p41260
+p41260_a37,Date of first operative procedure - main OPCS4 | Array 37,p41260
+p41260_a38,Date of first operative procedure - main OPCS4 | Array 38,p41260
+p41260_a39,Date of first operative procedure - main OPCS4 | Array 39,p41260
+p41260_a40,Date of first operative procedure - main OPCS4 | Array 40,p41260
+p41260_a41,Date of first operative procedure - main OPCS4 | Array 41,p41260
+p41260_a42,Date of first operative procedure - main OPCS4 | Array 42,p41260
+p41260_a43,Date of first operative procedure - main OPCS4 | Array 43,p41260
+p41260_a44,Date of first operative procedure - main OPCS4 | Array 44,p41260
+p41260_a45,Date of first operative procedure - main OPCS4 | Array 45,p41260
+p41260_a46,Date of first operative procedure - main OPCS4 | Array 46,p41260
+p41260_a47,Date of first operative procedure - main OPCS4 | Array 47,p41260
+p41260_a48,Date of first operative procedure - main OPCS4 | Array 48,p41260
+p41260_a49,Date of first operative procedure - main OPCS4 | Array 49,p41260
+p41260_a50,Date of first operative procedure - main OPCS4 | Array 50,p41260
+p41260_a51,Date of first operative procedure - main OPCS4 | Array 51,p41260
+p41260_a52,Date of first operative procedure - main OPCS4 | Array 52,p41260
+p41260_a53,Date of first operative procedure - main OPCS4 | Array 53,p41260
+p41260_a54,Date of first operative procedure - main OPCS4 | Array 54,p41260
+p41260_a55,Date of first operative procedure - main OPCS4 | Array 55,p41260
+p41261,Records in HES inpatient maternity dataset,p41261
+p41262_a0,Date of first in-patient diagnosis - main ICD10 | Array 0,p41262
+p41262_a1,Date of first in-patient diagnosis - main ICD10 | Array 1,p41262
+p41262_a2,Date of first in-patient diagnosis - main ICD10 | Array 2,p41262
+p41262_a3,Date of first in-patient diagnosis - main ICD10 | Array 3,p41262
+p41262_a4,Date of first in-patient diagnosis - main ICD10 | Array 4,p41262
+p41262_a5,Date of first in-patient diagnosis - main ICD10 | Array 5,p41262
+p41262_a6,Date of first in-patient diagnosis - main ICD10 | Array 6,p41262
+p41262_a7,Date of first in-patient diagnosis - main ICD10 | Array 7,p41262
+p41262_a8,Date of first in-patient diagnosis - main ICD10 | Array 8,p41262
+p41262_a9,Date of first in-patient diagnosis - main ICD10 | Array 9,p41262
+p41262_a10,Date of first in-patient diagnosis - main ICD10 | Array 10,p41262
+p41262_a11,Date of first in-patient diagnosis - main ICD10 | Array 11,p41262
+p41262_a12,Date of first in-patient diagnosis - main ICD10 | Array 12,p41262
+p41262_a13,Date of first in-patient diagnosis - main ICD10 | Array 13,p41262
+p41262_a14,Date of first in-patient diagnosis - main ICD10 | Array 14,p41262
+p41262_a15,Date of first in-patient diagnosis - main ICD10 | Array 15,p41262
+p41262_a16,Date of first in-patient diagnosis - main ICD10 | Array 16,p41262
+p41262_a17,Date of first in-patient diagnosis - main ICD10 | Array 17,p41262
+p41262_a18,Date of first in-patient diagnosis - main ICD10 | Array 18,p41262
+p41262_a19,Date of first in-patient diagnosis - main ICD10 | Array 19,p41262
+p41262_a20,Date of first in-patient diagnosis - main ICD10 | Array 20,p41262
+p41262_a21,Date of first in-patient diagnosis - main ICD10 | Array 21,p41262
+p41262_a22,Date of first in-patient diagnosis - main ICD10 | Array 22,p41262
+p41262_a23,Date of first in-patient diagnosis - main ICD10 | Array 23,p41262
+p41262_a24,Date of first in-patient diagnosis - main ICD10 | Array 24,p41262
+p41262_a25,Date of first in-patient diagnosis - main ICD10 | Array 25,p41262
+p41262_a26,Date of first in-patient diagnosis - main ICD10 | Array 26,p41262
+p41262_a27,Date of first in-patient diagnosis - main ICD10 | Array 27,p41262
+p41262_a28,Date of first in-patient diagnosis - main ICD10 | Array 28,p41262
+p41262_a29,Date of first in-patient diagnosis - main ICD10 | Array 29,p41262
+p41262_a30,Date of first in-patient diagnosis - main ICD10 | Array 30,p41262
+p41262_a31,Date of first in-patient diagnosis - main ICD10 | Array 31,p41262
+p41262_a32,Date of first in-patient diagnosis - main ICD10 | Array 32,p41262
+p41262_a33,Date of first in-patient diagnosis - main ICD10 | Array 33,p41262
+p41262_a34,Date of first in-patient diagnosis - main ICD10 | Array 34,p41262
+p41262_a35,Date of first in-patient diagnosis - main ICD10 | Array 35,p41262
+p41262_a36,Date of first in-patient diagnosis - main ICD10 | Array 36,p41262
+p41262_a37,Date of first in-patient diagnosis - main ICD10 | Array 37,p41262
+p41262_a38,Date of first in-patient diagnosis - main ICD10 | Array 38,p41262
+p41262_a39,Date of first in-patient diagnosis - main ICD10 | Array 39,p41262
+p41262_a40,Date of first in-patient diagnosis - main ICD10 | Array 40,p41262
+p41262_a41,Date of first in-patient diagnosis - main ICD10 | Array 41,p41262
+p41262_a42,Date of first in-patient diagnosis - main ICD10 | Array 42,p41262
+p41262_a43,Date of first in-patient diagnosis - main ICD10 | Array 43,p41262
+p41262_a44,Date of first in-patient diagnosis - main ICD10 | Array 44,p41262
+p41262_a45,Date of first in-patient diagnosis - main ICD10 | Array 45,p41262
+p41262_a46,Date of first in-patient diagnosis - main ICD10 | Array 46,p41262
+p41262_a47,Date of first in-patient diagnosis - main ICD10 | Array 47,p41262
+p41262_a48,Date of first in-patient diagnosis - main ICD10 | Array 48,p41262
+p41262_a49,Date of first in-patient diagnosis - main ICD10 | Array 49,p41262
+p41262_a50,Date of first in-patient diagnosis - main ICD10 | Array 50,p41262
+p41262_a51,Date of first in-patient diagnosis - main ICD10 | Array 51,p41262
+p41262_a52,Date of first in-patient diagnosis - main ICD10 | Array 52,p41262
+p41262_a53,Date of first in-patient diagnosis - main ICD10 | Array 53,p41262
+p41262_a54,Date of first in-patient diagnosis - main ICD10 | Array 54,p41262
+p41262_a55,Date of first in-patient diagnosis - main ICD10 | Array 55,p41262
+p41262_a56,Date of first in-patient diagnosis - main ICD10 | Array 56,p41262
+p41262_a57,Date of first in-patient diagnosis - main ICD10 | Array 57,p41262
+p41262_a58,Date of first in-patient diagnosis - main ICD10 | Array 58,p41262
+p41262_a59,Date of first in-patient diagnosis - main ICD10 | Array 59,p41262
+p41262_a60,Date of first in-patient diagnosis - main ICD10 | Array 60,p41262
+p41262_a61,Date of first in-patient diagnosis - main ICD10 | Array 61,p41262
+p41262_a62,Date of first in-patient diagnosis - main ICD10 | Array 62,p41262
+p41262_a63,Date of first in-patient diagnosis - main ICD10 | Array 63,p41262
+p41262_a64,Date of first in-patient diagnosis - main ICD10 | Array 64,p41262
+p41262_a65,Date of first in-patient diagnosis - main ICD10 | Array 65,p41262
+p41262_a66,Date of first in-patient diagnosis - main ICD10 | Array 66,p41262
+p41262_a67,Date of first in-patient diagnosis - main ICD10 | Array 67,p41262
+p41262_a68,Date of first in-patient diagnosis - main ICD10 | Array 68,p41262
+p41262_a69,Date of first in-patient diagnosis - main ICD10 | Array 69,p41262
+p41262_a70,Date of first in-patient diagnosis - main ICD10 | Array 70,p41262
+p41262_a71,Date of first in-patient diagnosis - main ICD10 | Array 71,p41262
+p41262_a72,Date of first in-patient diagnosis - main ICD10 | Array 72,p41262
+p41262_a73,Date of first in-patient diagnosis - main ICD10 | Array 73,p41262
+p41262_a74,Date of first in-patient diagnosis - main ICD10 | Array 74,p41262
+p41262_a75,Date of first in-patient diagnosis - main ICD10 | Array 75,p41262
+p41262_a76,Date of first in-patient diagnosis - main ICD10 | Array 76,p41262
+p41262_a77,Date of first in-patient diagnosis - main ICD10 | Array 77,p41262
+p41262_a78,Date of first in-patient diagnosis - main ICD10 | Array 78,p41262
+p41262_a79,Date of first in-patient diagnosis - main ICD10 | Array 79,p41262
+p41263_a0,Date of first in-patient diagnosis - main ICD9 | Array 0,p41263
+p41263_a1,Date of first in-patient diagnosis - main ICD9 | Array 1,p41263
+p41263_a2,Date of first in-patient diagnosis - main ICD9 | Array 2,p41263
+p41263_a3,Date of first in-patient diagnosis - main ICD9 | Array 3,p41263
+p41263_a4,Date of first in-patient diagnosis - main ICD9 | Array 4,p41263
+p41263_a5,Date of first in-patient diagnosis - main ICD9 | Array 5,p41263
+p41263_a6,Date of first in-patient diagnosis - main ICD9 | Array 6,p41263
+p41263_a7,Date of first in-patient diagnosis - main ICD9 | Array 7,p41263
+p41263_a8,Date of first in-patient diagnosis - main ICD9 | Array 8,p41263
+p41263_a9,Date of first in-patient diagnosis - main ICD9 | Array 9,p41263
+p41263_a10,Date of first in-patient diagnosis - main ICD9 | Array 10,p41263
+p41263_a11,Date of first in-patient diagnosis - main ICD9 | Array 11,p41263
+p41263_a12,Date of first in-patient diagnosis - main ICD9 | Array 12,p41263
+p41263_a13,Date of first in-patient diagnosis - main ICD9 | Array 13,p41263
+p41263_a14,Date of first in-patient diagnosis - main ICD9 | Array 14,p41263
+p41263_a15,Date of first in-patient diagnosis - main ICD9 | Array 15,p41263
+p41263_a16,Date of first in-patient diagnosis - main ICD9 | Array 16,p41263
+p41263_a17,Date of first in-patient diagnosis - main ICD9 | Array 17,p41263
+p41263_a18,Date of first in-patient diagnosis - main ICD9 | Array 18,p41263
+p41263_a19,Date of first in-patient diagnosis - main ICD9 | Array 19,p41263
+p41263_a20,Date of first in-patient diagnosis - main ICD9 | Array 20,p41263
+p41263_a21,Date of first in-patient diagnosis - main ICD9 | Array 21,p41263
+p41263_a22,Date of first in-patient diagnosis - main ICD9 | Array 22,p41263
+p41263_a23,Date of first in-patient diagnosis - main ICD9 | Array 23,p41263
+p41263_a24,Date of first in-patient diagnosis - main ICD9 | Array 24,p41263
+p41263_a25,Date of first in-patient diagnosis - main ICD9 | Array 25,p41263
+p41263_a26,Date of first in-patient diagnosis - main ICD9 | Array 26,p41263
+p41263_a27,Date of first in-patient diagnosis - main ICD9 | Array 27,p41263
+p41264,Records in HES inpatient delivery dataset,p41264
+p41265,Records in HES inpatient birth dataset,p41265
+p41270,Diagnoses - ICD10,p41270
+p41271,Diagnoses - ICD9,p41271
+p41272,Operative procedures - OPCS4,p41272
+p41273,Operative procedures - OPCS3,p41273
+p41280_a0,Date of first in-patient diagnosis - ICD10 | Array 0,p41280
+p41280_a1,Date of first in-patient diagnosis - ICD10 | Array 1,p41280
+p41280_a2,Date of first in-patient diagnosis - ICD10 | Array 2,p41280
+p41280_a3,Date of first in-patient diagnosis - ICD10 | Array 3,p41280
+p41280_a4,Date of first in-patient diagnosis - ICD10 | Array 4,p41280
+p41280_a5,Date of first in-patient diagnosis - ICD10 | Array 5,p41280
+p41280_a6,Date of first in-patient diagnosis - ICD10 | Array 6,p41280
+p41280_a7,Date of first in-patient diagnosis - ICD10 | Array 7,p41280
+p41280_a8,Date of first in-patient diagnosis - ICD10 | Array 8,p41280
+p41280_a9,Date of first in-patient diagnosis - ICD10 | Array 9,p41280
+p41280_a10,Date of first in-patient diagnosis - ICD10 | Array 10,p41280
+p41280_a11,Date of first in-patient diagnosis - ICD10 | Array 11,p41280
+p41280_a12,Date of first in-patient diagnosis - ICD10 | Array 12,p41280
+p41280_a13,Date of first in-patient diagnosis - ICD10 | Array 13,p41280
+p41280_a14,Date of first in-patient diagnosis - ICD10 | Array 14,p41280
+p41280_a15,Date of first in-patient diagnosis - ICD10 | Array 15,p41280
+p41280_a16,Date of first in-patient diagnosis - ICD10 | Array 16,p41280
+p41280_a17,Date of first in-patient diagnosis - ICD10 | Array 17,p41280
+p41280_a18,Date of first in-patient diagnosis - ICD10 | Array 18,p41280
+p41280_a19,Date of first in-patient diagnosis - ICD10 | Array 19,p41280
+p41280_a20,Date of first in-patient diagnosis - ICD10 | Array 20,p41280
+p41280_a21,Date of first in-patient diagnosis - ICD10 | Array 21,p41280
+p41280_a22,Date of first in-patient diagnosis - ICD10 | Array 22,p41280
+p41280_a23,Date of first in-patient diagnosis - ICD10 | Array 23,p41280
+p41280_a24,Date of first in-patient diagnosis - ICD10 | Array 24,p41280
+p41280_a25,Date of first in-patient diagnosis - ICD10 | Array 25,p41280
+p41280_a26,Date of first in-patient diagnosis - ICD10 | Array 26,p41280
+p41280_a27,Date of first in-patient diagnosis - ICD10 | Array 27,p41280
+p41280_a28,Date of first in-patient diagnosis - ICD10 | Array 28,p41280
+p41280_a29,Date of first in-patient diagnosis - ICD10 | Array 29,p41280
+p41280_a30,Date of first in-patient diagnosis - ICD10 | Array 30,p41280
+p41280_a31,Date of first in-patient diagnosis - ICD10 | Array 31,p41280
+p41280_a32,Date of first in-patient diagnosis - ICD10 | Array 32,p41280
+p41280_a33,Date of first in-patient diagnosis - ICD10 | Array 33,p41280
+p41280_a34,Date of first in-patient diagnosis - ICD10 | Array 34,p41280
+p41280_a35,Date of first in-patient diagnosis - ICD10 | Array 35,p41280
+p41280_a36,Date of first in-patient diagnosis - ICD10 | Array 36,p41280
+p41280_a37,Date of first in-patient diagnosis - ICD10 | Array 37,p41280
+p41280_a38,Date of first in-patient diagnosis - ICD10 | Array 38,p41280
+p41280_a39,Date of first in-patient diagnosis - ICD10 | Array 39,p41280
+p41280_a40,Date of first in-patient diagnosis - ICD10 | Array 40,p41280
+p41280_a41,Date of first in-patient diagnosis - ICD10 | Array 41,p41280
+p41280_a42,Date of first in-patient diagnosis - ICD10 | Array 42,p41280
+p41280_a43,Date of first in-patient diagnosis - ICD10 | Array 43,p41280
+p41280_a44,Date of first in-patient diagnosis - ICD10 | Array 44,p41280
+p41280_a45,Date of first in-patient diagnosis - ICD10 | Array 45,p41280
+p41280_a46,Date of first in-patient diagnosis - ICD10 | Array 46,p41280
+p41280_a47,Date of first in-patient diagnosis - ICD10 | Array 47,p41280
+p41280_a48,Date of first in-patient diagnosis - ICD10 | Array 48,p41280
+p41280_a49,Date of first in-patient diagnosis - ICD10 | Array 49,p41280
+p41280_a50,Date of first in-patient diagnosis - ICD10 | Array 50,p41280
+p41280_a51,Date of first in-patient diagnosis - ICD10 | Array 51,p41280
+p41280_a52,Date of first in-patient diagnosis - ICD10 | Array 52,p41280
+p41280_a53,Date of first in-patient diagnosis - ICD10 | Array 53,p41280
+p41280_a54,Date of first in-patient diagnosis - ICD10 | Array 54,p41280
+p41280_a55,Date of first in-patient diagnosis - ICD10 | Array 55,p41280
+p41280_a56,Date of first in-patient diagnosis - ICD10 | Array 56,p41280
+p41280_a57,Date of first in-patient diagnosis - ICD10 | Array 57,p41280
+p41280_a58,Date of first in-patient diagnosis - ICD10 | Array 58,p41280
+p41280_a59,Date of first in-patient diagnosis - ICD10 | Array 59,p41280
+p41280_a60,Date of first in-patient diagnosis - ICD10 | Array 60,p41280
+p41280_a61,Date of first in-patient diagnosis - ICD10 | Array 61,p41280
+p41280_a62,Date of first in-patient diagnosis - ICD10 | Array 62,p41280
+p41280_a63,Date of first in-patient diagnosis - ICD10 | Array 63,p41280
+p41280_a64,Date of first in-patient diagnosis - ICD10 | Array 64,p41280
+p41280_a65,Date of first in-patient diagnosis - ICD10 | Array 65,p41280
+p41280_a66,Date of first in-patient diagnosis - ICD10 | Array 66,p41280
+p41280_a67,Date of first in-patient diagnosis - ICD10 | Array 67,p41280
+p41280_a68,Date of first in-patient diagnosis - ICD10 | Array 68,p41280
+p41280_a69,Date of first in-patient diagnosis - ICD10 | Array 69,p41280
+p41280_a70,Date of first in-patient diagnosis - ICD10 | Array 70,p41280
+p41280_a71,Date of first in-patient diagnosis - ICD10 | Array 71,p41280
+p41280_a72,Date of first in-patient diagnosis - ICD10 | Array 72,p41280
+p41280_a73,Date of first in-patient diagnosis - ICD10 | Array 73,p41280
+p41280_a74,Date of first in-patient diagnosis - ICD10 | Array 74,p41280
+p41280_a75,Date of first in-patient diagnosis - ICD10 | Array 75,p41280
+p41280_a76,Date of first in-patient diagnosis - ICD10 | Array 76,p41280
+p41280_a77,Date of first in-patient diagnosis - ICD10 | Array 77,p41280
+p41280_a78,Date of first in-patient diagnosis - ICD10 | Array 78,p41280
+p41280_a79,Date of first in-patient diagnosis - ICD10 | Array 79,p41280
+p41280_a80,Date of first in-patient diagnosis - ICD10 | Array 80,p41280
+p41280_a81,Date of first in-patient diagnosis - ICD10 | Array 81,p41280
+p41280_a82,Date of first in-patient diagnosis - ICD10 | Array 82,p41280
+p41280_a83,Date of first in-patient diagnosis - ICD10 | Array 83,p41280
+p41280_a84,Date of first in-patient diagnosis - ICD10 | Array 84,p41280
+p41280_a85,Date of first in-patient diagnosis - ICD10 | Array 85,p41280
+p41280_a86,Date of first in-patient diagnosis - ICD10 | Array 86,p41280
+p41280_a87,Date of first in-patient diagnosis - ICD10 | Array 87,p41280
+p41280_a88,Date of first in-patient diagnosis - ICD10 | Array 88,p41280
+p41280_a89,Date of first in-patient diagnosis - ICD10 | Array 89,p41280
+p41280_a90,Date of first in-patient diagnosis - ICD10 | Array 90,p41280
+p41280_a91,Date of first in-patient diagnosis - ICD10 | Array 91,p41280
+p41280_a92,Date of first in-patient diagnosis - ICD10 | Array 92,p41280
+p41280_a93,Date of first in-patient diagnosis - ICD10 | Array 93,p41280
+p41280_a94,Date of first in-patient diagnosis - ICD10 | Array 94,p41280
+p41280_a95,Date of first in-patient diagnosis - ICD10 | Array 95,p41280
+p41280_a96,Date of first in-patient diagnosis - ICD10 | Array 96,p41280
+p41280_a97,Date of first in-patient diagnosis - ICD10 | Array 97,p41280
+p41280_a98,Date of first in-patient diagnosis - ICD10 | Array 98,p41280
+p41280_a99,Date of first in-patient diagnosis - ICD10 | Array 99,p41280
+p41280_a100,Date of first in-patient diagnosis - ICD10 | Array 100,p41280
+p41280_a101,Date of first in-patient diagnosis - ICD10 | Array 101,p41280
+p41280_a102,Date of first in-patient diagnosis - ICD10 | Array 102,p41280
+p41280_a103,Date of first in-patient diagnosis - ICD10 | Array 103,p41280
+p41280_a104,Date of first in-patient diagnosis - ICD10 | Array 104,p41280
+p41280_a105,Date of first in-patient diagnosis - ICD10 | Array 105,p41280
+p41280_a106,Date of first in-patient diagnosis - ICD10 | Array 106,p41280
+p41280_a107,Date of first in-patient diagnosis - ICD10 | Array 107,p41280
+p41280_a108,Date of first in-patient diagnosis - ICD10 | Array 108,p41280
+p41280_a109,Date of first in-patient diagnosis - ICD10 | Array 109,p41280
+p41280_a110,Date of first in-patient diagnosis - ICD10 | Array 110,p41280
+p41280_a111,Date of first in-patient diagnosis - ICD10 | Array 111,p41280
+p41280_a112,Date of first in-patient diagnosis - ICD10 | Array 112,p41280
+p41280_a113,Date of first in-patient diagnosis - ICD10 | Array 113,p41280
+p41280_a114,Date of first in-patient diagnosis - ICD10 | Array 114,p41280
+p41280_a115,Date of first in-patient diagnosis - ICD10 | Array 115,p41280
+p41280_a116,Date of first in-patient diagnosis - ICD10 | Array 116,p41280
+p41280_a117,Date of first in-patient diagnosis - ICD10 | Array 117,p41280
+p41280_a118,Date of first in-patient diagnosis - ICD10 | Array 118,p41280
+p41280_a119,Date of first in-patient diagnosis - ICD10 | Array 119,p41280
+p41280_a120,Date of first in-patient diagnosis - ICD10 | Array 120,p41280
+p41280_a121,Date of first in-patient diagnosis - ICD10 | Array 121,p41280
+p41280_a122,Date of first in-patient diagnosis - ICD10 | Array 122,p41280
+p41280_a123,Date of first in-patient diagnosis - ICD10 | Array 123,p41280
+p41280_a124,Date of first in-patient diagnosis - ICD10 | Array 124,p41280
+p41280_a125,Date of first in-patient diagnosis - ICD10 | Array 125,p41280
+p41280_a126,Date of first in-patient diagnosis - ICD10 | Array 126,p41280
+p41280_a127,Date of first in-patient diagnosis - ICD10 | Array 127,p41280
+p41280_a128,Date of first in-patient diagnosis - ICD10 | Array 128,p41280
+p41280_a129,Date of first in-patient diagnosis - ICD10 | Array 129,p41280
+p41280_a130,Date of first in-patient diagnosis - ICD10 | Array 130,p41280
+p41280_a131,Date of first in-patient diagnosis - ICD10 | Array 131,p41280
+p41280_a132,Date of first in-patient diagnosis - ICD10 | Array 132,p41280
+p41280_a133,Date of first in-patient diagnosis - ICD10 | Array 133,p41280
+p41280_a134,Date of first in-patient diagnosis - ICD10 | Array 134,p41280
+p41280_a135,Date of first in-patient diagnosis - ICD10 | Array 135,p41280
+p41280_a136,Date of first in-patient diagnosis - ICD10 | Array 136,p41280
+p41280_a137,Date of first in-patient diagnosis - ICD10 | Array 137,p41280
+p41280_a138,Date of first in-patient diagnosis - ICD10 | Array 138,p41280
+p41280_a139,Date of first in-patient diagnosis - ICD10 | Array 139,p41280
+p41280_a140,Date of first in-patient diagnosis - ICD10 | Array 140,p41280
+p41280_a141,Date of first in-patient diagnosis - ICD10 | Array 141,p41280
+p41280_a142,Date of first in-patient diagnosis - ICD10 | Array 142,p41280
+p41280_a143,Date of first in-patient diagnosis - ICD10 | Array 143,p41280
+p41280_a144,Date of first in-patient diagnosis - ICD10 | Array 144,p41280
+p41280_a145,Date of first in-patient diagnosis - ICD10 | Array 145,p41280
+p41280_a146,Date of first in-patient diagnosis - ICD10 | Array 146,p41280
+p41280_a147,Date of first in-patient diagnosis - ICD10 | Array 147,p41280
+p41280_a148,Date of first in-patient diagnosis - ICD10 | Array 148,p41280
+p41280_a149,Date of first in-patient diagnosis - ICD10 | Array 149,p41280
+p41280_a150,Date of first in-patient diagnosis - ICD10 | Array 150,p41280
+p41280_a151,Date of first in-patient diagnosis - ICD10 | Array 151,p41280
+p41280_a152,Date of first in-patient diagnosis - ICD10 | Array 152,p41280
+p41280_a153,Date of first in-patient diagnosis - ICD10 | Array 153,p41280
+p41280_a154,Date of first in-patient diagnosis - ICD10 | Array 154,p41280
+p41280_a155,Date of first in-patient diagnosis - ICD10 | Array 155,p41280
+p41280_a156,Date of first in-patient diagnosis - ICD10 | Array 156,p41280
+p41280_a157,Date of first in-patient diagnosis - ICD10 | Array 157,p41280
+p41280_a158,Date of first in-patient diagnosis - ICD10 | Array 158,p41280
+p41280_a159,Date of first in-patient diagnosis - ICD10 | Array 159,p41280
+p41280_a160,Date of first in-patient diagnosis - ICD10 | Array 160,p41280
+p41280_a161,Date of first in-patient diagnosis - ICD10 | Array 161,p41280
+p41280_a162,Date of first in-patient diagnosis - ICD10 | Array 162,p41280
+p41280_a163,Date of first in-patient diagnosis - ICD10 | Array 163,p41280
+p41280_a164,Date of first in-patient diagnosis - ICD10 | Array 164,p41280
+p41280_a165,Date of first in-patient diagnosis - ICD10 | Array 165,p41280
+p41280_a166,Date of first in-patient diagnosis - ICD10 | Array 166,p41280
+p41280_a167,Date of first in-patient diagnosis - ICD10 | Array 167,p41280
+p41280_a168,Date of first in-patient diagnosis - ICD10 | Array 168,p41280
+p41280_a169,Date of first in-patient diagnosis - ICD10 | Array 169,p41280
+p41280_a170,Date of first in-patient diagnosis - ICD10 | Array 170,p41280
+p41280_a171,Date of first in-patient diagnosis - ICD10 | Array 171,p41280
+p41280_a172,Date of first in-patient diagnosis - ICD10 | Array 172,p41280
+p41280_a173,Date of first in-patient diagnosis - ICD10 | Array 173,p41280
+p41280_a174,Date of first in-patient diagnosis - ICD10 | Array 174,p41280
+p41280_a175,Date of first in-patient diagnosis - ICD10 | Array 175,p41280
+p41280_a176,Date of first in-patient diagnosis - ICD10 | Array 176,p41280
+p41280_a177,Date of first in-patient diagnosis - ICD10 | Array 177,p41280
+p41280_a178,Date of first in-patient diagnosis - ICD10 | Array 178,p41280
+p41280_a179,Date of first in-patient diagnosis - ICD10 | Array 179,p41280
+p41280_a180,Date of first in-patient diagnosis - ICD10 | Array 180,p41280
+p41280_a181,Date of first in-patient diagnosis - ICD10 | Array 181,p41280
+p41280_a182,Date of first in-patient diagnosis - ICD10 | Array 182,p41280
+p41280_a183,Date of first in-patient diagnosis - ICD10 | Array 183,p41280
+p41280_a184,Date of first in-patient diagnosis - ICD10 | Array 184,p41280
+p41280_a185,Date of first in-patient diagnosis - ICD10 | Array 185,p41280
+p41280_a186,Date of first in-patient diagnosis - ICD10 | Array 186,p41280
+p41280_a187,Date of first in-patient diagnosis - ICD10 | Array 187,p41280
+p41280_a188,Date of first in-patient diagnosis - ICD10 | Array 188,p41280
+p41280_a189,Date of first in-patient diagnosis - ICD10 | Array 189,p41280
+p41280_a190,Date of first in-patient diagnosis - ICD10 | Array 190,p41280
+p41280_a191,Date of first in-patient diagnosis - ICD10 | Array 191,p41280
+p41280_a192,Date of first in-patient diagnosis - ICD10 | Array 192,p41280
+p41280_a193,Date of first in-patient diagnosis - ICD10 | Array 193,p41280
+p41280_a194,Date of first in-patient diagnosis - ICD10 | Array 194,p41280
+p41280_a195,Date of first in-patient diagnosis - ICD10 | Array 195,p41280
+p41280_a196,Date of first in-patient diagnosis - ICD10 | Array 196,p41280
+p41280_a197,Date of first in-patient diagnosis - ICD10 | Array 197,p41280
+p41280_a198,Date of first in-patient diagnosis - ICD10 | Array 198,p41280
+p41280_a199,Date of first in-patient diagnosis - ICD10 | Array 199,p41280
+p41280_a200,Date of first in-patient diagnosis - ICD10 | Array 200,p41280
+p41280_a201,Date of first in-patient diagnosis - ICD10 | Array 201,p41280
+p41280_a202,Date of first in-patient diagnosis - ICD10 | Array 202,p41280
+p41280_a203,Date of first in-patient diagnosis - ICD10 | Array 203,p41280
+p41280_a204,Date of first in-patient diagnosis - ICD10 | Array 204,p41280
+p41280_a205,Date of first in-patient diagnosis - ICD10 | Array 205,p41280
+p41280_a206,Date of first in-patient diagnosis - ICD10 | Array 206,p41280
+p41280_a207,Date of first in-patient diagnosis - ICD10 | Array 207,p41280
+p41280_a208,Date of first in-patient diagnosis - ICD10 | Array 208,p41280
+p41280_a209,Date of first in-patient diagnosis - ICD10 | Array 209,p41280
+p41280_a210,Date of first in-patient diagnosis - ICD10 | Array 210,p41280
+p41280_a211,Date of first in-patient diagnosis - ICD10 | Array 211,p41280
+p41280_a212,Date of first in-patient diagnosis - ICD10 | Array 212,p41280
+p41280_a213,Date of first in-patient diagnosis - ICD10 | Array 213,p41280
+p41280_a214,Date of first in-patient diagnosis - ICD10 | Array 214,p41280
+p41280_a215,Date of first in-patient diagnosis - ICD10 | Array 215,p41280
+p41280_a216,Date of first in-patient diagnosis - ICD10 | Array 216,p41280
+p41280_a217,Date of first in-patient diagnosis - ICD10 | Array 217,p41280
+p41280_a218,Date of first in-patient diagnosis - ICD10 | Array 218,p41280
+p41280_a219,Date of first in-patient diagnosis - ICD10 | Array 219,p41280
+p41280_a220,Date of first in-patient diagnosis - ICD10 | Array 220,p41280
+p41280_a221,Date of first in-patient diagnosis - ICD10 | Array 221,p41280
+p41280_a222,Date of first in-patient diagnosis - ICD10 | Array 222,p41280
+p41280_a223,Date of first in-patient diagnosis - ICD10 | Array 223,p41280
+p41280_a224,Date of first in-patient diagnosis - ICD10 | Array 224,p41280
+p41280_a225,Date of first in-patient diagnosis - ICD10 | Array 225,p41280
+p41280_a226,Date of first in-patient diagnosis - ICD10 | Array 226,p41280
+p41280_a227,Date of first in-patient diagnosis - ICD10 | Array 227,p41280
+p41280_a228,Date of first in-patient diagnosis - ICD10 | Array 228,p41280
+p41280_a229,Date of first in-patient diagnosis - ICD10 | Array 229,p41280
+p41280_a230,Date of first in-patient diagnosis - ICD10 | Array 230,p41280
+p41280_a231,Date of first in-patient diagnosis - ICD10 | Array 231,p41280
+p41280_a232,Date of first in-patient diagnosis - ICD10 | Array 232,p41280
+p41280_a233,Date of first in-patient diagnosis - ICD10 | Array 233,p41280
+p41280_a234,Date of first in-patient diagnosis - ICD10 | Array 234,p41280
+p41280_a235,Date of first in-patient diagnosis - ICD10 | Array 235,p41280
+p41280_a236,Date of first in-patient diagnosis - ICD10 | Array 236,p41280
+p41280_a237,Date of first in-patient diagnosis - ICD10 | Array 237,p41280
+p41280_a238,Date of first in-patient diagnosis - ICD10 | Array 238,p41280
+p41280_a239,Date of first in-patient diagnosis - ICD10 | Array 239,p41280
+p41280_a240,Date of first in-patient diagnosis - ICD10 | Array 240,p41280
+p41280_a241,Date of first in-patient diagnosis - ICD10 | Array 241,p41280
+p41280_a242,Date of first in-patient diagnosis - ICD10 | Array 242,p41280
+p41280_a243,Date of first in-patient diagnosis - ICD10 | Array 243,p41280
+p41280_a244,Date of first in-patient diagnosis - ICD10 | Array 244,p41280
+p41280_a245,Date of first in-patient diagnosis - ICD10 | Array 245,p41280
+p41280_a246,Date of first in-patient diagnosis - ICD10 | Array 246,p41280
+p41280_a247,Date of first in-patient diagnosis - ICD10 | Array 247,p41280
+p41280_a248,Date of first in-patient diagnosis - ICD10 | Array 248,p41280
+p41280_a249,Date of first in-patient diagnosis - ICD10 | Array 249,p41280
+p41280_a250,Date of first in-patient diagnosis - ICD10 | Array 250,p41280
+p41280_a251,Date of first in-patient diagnosis - ICD10 | Array 251,p41280
+p41280_a252,Date of first in-patient diagnosis - ICD10 | Array 252,p41280
+p41280_a253,Date of first in-patient diagnosis - ICD10 | Array 253,p41280
+p41280_a254,Date of first in-patient diagnosis - ICD10 | Array 254,p41280
+p41280_a255,Date of first in-patient diagnosis - ICD10 | Array 255,p41280
+p41280_a256,Date of first in-patient diagnosis - ICD10 | Array 256,p41280
+p41280_a257,Date of first in-patient diagnosis - ICD10 | Array 257,p41280
+p41280_a258,Date of first in-patient diagnosis - ICD10 | Array 258,p41280
+p41281_a0,Date of first in-patient diagnosis - ICD9 | Array 0,p41281
+p41281_a1,Date of first in-patient diagnosis - ICD9 | Array 1,p41281
+p41281_a2,Date of first in-patient diagnosis - ICD9 | Array 2,p41281
+p41281_a3,Date of first in-patient diagnosis - ICD9 | Array 3,p41281
+p41281_a4,Date of first in-patient diagnosis - ICD9 | Array 4,p41281
+p41281_a5,Date of first in-patient diagnosis - ICD9 | Array 5,p41281
+p41281_a6,Date of first in-patient diagnosis - ICD9 | Array 6,p41281
+p41281_a7,Date of first in-patient diagnosis - ICD9 | Array 7,p41281
+p41281_a8,Date of first in-patient diagnosis - ICD9 | Array 8,p41281
+p41281_a9,Date of first in-patient diagnosis - ICD9 | Array 9,p41281
+p41281_a10,Date of first in-patient diagnosis - ICD9 | Array 10,p41281
+p41281_a11,Date of first in-patient diagnosis - ICD9 | Array 11,p41281
+p41281_a12,Date of first in-patient diagnosis - ICD9 | Array 12,p41281
+p41281_a13,Date of first in-patient diagnosis - ICD9 | Array 13,p41281
+p41281_a14,Date of first in-patient diagnosis - ICD9 | Array 14,p41281
+p41281_a15,Date of first in-patient diagnosis - ICD9 | Array 15,p41281
+p41281_a16,Date of first in-patient diagnosis - ICD9 | Array 16,p41281
+p41281_a17,Date of first in-patient diagnosis - ICD9 | Array 17,p41281
+p41281_a18,Date of first in-patient diagnosis - ICD9 | Array 18,p41281
+p41281_a19,Date of first in-patient diagnosis - ICD9 | Array 19,p41281
+p41281_a20,Date of first in-patient diagnosis - ICD9 | Array 20,p41281
+p41281_a21,Date of first in-patient diagnosis - ICD9 | Array 21,p41281
+p41281_a22,Date of first in-patient diagnosis - ICD9 | Array 22,p41281
+p41281_a23,Date of first in-patient diagnosis - ICD9 | Array 23,p41281
+p41281_a24,Date of first in-patient diagnosis - ICD9 | Array 24,p41281
+p41281_a25,Date of first in-patient diagnosis - ICD9 | Array 25,p41281
+p41281_a26,Date of first in-patient diagnosis - ICD9 | Array 26,p41281
+p41281_a27,Date of first in-patient diagnosis - ICD9 | Array 27,p41281
+p41281_a28,Date of first in-patient diagnosis - ICD9 | Array 28,p41281
+p41281_a29,Date of first in-patient diagnosis - ICD9 | Array 29,p41281
+p41281_a30,Date of first in-patient diagnosis - ICD9 | Array 30,p41281
+p41281_a31,Date of first in-patient diagnosis - ICD9 | Array 31,p41281
+p41281_a32,Date of first in-patient diagnosis - ICD9 | Array 32,p41281
+p41281_a33,Date of first in-patient diagnosis - ICD9 | Array 33,p41281
+p41281_a34,Date of first in-patient diagnosis - ICD9 | Array 34,p41281
+p41281_a35,Date of first in-patient diagnosis - ICD9 | Array 35,p41281
+p41281_a36,Date of first in-patient diagnosis - ICD9 | Array 36,p41281
+p41281_a37,Date of first in-patient diagnosis - ICD9 | Array 37,p41281
+p41281_a38,Date of first in-patient diagnosis - ICD9 | Array 38,p41281
+p41281_a39,Date of first in-patient diagnosis - ICD9 | Array 39,p41281
+p41281_a40,Date of first in-patient diagnosis - ICD9 | Array 40,p41281
+p41281_a41,Date of first in-patient diagnosis - ICD9 | Array 41,p41281
+p41281_a42,Date of first in-patient diagnosis - ICD9 | Array 42,p41281
+p41281_a43,Date of first in-patient diagnosis - ICD9 | Array 43,p41281
+p41281_a44,Date of first in-patient diagnosis - ICD9 | Array 44,p41281
+p41281_a45,Date of first in-patient diagnosis - ICD9 | Array 45,p41281
+p41281_a46,Date of first in-patient diagnosis - ICD9 | Array 46,p41281
+p41282_a0,Date of first operative procedure - OPCS4 | Array 0,p41282
+p41282_a1,Date of first operative procedure - OPCS4 | Array 1,p41282
+p41282_a2,Date of first operative procedure - OPCS4 | Array 2,p41282
+p41282_a3,Date of first operative procedure - OPCS4 | Array 3,p41282
+p41282_a4,Date of first operative procedure - OPCS4 | Array 4,p41282
+p41282_a5,Date of first operative procedure - OPCS4 | Array 5,p41282
+p41282_a6,Date of first operative procedure - OPCS4 | Array 6,p41282
+p41282_a7,Date of first operative procedure - OPCS4 | Array 7,p41282
+p41282_a8,Date of first operative procedure - OPCS4 | Array 8,p41282
+p41282_a9,Date of first operative procedure - OPCS4 | Array 9,p41282
+p41282_a10,Date of first operative procedure - OPCS4 | Array 10,p41282
+p41282_a11,Date of first operative procedure - OPCS4 | Array 11,p41282
+p41282_a12,Date of first operative procedure - OPCS4 | Array 12,p41282
+p41282_a13,Date of first operative procedure - OPCS4 | Array 13,p41282
+p41282_a14,Date of first operative procedure - OPCS4 | Array 14,p41282
+p41282_a15,Date of first operative procedure - OPCS4 | Array 15,p41282
+p41282_a16,Date of first operative procedure - OPCS4 | Array 16,p41282
+p41282_a17,Date of first operative procedure - OPCS4 | Array 17,p41282
+p41282_a18,Date of first operative procedure - OPCS4 | Array 18,p41282
+p41282_a19,Date of first operative procedure - OPCS4 | Array 19,p41282
+p41282_a20,Date of first operative procedure - OPCS4 | Array 20,p41282
+p41282_a21,Date of first operative procedure - OPCS4 | Array 21,p41282
+p41282_a22,Date of first operative procedure - OPCS4 | Array 22,p41282
+p41282_a23,Date of first operative procedure - OPCS4 | Array 23,p41282
+p41282_a24,Date of first operative procedure - OPCS4 | Array 24,p41282
+p41282_a25,Date of first operative procedure - OPCS4 | Array 25,p41282
+p41282_a26,Date of first operative procedure - OPCS4 | Array 26,p41282
+p41282_a27,Date of first operative procedure - OPCS4 | Array 27,p41282
+p41282_a28,Date of first operative procedure - OPCS4 | Array 28,p41282
+p41282_a29,Date of first operative procedure - OPCS4 | Array 29,p41282
+p41282_a30,Date of first operative procedure - OPCS4 | Array 30,p41282
+p41282_a31,Date of first operative procedure - OPCS4 | Array 31,p41282
+p41282_a32,Date of first operative procedure - OPCS4 | Array 32,p41282
+p41282_a33,Date of first operative procedure - OPCS4 | Array 33,p41282
+p41282_a34,Date of first operative procedure - OPCS4 | Array 34,p41282
+p41282_a35,Date of first operative procedure - OPCS4 | Array 35,p41282
+p41282_a36,Date of first operative procedure - OPCS4 | Array 36,p41282
+p41282_a37,Date of first operative procedure - OPCS4 | Array 37,p41282
+p41282_a38,Date of first operative procedure - OPCS4 | Array 38,p41282
+p41282_a39,Date of first operative procedure - OPCS4 | Array 39,p41282
+p41282_a40,Date of first operative procedure - OPCS4 | Array 40,p41282
+p41282_a41,Date of first operative procedure - OPCS4 | Array 41,p41282
+p41282_a42,Date of first operative procedure - OPCS4 | Array 42,p41282
+p41282_a43,Date of first operative procedure - OPCS4 | Array 43,p41282
+p41282_a44,Date of first operative procedure - OPCS4 | Array 44,p41282
+p41282_a45,Date of first operative procedure - OPCS4 | Array 45,p41282
+p41282_a46,Date of first operative procedure - OPCS4 | Array 46,p41282
+p41282_a47,Date of first operative procedure - OPCS4 | Array 47,p41282
+p41282_a48,Date of first operative procedure - OPCS4 | Array 48,p41282
+p41282_a49,Date of first operative procedure - OPCS4 | Array 49,p41282
+p41282_a50,Date of first operative procedure - OPCS4 | Array 50,p41282
+p41282_a51,Date of first operative procedure - OPCS4 | Array 51,p41282
+p41282_a52,Date of first operative procedure - OPCS4 | Array 52,p41282
+p41282_a53,Date of first operative procedure - OPCS4 | Array 53,p41282
+p41282_a54,Date of first operative procedure - OPCS4 | Array 54,p41282
+p41282_a55,Date of first operative procedure - OPCS4 | Array 55,p41282
+p41282_a56,Date of first operative procedure - OPCS4 | Array 56,p41282
+p41282_a57,Date of first operative procedure - OPCS4 | Array 57,p41282
+p41282_a58,Date of first operative procedure - OPCS4 | Array 58,p41282
+p41282_a59,Date of first operative procedure - OPCS4 | Array 59,p41282
+p41282_a60,Date of first operative procedure - OPCS4 | Array 60,p41282
+p41282_a61,Date of first operative procedure - OPCS4 | Array 61,p41282
+p41282_a62,Date of first operative procedure - OPCS4 | Array 62,p41282
+p41282_a63,Date of first operative procedure - OPCS4 | Array 63,p41282
+p41282_a64,Date of first operative procedure - OPCS4 | Array 64,p41282
+p41282_a65,Date of first operative procedure - OPCS4 | Array 65,p41282
+p41282_a66,Date of first operative procedure - OPCS4 | Array 66,p41282
+p41282_a67,Date of first operative procedure - OPCS4 | Array 67,p41282
+p41282_a68,Date of first operative procedure - OPCS4 | Array 68,p41282
+p41282_a69,Date of first operative procedure - OPCS4 | Array 69,p41282
+p41282_a70,Date of first operative procedure - OPCS4 | Array 70,p41282
+p41282_a71,Date of first operative procedure - OPCS4 | Array 71,p41282
+p41282_a72,Date of first operative procedure - OPCS4 | Array 72,p41282
+p41282_a73,Date of first operative procedure - OPCS4 | Array 73,p41282
+p41282_a74,Date of first operative procedure - OPCS4 | Array 74,p41282
+p41282_a75,Date of first operative procedure - OPCS4 | Array 75,p41282
+p41282_a76,Date of first operative procedure - OPCS4 | Array 76,p41282
+p41282_a77,Date of first operative procedure - OPCS4 | Array 77,p41282
+p41282_a78,Date of first operative procedure - OPCS4 | Array 78,p41282
+p41282_a79,Date of first operative procedure - OPCS4 | Array 79,p41282
+p41282_a80,Date of first operative procedure - OPCS4 | Array 80,p41282
+p41282_a81,Date of first operative procedure - OPCS4 | Array 81,p41282
+p41282_a82,Date of first operative procedure - OPCS4 | Array 82,p41282
+p41282_a83,Date of first operative procedure - OPCS4 | Array 83,p41282
+p41282_a84,Date of first operative procedure - OPCS4 | Array 84,p41282
+p41282_a85,Date of first operative procedure - OPCS4 | Array 85,p41282
+p41282_a86,Date of first operative procedure - OPCS4 | Array 86,p41282
+p41282_a87,Date of first operative procedure - OPCS4 | Array 87,p41282
+p41282_a88,Date of first operative procedure - OPCS4 | Array 88,p41282
+p41282_a89,Date of first operative procedure - OPCS4 | Array 89,p41282
+p41282_a90,Date of first operative procedure - OPCS4 | Array 90,p41282
+p41282_a91,Date of first operative procedure - OPCS4 | Array 91,p41282
+p41282_a92,Date of first operative procedure - OPCS4 | Array 92,p41282
+p41282_a93,Date of first operative procedure - OPCS4 | Array 93,p41282
+p41282_a94,Date of first operative procedure - OPCS4 | Array 94,p41282
+p41282_a95,Date of first operative procedure - OPCS4 | Array 95,p41282
+p41282_a96,Date of first operative procedure - OPCS4 | Array 96,p41282
+p41282_a97,Date of first operative procedure - OPCS4 | Array 97,p41282
+p41282_a98,Date of first operative procedure - OPCS4 | Array 98,p41282
+p41282_a99,Date of first operative procedure - OPCS4 | Array 99,p41282
+p41282_a100,Date of first operative procedure - OPCS4 | Array 100,p41282
+p41282_a101,Date of first operative procedure - OPCS4 | Array 101,p41282
+p41282_a102,Date of first operative procedure - OPCS4 | Array 102,p41282
+p41282_a103,Date of first operative procedure - OPCS4 | Array 103,p41282
+p41282_a104,Date of first operative procedure - OPCS4 | Array 104,p41282
+p41282_a105,Date of first operative procedure - OPCS4 | Array 105,p41282
+p41282_a106,Date of first operative procedure - OPCS4 | Array 106,p41282
+p41282_a107,Date of first operative procedure - OPCS4 | Array 107,p41282
+p41282_a108,Date of first operative procedure - OPCS4 | Array 108,p41282
+p41282_a109,Date of first operative procedure - OPCS4 | Array 109,p41282
+p41282_a110,Date of first operative procedure - OPCS4 | Array 110,p41282
+p41282_a111,Date of first operative procedure - OPCS4 | Array 111,p41282
+p41282_a112,Date of first operative procedure - OPCS4 | Array 112,p41282
+p41282_a113,Date of first operative procedure - OPCS4 | Array 113,p41282
+p41282_a114,Date of first operative procedure - OPCS4 | Array 114,p41282
+p41282_a115,Date of first operative procedure - OPCS4 | Array 115,p41282
+p41282_a116,Date of first operative procedure - OPCS4 | Array 116,p41282
+p41282_a117,Date of first operative procedure - OPCS4 | Array 117,p41282
+p41282_a118,Date of first operative procedure - OPCS4 | Array 118,p41282
+p41282_a119,Date of first operative procedure - OPCS4 | Array 119,p41282
+p41282_a120,Date of first operative procedure - OPCS4 | Array 120,p41282
+p41282_a121,Date of first operative procedure - OPCS4 | Array 121,p41282
+p41282_a122,Date of first operative procedure - OPCS4 | Array 122,p41282
+p41282_a123,Date of first operative procedure - OPCS4 | Array 123,p41282
+p41282_a124,Date of first operative procedure - OPCS4 | Array 124,p41282
+p41282_a125,Date of first operative procedure - OPCS4 | Array 125,p41282
+p41283_a0,Date of first operative procedure - OPCS3 | Array 0,p41283
+p41283_a1,Date of first operative procedure - OPCS3 | Array 1,p41283
+p41283_a2,Date of first operative procedure - OPCS3 | Array 2,p41283
+p41283_a3,Date of first operative procedure - OPCS3 | Array 3,p41283
+p41283_a4,Date of first operative procedure - OPCS3 | Array 4,p41283
+p41283_a5,Date of first operative procedure - OPCS3 | Array 5,p41283
+p41283_a6,Date of first operative procedure - OPCS3 | Array 6,p41283
+p41283_a7,Date of first operative procedure - OPCS3 | Array 7,p41283
+p41283_a8,Date of first operative procedure - OPCS3 | Array 8,p41283
+p41283_a9,Date of first operative procedure - OPCS3 | Array 9,p41283
+p41283_a10,Date of first operative procedure - OPCS3 | Array 10,p41283
+p41283_a11,Date of first operative procedure - OPCS3 | Array 11,p41283
+p41283_a12,Date of first operative procedure - OPCS3 | Array 12,p41283
+p41283_a13,Date of first operative procedure - OPCS3 | Array 13,p41283
+p41283_a14,Date of first operative procedure - OPCS3 | Array 14,p41283
+p41283_a15,Date of first operative procedure - OPCS3 | Array 15,p41283
+p42000,Date of myocardial infarction,p42000
+p42001,Source of myocardial infarction report,p42001
+p42038,GP registration records,p42038
+p42039,GP prescription records,p42039
+p42040,GP clinical event records,p42040
+p130706,Date E10 first reported (insulin-dependent diabetes mellitus),p130706
+p130707,Source of report of E10 (insulin-dependent diabetes mellitus),p130707
+p130708,Date E11 first reported (non-insulin-dependent diabetes mellitus),p130708
+p130709,Source of report of E11 (non-insulin-dependent diabetes mellitus),p130709
+p130710,Date E12 first reported (malnutrition-related diabetes mellitus),p130710
+p130711,Source of report of E12 (malnutrition-related diabetes mellitus),p130711
+p130712,Date E13 first reported (other specified diabetes mellitus),p130712
+p130713,Source of report of E13 (other specified diabetes mellitus),p130713
+p130714,Date E14 first reported (unspecified diabetes mellitus),p130714
+p130715,Source of report of E14 (unspecified diabetes mellitus),p130715
+p130720,Date E20 first reported (hypoparathyroidism),p130720
+p130721,Source of report of E20 (hypoparathyroidism),p130721
+p130722,Date E21 first reported (hyperparathyroidism and other disorders of parathyroid gland),p130722
+p130723,Source of report of E21 (hyperparathyroidism and other disorders of parathyroid gland),p130723
+p131056,Date G45 first reported (transient cerebral ischaemic attacks and related syndromes),p131056
+p131057,Source of report of G45 (transient cerebral ischaemic attacks and related syndromes),p131057
+p131284,Date I09 first reported (other rheumatic heart diseases),p131284
+p131285,Source of report of I09 (other rheumatic heart diseases),p131285
+p131286,Date I10 first reported (essential (primary) hypertension),p131286
+p131287,Source of report of I10 (essential (primary) hypertension),p131287
+p131288,Date I11 first reported (hypertensive heart disease),p131288
+p131289,Source of report of I11 (hypertensive heart disease),p131289
+p131290,Date I12 first reported (hypertensive renal disease),p131290
+p131291,Source of report of I12 (hypertensive renal disease),p131291
+p131292,Date I13 first reported (hypertensive heart and renal disease),p131292
+p131293,Source of report of I13 (hypertensive heart and renal disease),p131293
+p131294,Date I15 first reported (secondary hypertension),p131294
+p131295,Source of report of I15 (secondary hypertension),p131295
+p131296,Date I20 first reported (angina pectoris),p131296
+p131297,Source of report of I20 (angina pectoris),p131297
+p131298,Date I21 first reported (acute myocardial infarction),p131298
+p131299,Source of report of I21 (acute myocardial infarction),p131299
+p131300,Date I22 first reported (subsequent myocardial infarction),p131300
+p131301,Source of report of I22 (subsequent myocardial infarction),p131301
+p131302,Date I23 first reported (certain current complications following acute myocardial infarction),p131302
+p131303,Source of report of I23 (certain current complications following acute myocardial infarction),p131303
+p131304,Date I24 first reported (other acute ischaemic heart diseases),p131304
+p131305,Source of report of I24 (other acute ischaemic heart diseases),p131305
+p131306,Date I25 first reported (chronic ischaemic heart disease),p131306
+p131307,Source of report of I25 (chronic ischaemic heart disease),p131307
+p131314,Date I30 first reported (acute pericarditis),p131314
+p131315,Source of report of I30 (acute pericarditis),p131315
+p131316,Date I31 first reported (other diseases of pericardium),p131316
+p131317,Source of report of I31 (other diseases of pericardium),p131317
+p131318,Date I32 first reported (pericarditis in diseases classified elsewhere),p131318
+p131319,Source of report of I32 (pericarditis in diseases classified elsewhere),p131319
+p131320,Date I33 first reported (acute and subacute endocarditis),p131320
+p131321,Source of report of I33 (acute and subacute endocarditis),p131321
+p131332,Date I39 first reported (endocarditis and heart valve disorders in diseases classified elsewhere),p131332
+p131333,Source of report of I39 (endocarditis and heart valve disorders in diseases classified elsewhere),p131333
+p131334,Date I40 first reported (acute myocarditis),p131334
+p131335,Source of report of I40 (acute myocarditis),p131335
+p131336,Date I41 first reported (myocarditis in diseases classified elsewhere),p131336
+p131337,Source of report of I41 (myocarditis in diseases classified elsewhere),p131337
+p131338,Date I42 first reported (cardiomyopathy),p131338
+p131339,Source of report of I42 (cardiomyopathy),p131339
+p131340,Date I43 first reported (cardiomyopathy in diseases classified elsewhere),p131340
+p131341,Source of report of I43 (cardiomyopathy in diseases classified elsewhere),p131341
+p131344,Date I45 first reported (other conduction disorders),p131344
+p131345,Source of report of I45 (other conduction disorders),p131345
+p131346,Date I46 first reported (cardiac arrest),p131346
+p131347,Source of report of I46 (cardiac arrest),p131347
+p131348,Date I47 first reported (paroxysmal tachycardia),p131348
+p131349,Source of report of I47 (paroxysmal tachycardia),p131349
+p131350,Date I48 first reported (atrial fibrillation and flutter),p131350
+p131351,Source of report of I48 (atrial fibrillation and flutter),p131351
+p131352,Date I49 first reported (other cardiac arrhythmias),p131352
+p131353,Source of report of I49 (other cardiac arrhythmias),p131353
+p131354,Date I50 first reported (heart failure),p131354
+p131355,Source of report of I50 (heart failure),p131355
+p131356,Date I51 first reported (complications and ill-defined descriptions of heart disease),p131356
+p131357,Source of report of I51 (complications and ill-defined descriptions of heart disease),p131357
+p131358,Date I52 first reported (other heart disorders in diseases classified elsewhere),p131358
+p131359,Source of report of I52 (other heart disorders in diseases classified elsewhere),p131359
+p131368,"Date I64 first reported (stroke, not specified as haemorrhage or infarction)",p131368
+p131369,"Source of report of I64 (stroke, not specified as haemorrhage or infarction)",p131369
+p131370,"Date I65 first reported (occlusion and stenosis of precerebral arteries, not resulting in cerebral infarction)",p131370
+p131371,"Source of report of I65 (occlusion and stenosis of precerebral arteries, not resulting in cerebral infarction)",p131371
+p131372,"Date I66 first reported (occlusion and stenosis of cerebral arteries, not resulting in cerebral infarction)",p131372
+p131373,"Source of report of I66 (occlusion and stenosis of cerebral arteries, not resulting in cerebral infarction)",p131373
+p131374,Date I67 first reported (other cerebrovascular diseases),p131374
+p131375,Source of report of I67 (other cerebrovascular diseases),p131375
+p131376,Date I68 first reported (cerebrovascular disorders in diseases classified elsewhere),p131376
+p131377,Source of report of I68 (cerebrovascular disorders in diseases classified elsewhere),p131377
+p131378,Date I69 first reported (sequelae of cerebrovascular disease),p131378
+p131379,Source of report of I69 (sequelae of cerebrovascular disease),p131379
