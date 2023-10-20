@@ -32,16 +32,16 @@ describing the study. Find checklists
 :::
 
 # Study information
-
 ## KIMO-disentangle the relationship between kidney function and cardiovascular diseases 
-
-::: content-hidden
-*Put in the title of your study. Remember to include your study design
-in the title.*
-:::
+##Background 
+Kidney disease is a common disorder with a prevalence of close to 10%, and still increasing, partly due to aging population and increased incidence rates of hypertension and diabetes.1 Chronic kidney disease (CKD) is associated with elevated risk of cardiovascular diseases. 
+Impaired kidney function is commonly ascertained as persistent estimated glomerular filtration rate (eGFR) below 60 ml/min/1.73 m2 and/or the presence of albuminuria. Routinely, eGFR is based on plasma creatinine and calculated from the presently recommended Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI) equation or the older Modification of Diet in Renal Disease Study (MDRD) equation. Numerous large cohort studies and meta-analyses have identified low eGFR and albuminuria as risk factors for myocardial infarction (MI), heart failure, stroke and early death in various populations.2-7 Interestingly, not only low eGFR and eGFR decline, but also very high eGFR (above 95th percentile) levels and eGFR rise were associated with increased risk of cardiovascular disease (CVD) and early death in various populations (e.g., general population and individuals with type 2 diabetes). 8-12 
+However, reliance on creatinine based eGFR might be not accurate as it is highly dependent on age, sex, and muscle mass [17] thus bias the estimate of relationship between kidney function and CVD. Alternatively, eGFR can be estimated using plasma cystatin C, or a combination of creatinine and cystatin C, which is less influenced by muscle mass, or genetic ancestry13. It was recommended by the National Kidney Foundation and American Society of Nephrology to increase the use of cystatin C to estimate kidney function14. 
+In addition, pervious studies might be limited to small sample size15. The research gaps call for re-evaluation in a bigger sample of general population, with use of the CKD-EPI equation for eGFR calculations.
+Here, we leverage UK Biobank data to investigate the associations between kidney function (eGFRcre, eGFRcycs, and albuminuria) with risk of cardiovascular disease as well as mortality. 
+Note: This proposal only describes the observational study in UKB. 
 
 ## Description
-
 ::: content-hidden
 Overall description of your project. Think of this as what you would
 reply if a colleague asked you what your project was about.
@@ -52,6 +52,7 @@ Keep the inline R code below. This inserts the standard UKB statement.
 `r ukbAid::statements$protocol`
 
 ## Objectives and hypotheses
+To evaluate the association of kidney function with cardiovascular disease and mortality among healthy middle-aged population.
 
 ::: content-hidden
 -   Put in a very brief introduction to the topic. Explain the
@@ -81,6 +82,8 @@ Note: Leave the below text here.
 No blinding is involved in this study.
 
 ## Study design
+This study used data from the UK Biobank, which recruited 502,713 people (aged 40–69 years, mean age 56.5 years, 45.6% men) from 2006 to 2010 from England, Scotland, and Wales. At baseline, participants underwent nurse‐led interviews and completed detailed questionnaires about medical history, medication use, sociodemographic factors, and lifestyle information. Participants underwent a range of physical assessments and provided blood and urine at the baseline visit. 
+The UK Biobank study was approved by the North West Multi‐Centre Research Ethics Committee, and all participants provided written informed consent.
 
 ::: content-hidden
 Describe your study design. Typical study designs for observation
@@ -101,9 +104,10 @@ likely).
 :::
 
 # Sampling plan
+Exclusion:
+Exclusion of prevalent CVD or HF at enrollment was based on self‐report or linked hospital admission records confirming a diagnosis of myocardial infarction, ischemic stroke, or HF before the baseline assessment date. International Classification of Diseases, Ninth Revision and Tenth Revision (ICD‐9 and ICD‐10) codes used for exclusion criteria are listed in Table S1.
 
 ## Existing data
-
 ::: content-hidden
 Note: Leave the below text here.
 :::
@@ -164,8 +168,43 @@ available in the UK Biobank.
 :::
 
 # Variables
-
 ## Measures variables
+Exposure: 
+The exposure is kidney function, which will be reflected by eGFRcre, eGFRcys, and albuminuria, which were measured at baseline. 
+Serum creatinine (Field ID 30700), urine creatinine (Field ID 30510) and urine albumin (Field ID 30500) were measured on a Beckman Coulter AU5800 instrument. An enzymatic, IDMS-traceable method was used to measure serum and urine creatinine. Serum cystatin C (Field ID 30720) was measured on a Siemens ADVIA 1800 instrument using an Immuno-turbidimetric assay. Estimated GFR was calculated using creatinine (eGFRcre) or cystatin C (eGFRcys) by the CKD-EPI Eq16,17. 
+Urine albumin was quantified using an immune-turbidimetric method (Randox laboratories) with a lower limit of detection of 6.7 mg/L. Individuals with urine albumin concentrations below this limit were considered normoalbuminuric. The urine albumin to creatinine ratio (ACR) was calculated as urine albumin in milligrams divided by urine creatinine in millimole. Albuminuria was defined as an ACR ≥ 2.5 mg/mmol for men and ACR ≥ 3.5 mg/mmol for women. Blood and spot urine samples were collected and analyzed at the initial assessment (2006–2010) at a centralized laboratory. Sampling, handling, and quality control of biochemical measures have been described in detail previously [31].
+
+Main outcome measures 
+Time to cardiovascular disease (stroke, myocardial infarction, heart failure, or death from cardiovascular cause), specific cardiovascular disease events, and all-cause mortality. Outcomes were ascertained between January 1, 2006 and August 31, 2021 using ICD‐9 and ICD‐10 codes from linked hospital admissions data and the death registry (Table S1). Participants were not censored after experiencing 1 of our secondary outcomes. At recruitment, all participants were registered with a general practitioner in the National Health Service and consented to linkage of their hospital inpatient records and national death registries. All ischemic stroke events were centrally validated by UK Biobank study staff.
+Covariates: 
+Age, sex, ethnicity, body mass index (continuous or categorical, P21001), education or income, 
+systolic blood pressure (continuous or categorical), antihypertensive treatment (yes, no), smoking (never, past, current), alcohol consumption (rarely/never, <1 drink/week, 1-6 drinks/week, ≥1 drinks/day), exercise (rarely/never, <1 time/week, 1-3 times/week, ≥4 times/week), total cholesterol concentration (continuous, maybe use quartiles), low-density lipoprotein;  high-density lipoprotein;
+ C reactive protein concentration (continuous, maybe use quartiles), postmenopausal hormone use (never, past, current), body mass index (continuous or categorical), and waist circumference. 
+History of type 2 diabetes (yes, no) was determined by self-report of prior diagnosis, use of medications for diabetes, hemoglobin A1c ≥6.5% at enrollment, or ICD‐9 and ICD‐10 codes indicating type 2 diabetes diagnosis before baseline assessment. 
+History of hypertension (yes, no) was determined from self-report of prior diagnosis, use of medications for blood pressure, average systolic blood pressure ≥140 mm Hg, average diastolic blood pressure ≥90 mm Hg, or ICD‐9 and ICD‐10 codes indicating hypertension diagnosis before baseline assessment. 
+Family history of ASCVD referred to heart disease or stroke in a biological parent or sibling. 
+The Townsend Deprivation Index score is a measure of material deprivation within a population and is a composite measure of unemployment, lack of car or home ownership, and household overcrowding.
+Presence of chronic inflammatory diseases (??) was defined as a clinical diagnosis of rheumatoid arthritis, systemic lupus erythematosus, or HIV infection by self‐report or ICD‐9 and ICD‐10 codes. Thyroid disease included hypothyroidism or hyperthyroidism diagnoses by self‐report or ICD‐9 and ICD‐10 codes.
+https://www.ahajournals.org/doi/full/10.1161/JAHA.122.027079
+
+The kidney function indicators will be analyzed both as continuous and categorical. 
+eGFR will be categorized into 4 groups, with cut points that represent thresholds for CKD stages18: <45, 45 to 59, 60 to 89, and ≥90 mL/min per 1.73 m2. Baseline characteristics of the participants will be summarized by eGFRcys category.
+Splines of eGFR will be explored. 
+We will use Cox proportional hazards models (or Poisson) to evaluate the association between each eGFR measure with CVD and mortality. Hazard ratios will be estimated in following models:  
+Model 1: adjust for demographic information, including age at study enrollment (continuous), sex, education or (income), and ethnicity. 
+Model 2: Model 1+ smoking, alcohol consumption, exercise, BMI(WC). 
+Model 3: Model 2+blood pressure (continuous or categorical), antihypertensive treatment (yes, no), total cholesterol concentration (continuous), C reactive protein concentration, and further adjust for postmenopausal hormone use for women. 
+Mediator: type 2 diabetes
+
+Sensitivity analyses
+Sensitivity analyses1: 
+For all models, Townsend Deprivation Index will be used as the indicator of socioeconomic status (SES) instead of education/income. Then hypertension (yes/no) will be used instead of continuous blood pressure. 
+Sensitivity analyses2: 
+Because thyroid disease, steroid use, and inflammation have been reported as non–glomerular filtration rate determinants of cystatin C levels,38, 39, 40  multivariable analyses will be conducted after adding thyroid disease, steroid use, C‐reactive protein, and history of chronic inflammatory illnesses. 
+https://www.ahajournals.org/doi/full/10.1161/JAHA.122.027079
+
+We will also conduct negative control, to rule out possible noncausal interpretations of the association. Negative exposure control could be the use of sun/uv protection (other?)
+
 
 ::: content-hidden
 List the exposure(s), outcome(s), and covariates
@@ -212,6 +251,7 @@ will handle outliers.
 :::
 
 ## Missing data
+Multivariable imputation by chained equations, with 5 imputations, was used to impute missing covariates.
 
 ::: content-hidden
 Describe how you will handle missing or incomplete data. This will
@@ -234,3 +274,24 @@ main analysis or it could be the main aim of your project.
 *add the references here*
 
 # References
+
+
+1.	Bikbov B, Purcell CA, Levey AS, et al. Global, regional, and national burden of chronic kidney disease, 1990&#x2013;2017: a systematic analysis for the Global Burden of Disease Study 2017. The Lancet. 2020;395(10225):709-733.
+2.	Bansal N, Katz R, Robinson-Cohen C, et al. Absolute Rates of Heart Failure, Coronary Heart Disease, and Stroke in Chronic Kidney Disease: An Analysis of 3 Community-Based Cohort Studies. JAMA Cardiol. 2017;2(3):314-318.
+3.	Chronic Kidney Disease Prognosis C, Matsushita K, van der Velde M, et al. Association of estimated glomerular filtration rate and albuminuria with all-cause and cardiovascular mortality in general population cohorts: a collaborative meta-analysis. Lancet. 2010;375(9731):2073-2081.
+4.	Fox CS, Matsushita K, Woodward M, et al. Associations of kidney disease measures with mortality and end-stage renal disease in individuals with and without diabetes: a meta-analysis. The Lancet. 2012;380(9854):1662-1673.
+5.	Hallan SI, Matsushita K, Sang Y, et al. Age and association of kidney measures with mortality and end-stage renal disease. Jama. 2012;308(22):2349-2360.
+6.	Kottgen A, Russell SD, Loehr LR, et al. Reduced kidney function as a risk factor for incident heart failure: the atherosclerosis risk in communities (ARIC) study. J Am Soc Nephrol. 2007;18(4):1307-1315.
+7.	Muntner P, Judd SE, McClellan W, Meschia JF, Warnock DG, Howard VJ. Incidence of stroke symptoms among adults with chronic kidney disease: results from the REasons for Geographic And Racial Differences in Stroke (REGARDS) study. Nephrology Dialysis Transplantation. 2011;27(1):166-173.
+8.	Naimark DMJ, Grams ME, Matsushita K, et al. Past Decline Versus Current eGFR and Subsequent Mortality Risk. Journal of the American Society of Nephrology. 2016;27(8):2456-2466.
+9.	Park M, Yoon E, Lim Y-H, Kim H, Choi J, Yoon H-J. Renal hyperfiltration as a novel marker of all-cause mortality. Journal of the American Society of Nephrology : JASN. 2015;26(6):1426-1433.
+10.	Dupuis M-E, Nadeau-Fredette A-C, Madore F, Agharazii M, Goupil R. Association of Glomerular Hyperfiltration and Cardiovascular Risk in Middle-Aged Healthy Individuals. JAMA Netw Open. 2020;3(4):e202377-e202377.
+11.	Penno G, Orsi E, Solini A, et al. Renal hyperfiltration is independently associated with increased all-cause mortality in individuals with type 2 diabetes: a prospective cohort study. BMJ Open Diabetes Research &amp; Care. 2020;8(1):e001481.
+12.	Kanbay M, Ertuglu LA, Afsar B, et al. Renal hyperfiltration defined by high estimated glomerular filtration rate: A risk factor for cardiovascular disease and mortality. Diabetes, Obesity and Metabolism. 2019;21(11):2368-2383.
+13.	Hsu C-y, Yang W, Parikh RV, et al. Race, genetic ancestry, and estimating kidney function in CKD. New England Journal of Medicine. 2021;385(19):1750-1760.
+14.	Delgado C, Baweja M, Crews DC, et al. A unifying approach for GFR estimation: recommendations of the NKF-ASN task force on reassessing the inclusion of race in diagnosing kidney disease. Journal of the American Society of Nephrology. 2021;32(12):2994-3015.
+15.	Sibilitz KL, Benn M, Nordestgaard BG. Creatinine, eGFR and association with myocardial infarction, ischemic heart disease and early death in the general population. Atherosclerosis. 2014;237(1):67-75.
+16.	Levey AS, Stevens LA, Schmid CH, et al. A new equation to estimate glomerular filtration rate. Annals of internal medicine. 2009;150(9):604-612.
+17.	Inker LA, Schmid CH, Tighiouart H, et al. Estimating glomerular filtration rate from serum creatinine and cystatin C. New England Journal of Medicine. 2012;367(1):20-29.
+18.	Stevens PE, Levin A. Kidney disease: improving global outcomes chronic kidney disease guideline development work group M. Evaluation and management of chronic kidney disease: synopsis of the kidney disease: improving global outcomes. 2012:825-830.
+
