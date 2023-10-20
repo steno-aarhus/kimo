@@ -1,8 +1,5 @@
 TODO items to complete throughout the entire project lifecycle.
 
--   TODO: Open up the `README.md` file and fill in the project details
-    and complete the `TODO` items there
-
 -   TODO: Review and select variables from the
     `data-raw/project-variables.csv`
 
