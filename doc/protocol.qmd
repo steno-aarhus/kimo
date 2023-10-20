@@ -37,21 +37,11 @@ describing the study. Find checklists
 Kidney disease is a common disorder with a prevalence of close to 10%, and still increasing, partly due to aging population and increased incidence rates of hypertension and diabetes.1 Chronic kidney disease (CKD) is associated with elevated risk of cardiovascular diseases. 
 Impaired kidney function is commonly ascertained as persistent estimated glomerular filtration rate (eGFR) below 60 ml/min/1.73 m2 and/or the presence of albuminuria. Routinely, eGFR is based on plasma creatinine and calculated from the presently recommended Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI) equation or the older Modification of Diet in Renal Disease Study (MDRD) equation. Numerous large cohort studies and meta-analyses have identified low eGFR and albuminuria as risk factors for myocardial infarction (MI), heart failure, stroke and early death in various populations.2-7 Interestingly, not only low eGFR and eGFR decline, but also very high eGFR (above 95th percentile) levels and eGFR rise were associated with increased risk of cardiovascular disease (CVD) and early death in various populations (e.g., general population and individuals with type 2 diabetes). 8-12 
 However, reliance on creatinine based eGFR might be not accurate as it is highly dependent on age, sex, and muscle mass [17] thus bias the estimate of relationship between kidney function and CVD. Alternatively, eGFR can be estimated using plasma cystatin C, or a combination of creatinine and cystatin C, which is less influenced by muscle mass, or genetic ancestry13. It was recommended by the National Kidney Foundation and American Society of Nephrology to increase the use of cystatin C to estimate kidney function14. 
-(refer https://www.ahajournals.org/doi/full/10.1161/JAHA.122.027079)
 In addition, pervious studies might be limited to small sample size15. The research gaps call for re-evaluation in a bigger sample of general population, with use of the CKD-EPI equation for eGFR calculations.
 Here, we leverage UK Biobank data to investigate the associations between kidney function (eGFRcre, eGFRcycs, and albuminuria) with risk of cardiovascular disease as well as mortality. 
 Note: This proposal only describes the observational study in UKB. 
-##Objective: 
-To evaluate the association of kidney function with cardiovascular disease and mortality among healthy middle-aged population.
-
-
-::: content-hidden
-*Put in the title of your study. Remember to include your study design
-in the title.*
-:::
 
 ## Description
-
 ::: content-hidden
 Overall description of your project. Think of this as what you would
 reply if a colleague asked you what your project was about.
@@ -62,6 +52,7 @@ Keep the inline R code below. This inserts the standard UKB statement.
 `r ukbAid::statements$protocol`
 
 ## Objectives and hypotheses
+To evaluate the association of kidney function with cardiovascular disease and mortality among healthy middle-aged population.
 
 ::: content-hidden
 -   Put in a very brief introduction to the topic. Explain the
@@ -94,7 +85,6 @@ No blinding is involved in this study.
 This study used data from the UK Biobank, which recruited 502,713 people (aged 40–69 years, mean age 56.5 years, 45.6% men) from 2006 to 2010 from England, Scotland, and Wales. At baseline, participants underwent nurse‐led interviews and completed detailed questionnaires about medical history, medication use, sociodemographic factors, and lifestyle information. Participants underwent a range of physical assessments and provided blood and urine at the baseline visit. 
 The UK Biobank study was approved by the North West Multi‐Centre Research Ethics Committee, and all participants provided written informed consent.
 
-
 ::: content-hidden
 Describe your study design. Typical study designs for observation
 studies include cohort, cross sectional, and case-control studies
@@ -118,7 +108,6 @@ Exclusion:
 Exclusion of prevalent CVD or HF at enrollment was based on self‐report or linked hospital admission records confirming a diagnosis of myocardial infarction, ischemic stroke, or HF before the baseline assessment date. International Classification of Diseases, Ninth Revision and Tenth Revision (ICD‐9 and ICD‐10) codes used for exclusion criteria are listed in Table S1.
 
 ## Existing data
-
 ::: content-hidden
 Note: Leave the below text here.
 :::
