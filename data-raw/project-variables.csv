@@ -252,11 +252,5 @@ p41202,Diagnoses - main ICD10,446969,https://biobank.ndph.ox.ac.uk/ukb/field.cgi
 p41203,Diagnoses - main ICD9,20390,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41203
 p41204,Diagnoses - secondary ICD10,399976,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41204
 p41205,Diagnoses - secondary ICD9,8742,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41205
-p41210,Operative procedures - secondary OPCS4,417076,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41210
-p41233,Sources of admission to hospital (polymorphic),449185,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41233
-p41234,Records in HES inpatient diagnoses dataset,449083,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41234
-p41247,Patient classification on admission (recoded),446789,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41247
-p41248,Destinations on discharge from hospital (recoded),446821,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41248
-p41249,Methods of admission to hospital (recoded),449167,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41249
 p41270,Diagnoses - ICD10,446974,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41270
 p41271,Diagnoses - ICD9,20390,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41271
