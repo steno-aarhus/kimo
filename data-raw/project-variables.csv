@@ -12,7 +12,6 @@ p189,Townsend deprivation index at recruitment,501740,https://biobank.ndph.ox.ac
 p738,Average total household income before tax,497480,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=738
 p1001,Duration of strenuous sports,54748,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1001
 p1160,Sleep duration,501504,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1160
-p1200,Sleeplessness / insomnia,501500,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1200
 p1239,Current tobacco smoking,501500,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1239
 p1249,Past tobacco smoking,464200,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1249
 p1558,Alcohol intake frequency.,501494,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1558
@@ -30,6 +29,7 @@ p3436,Age started smoking in current smokers,39595,https://biobank.ndph.ox.ac.uk
 p3446,Type of tobacco currently smoked,39595,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3446
 p3456,Number of cigarettes currently smoked daily (current cigarette smokers),36798,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3456
 p3536,Age started hormone-replacement therapy (HRT),107176,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3536
+p6138,Qualifications,498838,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6138
 p6142,Current employment status,501520,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6142
 p6160,Leisure/social activities,501508,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6160
 p12697,Systolic brachial blood pressure,59876,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=12697
@@ -38,7 +38,6 @@ p20116,Smoking status,501500,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2011
 p20117,Alcohol drinker status,501494,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20117
 p20160,Ever smoked,499652,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20160
 p20161,Pack years of smoking,153151,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20161
-p20277,Job code at visit,342563,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20277
 p21000,Ethnic background,501479,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21000
 p21001,Body mass index (BMI),499393,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21001
 p21002,Weight,499705,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21002
