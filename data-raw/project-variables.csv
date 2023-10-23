@@ -20,7 +20,6 @@ p1787,Maternal smoking around birth,494132,https://biobank.ndph.ox.ac.uk/ukb/fie
 p2443,Diabetes diagnosed by doctor,501460,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2443
 p2724,Had menopause,272839,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2724
 p2784,Ever taken oral contraceptive pill,272836,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2784
-p2814,Ever used hormone-replacement therapy (HRT),272836,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2814
 p2867,Age started smoking in former smokers,124379,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2867
 p2877,Type of tobacco previously smoked,124379,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2877
 p2897,Age stopped smoking,124379,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2897
@@ -28,10 +27,8 @@ p3140,Pregnant,272489,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3140
 p3436,Age started smoking in current smokers,39595,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3436
 p3446,Type of tobacco currently smoked,39595,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3446
 p3456,Number of cigarettes currently smoked daily (current cigarette smokers),36798,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3456
-p3536,Age started hormone-replacement therapy (HRT),107176,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3536
 p6138,Qualifications,498838,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6138
 p6142,Current employment status,501520,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6142
-p6160,Leisure/social activities,501508,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6160
 p12697,Systolic brachial blood pressure,59876,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=12697
 p12698,Diastolic brachial blood pressure,59878,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=12698
 p20116,Smoking status,501500,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20116
@@ -41,7 +38,6 @@ p20161,Pack years of smoking,153151,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?
 p21000,Ethnic background,501479,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21000
 p21001,Body mass index (BMI),499393,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21001
 p21002,Weight,499705,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21002
-p22036,At or above moderate/vigorous/walking recommendation,394466,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22036
 p22037,MET minutes per week for walking,394466,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22037
 p22038,MET minutes per week for moderate activity,394466,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22038
 p22039,MET minutes per week for vigorous activity,394466,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22039
