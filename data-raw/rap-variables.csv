@@ -1,27 +1,6 @@
-id,ukb_variable_description,number_participants,link
-p31,Sex,502366,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=31
-p33,Date of birth,502366,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=33
-p34,Year of birth,502366,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=34
-p50,Standing height,499930,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=50
-p189,Townsend deprivation index at recruitment,501740,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=189
-p738,Average total household income before tax,497480,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=738
-p1239,Current tobacco smoking,501500,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1239
-p2443,Diabetes diagnosed by doctor,501460,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=2443
-p6138,Qualifications,498838,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6138
-p6142,Current employment status,501520,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=6142
-p12697,Systolic brachial blood pressure,59876,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=12697
-p12698,Diastolic brachial blood pressure,59878,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=12698
-p20116,Smoking status,501500,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20116
-p20117,Alcohol drinker status,501494,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20117
-p20160,Ever smoked,499652,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20160
-p21000,Ethnic background,501479,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21000
-p21001,Body mass index (BMI),499393,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21001
-p21002,Weight,499705,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21002
-p40000,Date of death,44499,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=40000
-p40001,Underlying (primary) cause of death: ICD10,44196,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=40001
-p40002,Contributory (secondary) causes of death: ICD10,29451,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=40002
-p41201,External causes - ICD10,113758,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41201
-p41202,Diagnoses - main ICD10,446969,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41202
-p41203,Diagnoses - main ICD9,20390,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41203
-p41204,Diagnoses - secondary ICD10,399976,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41204
-p41205,Diagnoses - secondary ICD9,8742,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41205
+field_id,rap_variable_name,id
+p31,Sex,p31
+p21002_i0,Weight | Instance 0,p21002
+p21002_i1,Weight | Instance 1,p21002
+p21002_i2,Weight | Instance 2,p21002
+p21002_i3,Weight | Instance 3,p21002
