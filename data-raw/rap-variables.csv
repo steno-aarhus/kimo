@@ -21,10 +21,21 @@ p738_i0,Average total household income before tax | Instance 0,p738
 p738_i1,Average total household income before tax | Instance 1,p738
 p738_i2,Average total household income before tax | Instance 2,p738
 p738_i3,Average total household income before tax | Instance 3,p738
+p845_i0,Age completed full time education | Instance 0,p845
+p845_i1,Age completed full time education | Instance 1,p845
+p845_i2,Age completed full time education | Instance 2,p845
 p1001_i0,Duration of strenuous sports | Instance 0,p1001
 p1001_i1,Duration of strenuous sports | Instance 1,p1001
 p1001_i2,Duration of strenuous sports | Instance 2,p1001
 p1001_i3,Duration of strenuous sports | Instance 3,p1001
+p1070_i0,Time spent watching television (TV) | Instance 0,p1070
+p1070_i1,Time spent watching television (TV) | Instance 1,p1070
+p1070_i2,Time spent watching television (TV) | Instance 2,p1070
+p1070_i3,Time spent watching television (TV) | Instance 3,p1070
+p1080_i0,Time spent using computer | Instance 0,p1080
+p1080_i1,Time spent using computer | Instance 1,p1080
+p1080_i2,Time spent using computer | Instance 2,p1080
+p1080_i3,Time spent using computer | Instance 3,p1080
 p1160_i0,Sleep duration | Instance 0,p1160
 p1160_i1,Sleep duration | Instance 1,p1160
 p1160_i2,Sleep duration | Instance 2,p1160
@@ -79,10 +90,6 @@ p3436_i0,Age started smoking in current smokers | Instance 0,p3436
 p3436_i1,Age started smoking in current smokers | Instance 1,p3436
 p3436_i2,Age started smoking in current smokers | Instance 2,p3436
 p3436_i3,Age started smoking in current smokers | Instance 3,p3436
-p3446_i0,Type of tobacco currently smoked | Instance 0,p3446
-p3446_i1,Type of tobacco currently smoked | Instance 1,p3446
-p3446_i2,Type of tobacco currently smoked | Instance 2,p3446
-p3446_i3,Type of tobacco currently smoked | Instance 3,p3446
 p3456_i0,Number of cigarettes currently smoked daily (current cigarette smokers) | Instance 0,p3456
 p3456_i1,Number of cigarettes currently smoked daily (current cigarette smokers) | Instance 1,p3456
 p3456_i2,Number of cigarettes currently smoked daily (current cigarette smokers) | Instance 2,p3456
@@ -107,6 +114,7 @@ p20117_i0,Alcohol drinker status | Instance 0,p20117
 p20117_i1,Alcohol drinker status | Instance 1,p20117
 p20117_i2,Alcohol drinker status | Instance 2,p20117
 p20117_i3,Alcohol drinker status | Instance 3,p20117
+p20119_i0,Current employment status - corrected | Instance 0,p20119
 p20160_i0,Ever smoked | Instance 0,p20160
 p20160_i1,Ever smoked | Instance 1,p20160
 p20160_i2,Ever smoked | Instance 2,p20160
@@ -115,6 +123,10 @@ p20161_i0,Pack years of smoking | Instance 0,p20161
 p20161_i1,Pack years of smoking | Instance 1,p20161
 p20161_i2,Pack years of smoking | Instance 2,p20161
 p20161_i3,Pack years of smoking | Instance 3,p20161
+p20277_i0,Job code at visit | Instance 0,p20277
+p20277_i1,Job code at visit | Instance 1,p20277
+p20277_i2,Job code at visit | Instance 2,p20277
+p20277_i3,Job code at visit | Instance 3,p20277
 p21000_i0,Ethnic background | Instance 0,p21000
 p21000_i1,Ethnic background | Instance 1,p21000
 p21000_i2,Ethnic background | Instance 2,p21000
@@ -127,15 +139,43 @@ p21002_i0,Weight | Instance 0,p21002
 p21002_i1,Weight | Instance 1,p21002
 p21002_i2,Weight | Instance 2,p21002
 p21002_i3,Weight | Instance 3,p21002
+p21022,Age at recruitment,p21022
+p22035_i0,At or above moderate/vigorous recommendation | Instance 0,p22035
+p22035_i1,At or above moderate/vigorous recommendation | Instance 1,p22035
+p22035_i2,At or above moderate/vigorous recommendation | Instance 2,p22035
+p22035_i3,At or above moderate/vigorous recommendation | Instance 3,p22035
+p22036_i0,At or above moderate/vigorous/walking recommendation | Instance 0,p22036
+p22036_i1,At or above moderate/vigorous/walking recommendation | Instance 1,p22036
+p22036_i2,At or above moderate/vigorous/walking recommendation | Instance 2,p22036
+p22036_i3,At or above moderate/vigorous/walking recommendation | Instance 3,p22036
 p22040_i0,Summed MET minutes per week for all activity | Instance 0,p22040
 p22189,Townsend deprivation index at recruitment,p22189
-p22200,Year of birth,p22200
 p22426_i2,Average heart rate | Instance 2,p22426
 p22426_i3,Average heart rate | Instance 3,p22426
+p23100_i0,Whole body fat mass | Instance 0,p23100
+p23100_i1,Whole body fat mass | Instance 1,p23100
+p23100_i2,Whole body fat mass | Instance 2,p23100
+p23100_i3,Whole body fat mass | Instance 3,p23100
+p23101_i0,Whole body fat-free mass | Instance 0,p23101
+p23101_i1,Whole body fat-free mass | Instance 1,p23101
+p23101_i2,Whole body fat-free mass | Instance 2,p23101
+p23101_i3,Whole body fat-free mass | Instance 3,p23101
+p23439_i0,Apolipoprotein B | Instance 0,p23439
+p23439_i1,Apolipoprotein B | Instance 1,p23439
+p23440_i0,Apolipoprotein A1 | Instance 0,p23440
+p23440_i1,Apolipoprotein A1 | Instance 1,p23440
+p23464_i0,Total Concentration of Branched-Chain Amino Acids (Leucine + Isoleucine + Valine) | Instance 0,p23464
+p23464_i1,Total Concentration of Branched-Chain Amino Acids (Leucine + Isoleucine + Valine) | Instance 1,p23464
 p26216,Standard PRS for body mass index (BMI),p26216
 p26217,Enhanced PRS for body mass index (BMI),p26217
 p26223,Standard PRS for cardiovascular disease (CVD),p26223
 p26224,Enhanced PRS for cardiovascular disease (CVD),p26224
+p26227,Standard PRS for coronary artery disease (CAD),p26227
+p26228,Enhanced PRS for coronary artery disease (CAD),p26228
+p26238,Standard PRS for glycated haemoglobin (HBA1C_DF),p26238
+p26239,Enhanced PRS for glycated haemoglobin (HBA1C_DF),p26239
+p26285,Standard PRS for type 2 diabetes (T2D),p26285
+p26286,Enhanced PRS for type 2 diabetes (T2D),p26286
 p26410,Index of Multiple Deprivation (England),p26410
 p26411,Income score (England),p26411
 p26412,Employment score (England),p26412
@@ -173,6 +213,8 @@ p30710_i0,C-reactive protein | Instance 0,p30710
 p30710_i1,C-reactive protein | Instance 1,p30710
 p30720_i0,Cystatin C | Instance 0,p30720
 p30720_i1,Cystatin C | Instance 1,p30720
+p30740_i0,Glucose | Instance 0,p30740
+p30740_i1,Glucose | Instance 1,p30740
 p30750_i0,Glycated haemoglobin (HbA1c) | Instance 0,p30750
 p30750_i1,Glycated haemoglobin (HbA1c) | Instance 1,p30750
 p30760_i0,HDL cholesterol | Instance 0,p30760
