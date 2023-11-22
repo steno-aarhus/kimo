@@ -1,6 +1,5 @@
 field_id,rap_variable_name,id
 p31,Sex,p31
-p33,Date of birth,p33
 p34,Year of birth,p34
 p48_i0,Waist circumference | Instance 0,p48
 p48_i1,Waist circumference | Instance 1,p48
@@ -18,11 +17,6 @@ p52,Month of birth,p52
 p120_i0,Birth weight known | Instance 0,p120
 p120_i1,Birth weight known | Instance 1,p120
 p120_i2,Birth weight known | Instance 2,p120
-p132_i0,Job code at visit - entered | Instance 0,p132
-p132_i1,Job code at visit - entered | Instance 1,p132
-p132_i2,Job code at visit - entered | Instance 2,p132
-p132_i3,Job code at visit - entered | Instance 3,p132
-p189,Townsend deprivation index at recruitment,p189
 p738_i0,Average total household income before tax | Instance 0,p738
 p738_i1,Average total household income before tax | Instance 1,p738
 p738_i2,Average total household income before tax | Instance 2,p738
@@ -133,18 +127,6 @@ p21002_i0,Weight | Instance 0,p21002
 p21002_i1,Weight | Instance 1,p21002
 p21002_i2,Weight | Instance 2,p21002
 p21002_i3,Weight | Instance 3,p21002
-p22037_i0,MET minutes per week for walking | Instance 0,p22037
-p22037_i1,MET minutes per week for walking | Instance 1,p22037
-p22037_i2,MET minutes per week for walking | Instance 2,p22037
-p22037_i3,MET minutes per week for walking | Instance 3,p22037
-p22038_i0,MET minutes per week for moderate activity | Instance 0,p22038
-p22038_i1,MET minutes per week for moderate activity | Instance 1,p22038
-p22038_i2,MET minutes per week for moderate activity | Instance 2,p22038
-p22038_i3,MET minutes per week for moderate activity | Instance 3,p22038
-p22039_i0,MET minutes per week for vigorous activity | Instance 0,p22039
-p22039_i1,MET minutes per week for vigorous activity | Instance 1,p22039
-p22039_i2,MET minutes per week for vigorous activity | Instance 2,p22039
-p22039_i3,MET minutes per week for vigorous activity | Instance 3,p22039
 p22040_i0,Summed MET minutes per week for all activity | Instance 0,p22040
 p22189,Townsend deprivation index at recruitment,p22189
 p22200,Year of birth,p22200
@@ -209,8 +191,6 @@ p40000_i0,Date of death | Instance 0,p40000
 p40000_i1,Date of death | Instance 1,p40000
 p40001_i0,Underlying (primary) cause of death: ICD10 | Instance 0,p40001
 p40001_i1,Underlying (primary) cause of death: ICD10 | Instance 1,p40001
-p40002_i0,Contributory (secondary) causes of death: ICD10 | Instance 0,p40002
-p40002_i1,Contributory (secondary) causes of death: ICD10 | Instance 1,p40002
 p41201,External causes - ICD10,p41201
 p41202,Diagnoses - main ICD10,p41202
 p41203,Diagnoses - main ICD9,p41203

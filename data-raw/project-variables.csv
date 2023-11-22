@@ -1,14 +1,11 @@
 id,ukb_variable_description,number_participants,link
 p31,Sex,502366,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=31
-p33,Date of birth,502366,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=33
 p34,Year of birth,502366,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=34
 p48,Waist circumference,500290,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=48
 p49,Hip circumference,500226,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=49
 p50,Standing height,499930,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=50
 p52,Month of birth,502366,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=52
 p120,Birth weight known,501507,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=120
-p132,Job code at visit - entered,347110,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=132
-p189,Townsend deprivation index at recruitment,501740,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=189
 p738,Average total household income before tax,497480,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=738
 p1001,Duration of strenuous sports,54748,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1001
 p1160,Sleep duration,501504,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=1160
@@ -38,9 +35,6 @@ p20161,Pack years of smoking,153151,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?
 p21000,Ethnic background,501479,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21000
 p21001,Body mass index (BMI),499393,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21001
 p21002,Weight,499705,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21002
-p22037,MET minutes per week for walking,394466,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22037
-p22038,MET minutes per week for moderate activity,394466,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22038
-p22039,MET minutes per week for vigorous activity,394466,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22039
 p22040,Summed MET minutes per week for all activity,394466,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22040
 p22189,Townsend deprivation index at recruitment,501740,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22189
 p22200,Year of birth,121248,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=22200
@@ -79,7 +73,6 @@ p30840,Total bilirubin,468757,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=308
 p30870,Triglycerides,470346,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=30870
 p40000,Date of death,44499,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=40000
 p40001,Underlying (primary) cause of death: ICD10,44196,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=40001
-p40002,Contributory (secondary) causes of death: ICD10,29451,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=40002
 p41201,External causes - ICD10,113758,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41201
 p41202,Diagnoses - main ICD10,446969,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41202
 p41203,Diagnoses - main ICD9,20390,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41203
