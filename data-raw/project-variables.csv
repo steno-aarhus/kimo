@@ -78,3 +78,7 @@ p41202,Diagnoses - main ICD10,446969,https://biobank.ndph.ox.ac.uk/ukb/field.cgi
 p41203,Diagnoses - main ICD9,20390,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41203
 p41204,Diagnoses - secondary ICD10,399976,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41204
 p41205,Diagnoses - secondary ICD9,8742,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41205
+p41280,Date of first in-patient diagnosis - ICD10,446974,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41280
+p41281,Date of first in-patient diagnosis - ICD9,20390,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41281
+p41282,Date of first operative procedure - OPCS4,446544,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41282
+p41283,Date of first operative procedure - OPCS3,10699,https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=41283
