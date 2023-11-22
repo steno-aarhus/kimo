@@ -27,6 +27,8 @@ ukbAid::subset_rap_variables(instances = 0:9)
 # folder, comment it out again so you don't accidentally run it anymore (unless
 # you need to re-create the dataset).
 
+
 readr::read_csv(here::here("data-raw/rap-variables.csv")) %>%
-     dplyr::pull(rap_variable_name) %>%
-     ukbAid::create_csv_from_database()
+    dplyr::pull(field_id) %>%
+    ukbAid::create_csv_from_database(username = "jiezhang")
+
