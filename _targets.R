@@ -32,7 +32,7 @@ list(
   tar_target(
     name = download_project_data,
     # TODO: This will eventually need to be changed to "parquet".
-    command = ukbAid::download_data(file_ext = "csv", username="jiezhang"),
+    command = ukbAid::download_data(file_ext = "parquet", username="jiezhang"),
     format = "file"
   )
 )
