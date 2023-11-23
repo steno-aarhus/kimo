@@ -2,164 +2,46 @@ field_id,rap_variable_name,id
 p31,Sex,p31
 p34,Year of birth,p34
 p48_i0,Waist circumference | Instance 0,p48
-p48_i1,Waist circumference | Instance 1,p48
-p48_i2,Waist circumference | Instance 2,p48
-p48_i3,Waist circumference | Instance 3,p48
 p49_i0,Hip circumference | Instance 0,p49
-p49_i1,Hip circumference | Instance 1,p49
-p49_i2,Hip circumference | Instance 2,p49
-p49_i3,Hip circumference | Instance 3,p49
 p50_i0,Standing height | Instance 0,p50
-p50_i1,Standing height | Instance 1,p50
-p50_i2,Standing height | Instance 2,p50
-p50_i3,Standing height | Instance 3,p50
 p52,Month of birth,p52
 p120_i0,Birth weight known | Instance 0,p120
-p120_i1,Birth weight known | Instance 1,p120
-p120_i2,Birth weight known | Instance 2,p120
 p738_i0,Average total household income before tax | Instance 0,p738
-p738_i1,Average total household income before tax | Instance 1,p738
-p738_i2,Average total household income before tax | Instance 2,p738
-p738_i3,Average total household income before tax | Instance 3,p738
 p845_i0,Age completed full time education | Instance 0,p845
-p845_i1,Age completed full time education | Instance 1,p845
-p845_i2,Age completed full time education | Instance 2,p845
 p1001_i0,Duration of strenuous sports | Instance 0,p1001
-p1001_i1,Duration of strenuous sports | Instance 1,p1001
-p1001_i2,Duration of strenuous sports | Instance 2,p1001
-p1001_i3,Duration of strenuous sports | Instance 3,p1001
 p1070_i0,Time spent watching television (TV) | Instance 0,p1070
-p1070_i1,Time spent watching television (TV) | Instance 1,p1070
-p1070_i2,Time spent watching television (TV) | Instance 2,p1070
-p1070_i3,Time spent watching television (TV) | Instance 3,p1070
 p1080_i0,Time spent using computer | Instance 0,p1080
-p1080_i1,Time spent using computer | Instance 1,p1080
-p1080_i2,Time spent using computer | Instance 2,p1080
-p1080_i3,Time spent using computer | Instance 3,p1080
 p1160_i0,Sleep duration | Instance 0,p1160
-p1160_i1,Sleep duration | Instance 1,p1160
-p1160_i2,Sleep duration | Instance 2,p1160
-p1160_i3,Sleep duration | Instance 3,p1160
 p1239_i0,Current tobacco smoking | Instance 0,p1239
-p1239_i1,Current tobacco smoking | Instance 1,p1239
-p1239_i2,Current tobacco smoking | Instance 2,p1239
-p1239_i3,Current tobacco smoking | Instance 3,p1239
 p1249_i0,Past tobacco smoking | Instance 0,p1249
-p1249_i1,Past tobacco smoking | Instance 1,p1249
-p1249_i2,Past tobacco smoking | Instance 2,p1249
-p1249_i3,Past tobacco smoking | Instance 3,p1249
 p1558_i0,Alcohol intake frequency. | Instance 0,p1558
-p1558_i1,Alcohol intake frequency. | Instance 1,p1558
-p1558_i2,Alcohol intake frequency. | Instance 2,p1558
-p1558_i3,Alcohol intake frequency. | Instance 3,p1558
 p1677_i0,Breastfed as a baby | Instance 0,p1677
-p1677_i1,Breastfed as a baby | Instance 1,p1677
-p1677_i2,Breastfed as a baby | Instance 2,p1677
 p1787_i0,Maternal smoking around birth | Instance 0,p1787
-p1787_i1,Maternal smoking around birth | Instance 1,p1787
-p1787_i2,Maternal smoking around birth | Instance 2,p1787
 p2443_i0,Diabetes diagnosed by doctor | Instance 0,p2443
-p2443_i1,Diabetes diagnosed by doctor | Instance 1,p2443
-p2443_i2,Diabetes diagnosed by doctor | Instance 2,p2443
-p2443_i3,Diabetes diagnosed by doctor | Instance 3,p2443
 p2724_i0,Had menopause | Instance 0,p2724
-p2724_i1,Had menopause | Instance 1,p2724
-p2724_i2,Had menopause | Instance 2,p2724
-p2724_i3,Had menopause | Instance 3,p2724
 p2784_i0,Ever taken oral contraceptive pill | Instance 0,p2784
-p2784_i1,Ever taken oral contraceptive pill | Instance 1,p2784
-p2784_i2,Ever taken oral contraceptive pill | Instance 2,p2784
-p2784_i3,Ever taken oral contraceptive pill | Instance 3,p2784
 p2867_i0,Age started smoking in former smokers | Instance 0,p2867
-p2867_i1,Age started smoking in former smokers | Instance 1,p2867
-p2867_i2,Age started smoking in former smokers | Instance 2,p2867
-p2867_i3,Age started smoking in former smokers | Instance 3,p2867
 p2877_i0,Type of tobacco previously smoked | Instance 0,p2877
-p2877_i1,Type of tobacco previously smoked | Instance 1,p2877
-p2877_i2,Type of tobacco previously smoked | Instance 2,p2877
-p2877_i3,Type of tobacco previously smoked | Instance 3,p2877
 p2897_i0,Age stopped smoking | Instance 0,p2897
-p2897_i1,Age stopped smoking | Instance 1,p2897
-p2897_i2,Age stopped smoking | Instance 2,p2897
-p2897_i3,Age stopped smoking | Instance 3,p2897
 p3140_i0,Pregnant | Instance 0,p3140
-p3140_i1,Pregnant | Instance 1,p3140
-p3140_i2,Pregnant | Instance 2,p3140
-p3140_i3,Pregnant | Instance 3,p3140
 p3436_i0,Age started smoking in current smokers | Instance 0,p3436
-p3436_i1,Age started smoking in current smokers | Instance 1,p3436
-p3436_i2,Age started smoking in current smokers | Instance 2,p3436
-p3436_i3,Age started smoking in current smokers | Instance 3,p3436
 p3456_i0,Number of cigarettes currently smoked daily (current cigarette smokers) | Instance 0,p3456
-p3456_i1,Number of cigarettes currently smoked daily (current cigarette smokers) | Instance 1,p3456
-p3456_i2,Number of cigarettes currently smoked daily (current cigarette smokers) | Instance 2,p3456
-p3456_i3,Number of cigarettes currently smoked daily (current cigarette smokers) | Instance 3,p3456
 p6138_i0,Qualifications | Instance 0,p6138
-p6138_i1,Qualifications | Instance 1,p6138
-p6138_i2,Qualifications | Instance 2,p6138
-p6138_i3,Qualifications | Instance 3,p6138
 p6142_i0,Current employment status | Instance 0,p6142
-p6142_i1,Current employment status | Instance 1,p6142
-p6142_i2,Current employment status | Instance 2,p6142
-p6142_i3,Current employment status | Instance 3,p6142
-p12697_i2,Systolic brachial blood pressure | Instance 2,p12697
-p12697_i3,Systolic brachial blood pressure | Instance 3,p12697
-p12698_i2,Diastolic brachial blood pressure | Instance 2,p12698
-p12698_i3,Diastolic brachial blood pressure | Instance 3,p12698
 p20116_i0,Smoking status | Instance 0,p20116
-p20116_i1,Smoking status | Instance 1,p20116
-p20116_i2,Smoking status | Instance 2,p20116
-p20116_i3,Smoking status | Instance 3,p20116
 p20117_i0,Alcohol drinker status | Instance 0,p20117
-p20117_i1,Alcohol drinker status | Instance 1,p20117
-p20117_i2,Alcohol drinker status | Instance 2,p20117
-p20117_i3,Alcohol drinker status | Instance 3,p20117
 p20119_i0,Current employment status - corrected | Instance 0,p20119
 p20160_i0,Ever smoked | Instance 0,p20160
-p20160_i1,Ever smoked | Instance 1,p20160
-p20160_i2,Ever smoked | Instance 2,p20160
-p20160_i3,Ever smoked | Instance 3,p20160
 p20161_i0,Pack years of smoking | Instance 0,p20161
-p20161_i1,Pack years of smoking | Instance 1,p20161
-p20161_i2,Pack years of smoking | Instance 2,p20161
-p20161_i3,Pack years of smoking | Instance 3,p20161
 p20277_i0,Job code at visit | Instance 0,p20277
-p20277_i1,Job code at visit | Instance 1,p20277
-p20277_i2,Job code at visit | Instance 2,p20277
-p20277_i3,Job code at visit | Instance 3,p20277
 p21000_i0,Ethnic background | Instance 0,p21000
-p21000_i1,Ethnic background | Instance 1,p21000
-p21000_i2,Ethnic background | Instance 2,p21000
-p21000_i3,Ethnic background | Instance 3,p21000
 p21001_i0,Body mass index (BMI) | Instance 0,p21001
-p21001_i1,Body mass index (BMI) | Instance 1,p21001
-p21001_i2,Body mass index (BMI) | Instance 2,p21001
-p21001_i3,Body mass index (BMI) | Instance 3,p21001
 p21002_i0,Weight | Instance 0,p21002
-p21002_i1,Weight | Instance 1,p21002
-p21002_i2,Weight | Instance 2,p21002
-p21002_i3,Weight | Instance 3,p21002
 p21022,Age at recruitment,p21022
-p22035_i0,At or above moderate/vigorous recommendation | Instance 0,p22035
-p22035_i1,At or above moderate/vigorous recommendation | Instance 1,p22035
-p22035_i2,At or above moderate/vigorous recommendation | Instance 2,p22035
-p22035_i3,At or above moderate/vigorous recommendation | Instance 3,p22035
-p22036_i0,At or above moderate/vigorous/walking recommendation | Instance 0,p22036
-p22036_i1,At or above moderate/vigorous/walking recommendation | Instance 1,p22036
-p22036_i2,At or above moderate/vigorous/walking recommendation | Instance 2,p22036
-p22036_i3,At or above moderate/vigorous/walking recommendation | Instance 3,p22036
 p22040_i0,Summed MET minutes per week for all activity | Instance 0,p22040
 p22189,Townsend deprivation index at recruitment,p22189
 p23100_i0,Whole body fat mass | Instance 0,p23100
-p23100_i1,Whole body fat mass | Instance 1,p23100
-p23100_i2,Whole body fat mass | Instance 2,p23100
-p23100_i3,Whole body fat mass | Instance 3,p23100
 p23101_i0,Whole body fat-free mass | Instance 0,p23101
-p23101_i1,Whole body fat-free mass | Instance 1,p23101
-p23101_i2,Whole body fat-free mass | Instance 2,p23101
-p23101_i3,Whole body fat-free mass | Instance 3,p23101
-p26216,Standard PRS for body mass index (BMI),p26216
-p26217,Enhanced PRS for body mass index (BMI),p26217
 p26410,Index of Multiple Deprivation (England),p26410
 p26411,Income score (England),p26411
 p26412,Employment score (England),p26412
@@ -168,49 +50,22 @@ p26417,Living environment score (England),p26417
 p26426,Index of Multiple Deprivation (Wales),p26426
 p26427,Index of Multiple Deprivation (Scotland),p26427
 p30020_i0,Haemoglobin concentration | Instance 0,p30020
-p30020_i1,Haemoglobin concentration | Instance 1,p30020
-p30020_i2,Haemoglobin concentration | Instance 2,p30020
 p30030_i0,Haematocrit percentage | Instance 0,p30030
-p30030_i1,Haematocrit percentage | Instance 1,p30030
-p30030_i2,Haematocrit percentage | Instance 2,p30030
 p30500_i0,Microalbumin in urine | Instance 0,p30500
-p30500_i1,Microalbumin in urine | Instance 1,p30500
 p30510_i0,Creatinine (enzymatic) in urine | Instance 0,p30510
-p30510_i1,Creatinine (enzymatic) in urine | Instance 1,p30510
 p30600_i0,Albumin | Instance 0,p30600
-p30600_i1,Albumin | Instance 1,p30600
-p30610_i0,Alkaline phosphatase | Instance 0,p30610
-p30610_i1,Alkaline phosphatase | Instance 1,p30610
-p30660_i0,Direct bilirubin | Instance 0,p30660
-p30660_i1,Direct bilirubin | Instance 1,p30660
-p30670_i0,Urea | Instance 0,p30670
-p30670_i1,Urea | Instance 1,p30670
 p30690_i0,Cholesterol | Instance 0,p30690
-p30690_i1,Cholesterol | Instance 1,p30690
 p30700_i0,Creatinine | Instance 0,p30700
-p30700_i1,Creatinine | Instance 1,p30700
 p30710_i0,C-reactive protein | Instance 0,p30710
-p30710_i1,C-reactive protein | Instance 1,p30710
 p30720_i0,Cystatin C | Instance 0,p30720
-p30720_i1,Cystatin C | Instance 1,p30720
 p30740_i0,Glucose | Instance 0,p30740
-p30740_i1,Glucose | Instance 1,p30740
 p30750_i0,Glycated haemoglobin (HbA1c) | Instance 0,p30750
-p30750_i1,Glycated haemoglobin (HbA1c) | Instance 1,p30750
 p30760_i0,HDL cholesterol | Instance 0,p30760
-p30760_i1,HDL cholesterol | Instance 1,p30760
-p30770_i0,IGF-1 | Instance 0,p30770
-p30770_i1,IGF-1 | Instance 1,p30770
 p30780_i0,LDL direct | Instance 0,p30780
-p30780_i1,LDL direct | Instance 1,p30780
 p30790_i0,Lipoprotein A | Instance 0,p30790
-p30790_i1,Lipoprotein A | Instance 1,p30790
 p30870_i0,Triglycerides | Instance 0,p30870
-p30870_i1,Triglycerides | Instance 1,p30870
 p40000_i0,Date of death | Instance 0,p40000
-p40000_i1,Date of death | Instance 1,p40000
 p40001_i0,Underlying (primary) cause of death: ICD10 | Instance 0,p40001
-p40001_i1,Underlying (primary) cause of death: ICD10 | Instance 1,p40001
 p41201,External causes - ICD10,p41201
 p41202,Diagnoses - main ICD10,p41202
 p41203,Diagnoses - main ICD9,p41203
@@ -522,145 +377,3 @@ p41281_a43,Date of first in-patient diagnosis - ICD9 | Array 43,p41281
 p41281_a44,Date of first in-patient diagnosis - ICD9 | Array 44,p41281
 p41281_a45,Date of first in-patient diagnosis - ICD9 | Array 45,p41281
 p41281_a46,Date of first in-patient diagnosis - ICD9 | Array 46,p41281
-p41282_a0,Date of first operative procedure - OPCS4 | Array 0,p41282
-p41282_a1,Date of first operative procedure - OPCS4 | Array 1,p41282
-p41282_a2,Date of first operative procedure - OPCS4 | Array 2,p41282
-p41282_a3,Date of first operative procedure - OPCS4 | Array 3,p41282
-p41282_a4,Date of first operative procedure - OPCS4 | Array 4,p41282
-p41282_a5,Date of first operative procedure - OPCS4 | Array 5,p41282
-p41282_a6,Date of first operative procedure - OPCS4 | Array 6,p41282
-p41282_a7,Date of first operative procedure - OPCS4 | Array 7,p41282
-p41282_a8,Date of first operative procedure - OPCS4 | Array 8,p41282
-p41282_a9,Date of first operative procedure - OPCS4 | Array 9,p41282
-p41282_a10,Date of first operative procedure - OPCS4 | Array 10,p41282
-p41282_a11,Date of first operative procedure - OPCS4 | Array 11,p41282
-p41282_a12,Date of first operative procedure - OPCS4 | Array 12,p41282
-p41282_a13,Date of first operative procedure - OPCS4 | Array 13,p41282
-p41282_a14,Date of first operative procedure - OPCS4 | Array 14,p41282
-p41282_a15,Date of first operative procedure - OPCS4 | Array 15,p41282
-p41282_a16,Date of first operative procedure - OPCS4 | Array 16,p41282
-p41282_a17,Date of first operative procedure - OPCS4 | Array 17,p41282
-p41282_a18,Date of first operative procedure - OPCS4 | Array 18,p41282
-p41282_a19,Date of first operative procedure - OPCS4 | Array 19,p41282
-p41282_a20,Date of first operative procedure - OPCS4 | Array 20,p41282
-p41282_a21,Date of first operative procedure - OPCS4 | Array 21,p41282
-p41282_a22,Date of first operative procedure - OPCS4 | Array 22,p41282
-p41282_a23,Date of first operative procedure - OPCS4 | Array 23,p41282
-p41282_a24,Date of first operative procedure - OPCS4 | Array 24,p41282
-p41282_a25,Date of first operative procedure - OPCS4 | Array 25,p41282
-p41282_a26,Date of first operative procedure - OPCS4 | Array 26,p41282
-p41282_a27,Date of first operative procedure - OPCS4 | Array 27,p41282
-p41282_a28,Date of first operative procedure - OPCS4 | Array 28,p41282
-p41282_a29,Date of first operative procedure - OPCS4 | Array 29,p41282
-p41282_a30,Date of first operative procedure - OPCS4 | Array 30,p41282
-p41282_a31,Date of first operative procedure - OPCS4 | Array 31,p41282
-p41282_a32,Date of first operative procedure - OPCS4 | Array 32,p41282
-p41282_a33,Date of first operative procedure - OPCS4 | Array 33,p41282
-p41282_a34,Date of first operative procedure - OPCS4 | Array 34,p41282
-p41282_a35,Date of first operative procedure - OPCS4 | Array 35,p41282
-p41282_a36,Date of first operative procedure - OPCS4 | Array 36,p41282
-p41282_a37,Date of first operative procedure - OPCS4 | Array 37,p41282
-p41282_a38,Date of first operative procedure - OPCS4 | Array 38,p41282
-p41282_a39,Date of first operative procedure - OPCS4 | Array 39,p41282
-p41282_a40,Date of first operative procedure - OPCS4 | Array 40,p41282
-p41282_a41,Date of first operative procedure - OPCS4 | Array 41,p41282
-p41282_a42,Date of first operative procedure - OPCS4 | Array 42,p41282
-p41282_a43,Date of first operative procedure - OPCS4 | Array 43,p41282
-p41282_a44,Date of first operative procedure - OPCS4 | Array 44,p41282
-p41282_a45,Date of first operative procedure - OPCS4 | Array 45,p41282
-p41282_a46,Date of first operative procedure - OPCS4 | Array 46,p41282
-p41282_a47,Date of first operative procedure - OPCS4 | Array 47,p41282
-p41282_a48,Date of first operative procedure - OPCS4 | Array 48,p41282
-p41282_a49,Date of first operative procedure - OPCS4 | Array 49,p41282
-p41282_a50,Date of first operative procedure - OPCS4 | Array 50,p41282
-p41282_a51,Date of first operative procedure - OPCS4 | Array 51,p41282
-p41282_a52,Date of first operative procedure - OPCS4 | Array 52,p41282
-p41282_a53,Date of first operative procedure - OPCS4 | Array 53,p41282
-p41282_a54,Date of first operative procedure - OPCS4 | Array 54,p41282
-p41282_a55,Date of first operative procedure - OPCS4 | Array 55,p41282
-p41282_a56,Date of first operative procedure - OPCS4 | Array 56,p41282
-p41282_a57,Date of first operative procedure - OPCS4 | Array 57,p41282
-p41282_a58,Date of first operative procedure - OPCS4 | Array 58,p41282
-p41282_a59,Date of first operative procedure - OPCS4 | Array 59,p41282
-p41282_a60,Date of first operative procedure - OPCS4 | Array 60,p41282
-p41282_a61,Date of first operative procedure - OPCS4 | Array 61,p41282
-p41282_a62,Date of first operative procedure - OPCS4 | Array 62,p41282
-p41282_a63,Date of first operative procedure - OPCS4 | Array 63,p41282
-p41282_a64,Date of first operative procedure - OPCS4 | Array 64,p41282
-p41282_a65,Date of first operative procedure - OPCS4 | Array 65,p41282
-p41282_a66,Date of first operative procedure - OPCS4 | Array 66,p41282
-p41282_a67,Date of first operative procedure - OPCS4 | Array 67,p41282
-p41282_a68,Date of first operative procedure - OPCS4 | Array 68,p41282
-p41282_a69,Date of first operative procedure - OPCS4 | Array 69,p41282
-p41282_a70,Date of first operative procedure - OPCS4 | Array 70,p41282
-p41282_a71,Date of first operative procedure - OPCS4 | Array 71,p41282
-p41282_a72,Date of first operative procedure - OPCS4 | Array 72,p41282
-p41282_a73,Date of first operative procedure - OPCS4 | Array 73,p41282
-p41282_a74,Date of first operative procedure - OPCS4 | Array 74,p41282
-p41282_a75,Date of first operative procedure - OPCS4 | Array 75,p41282
-p41282_a76,Date of first operative procedure - OPCS4 | Array 76,p41282
-p41282_a77,Date of first operative procedure - OPCS4 | Array 77,p41282
-p41282_a78,Date of first operative procedure - OPCS4 | Array 78,p41282
-p41282_a79,Date of first operative procedure - OPCS4 | Array 79,p41282
-p41282_a80,Date of first operative procedure - OPCS4 | Array 80,p41282
-p41282_a81,Date of first operative procedure - OPCS4 | Array 81,p41282
-p41282_a82,Date of first operative procedure - OPCS4 | Array 82,p41282
-p41282_a83,Date of first operative procedure - OPCS4 | Array 83,p41282
-p41282_a84,Date of first operative procedure - OPCS4 | Array 84,p41282
-p41282_a85,Date of first operative procedure - OPCS4 | Array 85,p41282
-p41282_a86,Date of first operative procedure - OPCS4 | Array 86,p41282
-p41282_a87,Date of first operative procedure - OPCS4 | Array 87,p41282
-p41282_a88,Date of first operative procedure - OPCS4 | Array 88,p41282
-p41282_a89,Date of first operative procedure - OPCS4 | Array 89,p41282
-p41282_a90,Date of first operative procedure - OPCS4 | Array 90,p41282
-p41282_a91,Date of first operative procedure - OPCS4 | Array 91,p41282
-p41282_a92,Date of first operative procedure - OPCS4 | Array 92,p41282
-p41282_a93,Date of first operative procedure - OPCS4 | Array 93,p41282
-p41282_a94,Date of first operative procedure - OPCS4 | Array 94,p41282
-p41282_a95,Date of first operative procedure - OPCS4 | Array 95,p41282
-p41282_a96,Date of first operative procedure - OPCS4 | Array 96,p41282
-p41282_a97,Date of first operative procedure - OPCS4 | Array 97,p41282
-p41282_a98,Date of first operative procedure - OPCS4 | Array 98,p41282
-p41282_a99,Date of first operative procedure - OPCS4 | Array 99,p41282
-p41282_a100,Date of first operative procedure - OPCS4 | Array 100,p41282
-p41282_a101,Date of first operative procedure - OPCS4 | Array 101,p41282
-p41282_a102,Date of first operative procedure - OPCS4 | Array 102,p41282
-p41282_a103,Date of first operative procedure - OPCS4 | Array 103,p41282
-p41282_a104,Date of first operative procedure - OPCS4 | Array 104,p41282
-p41282_a105,Date of first operative procedure - OPCS4 | Array 105,p41282
-p41282_a106,Date of first operative procedure - OPCS4 | Array 106,p41282
-p41282_a107,Date of first operative procedure - OPCS4 | Array 107,p41282
-p41282_a108,Date of first operative procedure - OPCS4 | Array 108,p41282
-p41282_a109,Date of first operative procedure - OPCS4 | Array 109,p41282
-p41282_a110,Date of first operative procedure - OPCS4 | Array 110,p41282
-p41282_a111,Date of first operative procedure - OPCS4 | Array 111,p41282
-p41282_a112,Date of first operative procedure - OPCS4 | Array 112,p41282
-p41282_a113,Date of first operative procedure - OPCS4 | Array 113,p41282
-p41282_a114,Date of first operative procedure - OPCS4 | Array 114,p41282
-p41282_a115,Date of first operative procedure - OPCS4 | Array 115,p41282
-p41282_a116,Date of first operative procedure - OPCS4 | Array 116,p41282
-p41282_a117,Date of first operative procedure - OPCS4 | Array 117,p41282
-p41282_a118,Date of first operative procedure - OPCS4 | Array 118,p41282
-p41282_a119,Date of first operative procedure - OPCS4 | Array 119,p41282
-p41282_a120,Date of first operative procedure - OPCS4 | Array 120,p41282
-p41282_a121,Date of first operative procedure - OPCS4 | Array 121,p41282
-p41282_a122,Date of first operative procedure - OPCS4 | Array 122,p41282
-p41282_a123,Date of first operative procedure - OPCS4 | Array 123,p41282
-p41282_a124,Date of first operative procedure - OPCS4 | Array 124,p41282
-p41282_a125,Date of first operative procedure - OPCS4 | Array 125,p41282
-p41283_a0,Date of first operative procedure - OPCS3 | Array 0,p41283
-p41283_a1,Date of first operative procedure - OPCS3 | Array 1,p41283
-p41283_a2,Date of first operative procedure - OPCS3 | Array 2,p41283
-p41283_a3,Date of first operative procedure - OPCS3 | Array 3,p41283
-p41283_a4,Date of first operative procedure - OPCS3 | Array 4,p41283
-p41283_a5,Date of first operative procedure - OPCS3 | Array 5,p41283
-p41283_a6,Date of first operative procedure - OPCS3 | Array 6,p41283
-p41283_a7,Date of first operative procedure - OPCS3 | Array 7,p41283
-p41283_a8,Date of first operative procedure - OPCS3 | Array 8,p41283
-p41283_a9,Date of first operative procedure - OPCS3 | Array 9,p41283
-p41283_a10,Date of first operative procedure - OPCS3 | Array 10,p41283
-p41283_a11,Date of first operative procedure - OPCS3 | Array 11,p41283
-p41283_a12,Date of first operative procedure - OPCS3 | Array 12,p41283
-p41283_a13,Date of first operative procedure - OPCS3 | Array 13,p41283
-p41283_a14,Date of first operative procedure - OPCS3 | Array 14,p41283
-p41283_a15,Date of first operative procedure - OPCS3 | Array 15,p41283
