@@ -150,8 +150,6 @@ p22036_i2,At or above moderate/vigorous/walking recommendation | Instance 2,p220
 p22036_i3,At or above moderate/vigorous/walking recommendation | Instance 3,p22036
 p22040_i0,Summed MET minutes per week for all activity | Instance 0,p22040
 p22189,Townsend deprivation index at recruitment,p22189
-p22426_i2,Average heart rate | Instance 2,p22426
-p22426_i3,Average heart rate | Instance 3,p22426
 p23100_i0,Whole body fat mass | Instance 0,p23100
 p23100_i1,Whole body fat mass | Instance 1,p23100
 p23100_i2,Whole body fat mass | Instance 2,p23100
@@ -160,22 +158,8 @@ p23101_i0,Whole body fat-free mass | Instance 0,p23101
 p23101_i1,Whole body fat-free mass | Instance 1,p23101
 p23101_i2,Whole body fat-free mass | Instance 2,p23101
 p23101_i3,Whole body fat-free mass | Instance 3,p23101
-p23439_i0,Apolipoprotein B | Instance 0,p23439
-p23439_i1,Apolipoprotein B | Instance 1,p23439
-p23440_i0,Apolipoprotein A1 | Instance 0,p23440
-p23440_i1,Apolipoprotein A1 | Instance 1,p23440
-p23464_i0,Total Concentration of Branched-Chain Amino Acids (Leucine + Isoleucine + Valine) | Instance 0,p23464
-p23464_i1,Total Concentration of Branched-Chain Amino Acids (Leucine + Isoleucine + Valine) | Instance 1,p23464
 p26216,Standard PRS for body mass index (BMI),p26216
 p26217,Enhanced PRS for body mass index (BMI),p26217
-p26223,Standard PRS for cardiovascular disease (CVD),p26223
-p26224,Enhanced PRS for cardiovascular disease (CVD),p26224
-p26227,Standard PRS for coronary artery disease (CAD),p26227
-p26228,Enhanced PRS for coronary artery disease (CAD),p26228
-p26238,Standard PRS for glycated haemoglobin (HBA1C_DF),p26238
-p26239,Enhanced PRS for glycated haemoglobin (HBA1C_DF),p26239
-p26285,Standard PRS for type 2 diabetes (T2D),p26285
-p26286,Enhanced PRS for type 2 diabetes (T2D),p26286
 p26410,Index of Multiple Deprivation (England),p26410
 p26411,Income score (England),p26411
 p26412,Employment score (England),p26412
@@ -197,10 +181,6 @@ p30600_i0,Albumin | Instance 0,p30600
 p30600_i1,Albumin | Instance 1,p30600
 p30610_i0,Alkaline phosphatase | Instance 0,p30610
 p30610_i1,Alkaline phosphatase | Instance 1,p30610
-p30630_i0,Apolipoprotein A | Instance 0,p30630
-p30630_i1,Apolipoprotein A | Instance 1,p30630
-p30640_i0,Apolipoprotein B | Instance 0,p30640
-p30640_i1,Apolipoprotein B | Instance 1,p30640
 p30660_i0,Direct bilirubin | Instance 0,p30660
 p30660_i1,Direct bilirubin | Instance 1,p30660
 p30670_i0,Urea | Instance 0,p30670
@@ -225,8 +205,6 @@ p30780_i0,LDL direct | Instance 0,p30780
 p30780_i1,LDL direct | Instance 1,p30780
 p30790_i0,Lipoprotein A | Instance 0,p30790
 p30790_i1,Lipoprotein A | Instance 1,p30790
-p30840_i0,Total bilirubin | Instance 0,p30840
-p30840_i1,Total bilirubin | Instance 1,p30840
 p30870_i0,Triglycerides | Instance 0,p30870
 p30870_i1,Triglycerides | Instance 1,p30870
 p40000_i0,Date of death | Instance 0,p40000
