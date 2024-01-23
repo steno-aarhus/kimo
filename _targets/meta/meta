@@ -1,3 +1,3 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-download_project_data|stem|c105558bd55c7fd4|8712f23a5cbffb74|ef46db3751d8e999|150584681|/home/rstudio-server/kimo/data/data.csv|t19684.9136674966s|de03138176501d4a|767922359|file|local|vector|||8.157||
+download_project_data|stem|7f31ac7896e9deaa|8712f23a5cbffb74|ef46db3751d8e999|376546580|/home/rstudio-server/kimo/data/data.csv|t19745.4448257399s|ede531780492f11d|681186380|file|local|vector|||8.294||
 package_deps|object|fac4c6e35c5bc815|||||||||||||||

@@ -1,42 +1,11 @@
-##################################################
-##clean covariates###############################
-##################################################
-dataclean <- data_csv
-rm(data_csv_core)
-rm(data_csv_dates)
-
-attach(dataclean)
-dataclean <- dataclean %>%
-    rename(sex=p31)
 
 
-dataclean <- dataclean %>%
-    rename(birthyear=p34) %>%
-    rename(houseincome=p738_i0)
 
-dataclean <- dataclean %>%
-    rename(waistcum=p48_i0) %>%
-    rename(hipcum=p49_i0)
-
-dataclean <- dataclean %>%
-    rename(height=p50_i0)
-
-dataclean <- dataclean %>%
-    rename(icd10=p41202)
-
-dataclean <- dataclean %>%
-    rename(qualification=p6138_i0)
-
-table(dataclean$qualification)
-
-
-table(dataclean$sex)
-
-
-#smoking-FieldID:20116: never, current, former
-#<https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=20116>
-#create combined variable of smoking derived from smoking status and dosage combining p20116 and p3456 (number of cigarettes currently
-#<https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=3456>).
-#recoding p3456, -10 to 0. -1, -3 to missing
-
-
+data %>%
+    rename(sex = p31, education = p6138_i0, townsend_index = p22189, ethnicity = p21000_i0, income = p738_i0) %>%
+    rename(year_birth=p34, age_baseline=p21022, month_birth=p52, center=p54_i0, date_death=p40000_i0, employment=p6142_i0)  %>%
+    rename(smoking = p20116_i0,  drinking = p20117_i0, met = p22040_i0) %>%
+    rename(diabetes_diag_baseline=p2443_i0, cancer_selfreport=p134_i0, noncancer_selfreport=p135_i0, cancer_diag=p2453_i0) %>%
+    rename(bmi = p21001_i0, medication=p137_i0, operation=p136_i0, othercondition=p2473_i0, gestation_diab=p4041_i0) %>%
+    rename(cvd_diag=p6150_i0, bloodclot_diag=p6152_i0, lowerbp_medication=p6153_i0) %>%
+    rename_with(~ stringr::str_replace(.x, "^p41280_", "date_of_diagnosis_"))
