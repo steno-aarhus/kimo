@@ -281,3 +281,64 @@ with_condition <- data %>%
 print(with_condition)
 
 
+with_condition2 <- data %>%
+    filter(
+        cvd_diag_yesno == "Yes" |
+            diabetes_diag_yesno == "Yes" |
+            cancer_diag_yesno == "Yes" |
+            othercondition_yesno == "Yes"
+    ) %>%
+    distinct() %>%
+    nrow()
+
+print(with_condition2)
+
+
+data <- data %>%
+    mutate(
+        condition_binary = ifelse(
+            cvd_diag_yesno == "Yes" |
+                diabetes_diag_yesno == "Yes" |
+                cancer_diag_yesno == "Yes" |
+                bloodclot_diag_yesno == "Yes" |
+                othercondition_yesno == "Yes",
+            1,
+            0
+        )
+    )
+
+table(data$condition_binary)
+
+data <- data %>%
+    mutate(cvd_diag_yesno  = fct_relevel(cvd_diag_yesno ))
+
+data <- data %>%
+    mutate(diabetes_diag_yesno  = fct_relevel(diabetes_diag_yesno ))  %>%
+    mutate(cancer_diag_yesno  = fct_relevel(cancer_diag_yesno ))  %>%
+    mutate(bloodclot_diag_yesno  = fct_relevel(bloodclot_diag_yesno ))  %>%
+    mutate(othercondition_yesno  = fct_relevel(othercondition_yesno ))
+
+
+# Assuming you have a data frame named 'data' with the specified columns
+
+# Create a new data frame with binary columns for each condition
+venn_data <- data.frame(
+    cvd = as.numeric(data$cvd_diag_yesno == "Yes"),
+    diabetes = as.numeric(data$diabetes_diag_yesno == "Yes"),
+    cancer = as.numeric(data$cancer_diag_yesno == "Yes"),
+    bloodclot = as.numeric(data$bloodclot_diag_yesno == "Yes"),
+    othercondition = as.numeric(data$othercondition_yesno == "Yes")
+)
+
+# Display the first few rows of the new data frame
+head(venn_data)
+venn_data <- venn_data[1:nrow(data), ]
+
+library(VennDiagram)
+
+venn.plot <- venn.diagram(
+    x = venn_data,
+    category.names = c("CVD", "Diabetes", "Cancer", "Blood Clot", "Other Condition"),
+    filename = NULL,
+    output = TRUE
+)
