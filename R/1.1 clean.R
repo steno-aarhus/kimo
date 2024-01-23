@@ -34,6 +34,7 @@ data<- data %>%
 
 colnames(data)
 
+
 ####CVD dianogised by docttor
 ##################################################
 table(data$cvd_diag)
@@ -49,6 +50,18 @@ data %>%
     flextable::autofit()          # format to one line per row
 
 
+data <- data %>%
+    mutate(cvd_diag_yesno = case_when(
+        is.na(cancer_diag) ~ "Missing",  # Handle missing values
+        stringr::str_detect(cvd_diag, "^(Angina|Heart attack|High blood pressure|Stroke)") ~ "Yes",
+        stringr::str_detect(cvd_diag, "^(None)") ~ "No",
+        cvd_diag == "Prefer not to answer" ~ "Not Report",
+        TRUE ~ NA_character_
+    ))
+
+
+table(data$cvd_diag_yesno)
+table(data$cvd_diag_yesno, data$cvd_diag)
 
 ####blood clot dianogised by docttor
 ##################################################
@@ -60,6 +73,20 @@ data %>%
     flextable::flextable() %>%    # convert to pretty image
     flextable::autofit()          # format to one line per row
 
+
+library(dplyr)
+data <- data %>%
+    mutate(bloodclot_diag_yesno = case_when(
+        is.na(bloodclot_diag) ~ "Missing",  # Handle missing values
+        bloodclot_diag %in% c("Hayfever, allergic rhinitis or eczema", "None of the above") ~ "No",
+        bloodclot_diag == "Prefer not to answer" ~ "Not report",
+        TRUE ~ "Yes"
+    ))
+
+
+# print table
+table(data$bloodclot_diag_yesno)
+
 ####diabetes dianogised by docttor
 ##################################################
 ###################################
@@ -70,6 +97,18 @@ data %>%
     count(diabetes_diag_baseline)  %>%
     flextable::flextable() %>%    # convert to pretty image
     flextable::autofit()
+
+
+
+data <- data %>%
+    mutate(diabetes_diag_yesno = case_when(
+        is.na(diabetes_diag_baseline) ~ "Missing",  # Handle missing values
+        diabetes_diag_baseline %in% c("Do not know", "Prefer not to answer") ~ "Not report",
+        TRUE ~ as.character(diabetes_diag_baseline)  # Keep other values unchanged
+    ))
+table(data$diabetes_diag_yesno)
+
+
 
 ###################################
 table(data$gestation_diab)
@@ -86,7 +125,14 @@ data %>%
 
 table(data$diabetes_diag_baseline, data$gestation_diab)
 
+##adjust diabetes by gestational diabetes, take out those only occured at gestation
+data <- data %>%
+    mutate(diabetes_diag_yesno = case_when(
+        gestation_diab == "Yes" ~ "No",
+        TRUE ~ diabetes_diag_yesno
+    ))
 
+table(data$diabetes_diag_yesno)
 ##cancer diagnosed by doctor
 table(data$cancer_diag)
 
@@ -98,6 +144,19 @@ data %>%
 
 table(data$cancer_selfreport, data$cancer_diag)
 
+
+data <- data %>%
+    mutate(cancer_diag_yesno = case_when(
+        is.na(cancer_diag) ~ "Missing",  # Handle missing values
+        cancer_diag %in% c("Do not know", "Prefer not to answer") ~ "Not report",
+        cancer_diag =="Yes - you will be asked about this later by an interviewer" ~ "Yes",
+        TRUE ~ as.character(cancer_diag)  # Keep other values unchanged
+    ))
+
+
+table(data$cancer_diag_yesno)
+
+
 #other condition diagnosed by doctor
 table(data$othercondition)
 
@@ -107,6 +166,17 @@ data %>%
     flextable::flextable() %>%    # convert to pretty image
     flextable::autofit()
 
+
+
+data <- data %>%
+    mutate(othercondition_yesno = case_when(
+        is.na(othercondition) ~ "Missing",  # Handle missing values
+        othercondition %in% c("Do not know", "Prefer not to answer") ~ "Not report",
+        othercondition =="Yes - you will be asked about this later by an interviewer" ~ "Yes",
+        TRUE ~ as.character(othercondition)  # Keep other values unchanged
+    ))
+
+table(data$othercondition_yesno)
 
 ##lower blood medication
 table(data$lowerbp_medication)
@@ -124,8 +194,11 @@ data %>%
 
 table(data$diabetes_diag_baseline, data$lowerbp_medication)
 
-###other meication#######
 
+
+
+
+###other meication#######
 table(data$p2492_i0)
 
 ##reported cancer numbers
@@ -173,3 +246,38 @@ table(data$cvd_diag, data$lowerbp_medication)
 ##too long
 data %>% tabyl(cvd_diag, lowerbp_medication)
 data %>% tabyl(diabetes_diag_baseline, lowerbp_medication)
+
+
+data %>%
+    tabyl(lowerbp_medication, cvd_diag_yesno) %>%
+    flextable::flextable() %>%    # convert to pretty image
+    flextable::autofit()          # format to one line per row
+
+
+data %>%
+    tabyl(lowerbp_medication, diabetes_diag_yesno) %>%
+    flextable::flextable() %>%    # convert to pretty image
+    flextable::autofit()          # format to one line per row
+
+data %>%
+    tabyl(cvd_diag_yesno, diabetes_diag_yesno) %>%
+    flextable::flextable() %>%    # convert to pretty image
+    flextable::autofit()          # format to one line per row
+
+
+####how many people have the health conditions at baseline
+with_condition <- data %>%
+    filter(
+        cvd_diag_yesno == "Yes" |
+            diabetes_diag_yesno == "Yes" |
+            cancer_diag_yesno == "Yes" |
+            bloodclot_diag_yesno == "Yes" |
+            othercondition_yesno == "Yes"
+    ) %>%
+    distinct() %>%
+    nrow()
+
+# Display the count
+print(with_condition)
+
+
