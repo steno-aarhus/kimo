@@ -1,5 +1,13 @@
 
+##add ID
 
+add_id <- function(data) {
+    data %>%
+        mutate(id = 1:n())
+}
+
+
+##rename
 
 data %>%
     rename(sex = p31, education = p6138_i0, townsend_index = p22189, ethnicity = p21000_i0, income = p738_i0) %>%
