@@ -12,10 +12,10 @@ library(dplyr)
 library(tidyverse)
 # Install the janitor package (if not already installed)
 install.packages("janitor")
-
+install.packages("flextable")
 # Load the janitor package
 library(janitor)
-
+library(flextable)
 ##add ID
 data %>% mutate(id = 1:n())
 
@@ -34,8 +34,101 @@ data<- data %>%
 
 colnames(data)
 
-###self reported health conditions
-##reported cancer
+####CVD dianogised by docttor
+##################################################
+table(data$cvd_diag)
+
+# Alpha-numeric default order - no adjustment within ggplot
+ggplot(data = data)+
+    geom_bar(mapping = aes(x = cvd_diag))
+
+data %>%
+    as_tibble() %>%
+    count(cvd_diag)  %>%
+    flextable::flextable() %>%    # convert to pretty image
+    flextable::autofit()          # format to one line per row
+
+
+
+####blood clot dianogised by docttor
+##################################################
+table(data$bloodclot_diag)
+
+data %>%
+    as_tibble() %>%
+    count(bloodclot_diag)  %>%
+    flextable::flextable() %>%    # convert to pretty image
+    flextable::autofit()          # format to one line per row
+
+####diabetes dianogised by docttor
+##################################################
+###################################
+table(data$diabetes_diag_baseline)
+
+data %>%
+    as_tibble() %>%
+    count(diabetes_diag_baseline)  %>%
+    flextable::flextable() %>%    # convert to pretty image
+    flextable::autofit()
+
+###################################
+table(data$gestation_diab)
+
+data %>%
+    as_tibble() %>%
+    count(gestation_diab)  %>%
+    flextable::flextable() %>%    # convert to pretty image
+    flextable::autofit()
+
+data %>%
+    as_tibble() %>%
+    count(gestation_diab)
+
+table(data$diabetes_diag_baseline, data$gestation_diab)
+
+
+##cancer diagnosed by doctor
+table(data$cancer_diag)
+
+data %>%
+    as_tibble() %>%
+    count(cancer_diag) %>%
+    flextable::flextable() %>%    # convert to pretty image
+    flextable::autofit()
+
+table(data$cancer_selfreport, data$cancer_diag)
+
+#other condition diagnosed by doctor
+table(data$othercondition)
+
+data %>%
+    as_tibble() %>%
+    count(othercondition) %>%
+    flextable::flextable() %>%    # convert to pretty image
+    flextable::autofit()
+
+
+##lower blood medication
+table(data$lowerbp_medication)
+data %>%
+    as_tibble() %>%
+    count(lowerbp_medication) %>%
+    print(n=50)
+
+data %>%
+    as_tibble() %>%
+    count(lowerbp_medication) %>%
+    flextable::flextable() %>%    # convert to pretty image
+    flextable::autofit()
+
+
+table(data$diabetes_diag_baseline, data$lowerbp_medication)
+
+###other meication#######
+
+table(data$p2492_i0)
+
+##reported cancer numbers
 table(data$cancer_selfreport)
 
 
@@ -48,27 +141,21 @@ table(data$noncancer_selfreport)
 ggplot(data = data)+
     geom_bar(mapping = aes(x = noncancer_selfreport))
 
-##diagnosed by doctor
-table(data$cancer_diag)
+
+data %>%
+    as_tibble() %>%
+    count(cancer_selfreport)
+
+
 
 data <- data %>%
     mutate(cancer_diag_new = fct_relevel(cancer_diag))
 
 str(data$cancer_diag_new)
+ggplot(data = data)+
+    geom_bar(mapping = aes(x = cancer_diag_new))
 
-##################################################
-
-
-
-
-table(data$cvd_diag)
-
-table(data$bloodclot_diag)
-
-table(data$diabetes_diag_baseline)
-
-table(data$medication)
-
+#######################################
 data %>%
     mutate(cancer_diag_new = fct_recode(
         cancer_diag,
@@ -80,3 +167,9 @@ data %>%
 
 
 table(data$cvd_diag, data$lowerbp_medication)
+
+
+
+##too long
+data %>% tabyl(cvd_diag, lowerbp_medication)
+data %>% tabyl(diabetes_diag_baseline, lowerbp_medication)

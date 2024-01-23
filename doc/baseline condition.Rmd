@@ -1,6 +1,6 @@
 ---
-title: "baseline condition"
-output: html_document
+title: "baseline condition_word"
+output: word_document
 ---
 
 ```{r setup, include=FALSE}
@@ -15,8 +15,6 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ```{r cars}
 table(data$cancer_selfreport)
-
-
 ```
 
 ## Including Plots
@@ -25,7 +23,7 @@ You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
 ggplot(data = data)+
-    geom_bar(mapping = aes(x = cancer_selfreport))
+    geom_bar(mapping = aes(x = noncancer_selfreport))
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
