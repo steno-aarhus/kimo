@@ -13,6 +13,8 @@ library(tidyverse)
 # Install the janitor package (if not already installed)
 install.packages("janitor")
 install.packages("flextable")
+install.packages("colorfulVennPlot")
+library(colorfulVennPlot)
 # Load the janitor package
 library(janitor)
 library(flextable)
@@ -320,25 +322,3 @@ data <- data %>%
 
 
 # Assuming you have a data frame named 'data' with the specified columns
-
-# Create a new data frame with binary columns for each condition
-venn_data <- data.frame(
-    cvd = as.numeric(data$cvd_diag_yesno == "Yes"),
-    diabetes = as.numeric(data$diabetes_diag_yesno == "Yes"),
-    cancer = as.numeric(data$cancer_diag_yesno == "Yes"),
-    bloodclot = as.numeric(data$bloodclot_diag_yesno == "Yes"),
-    othercondition = as.numeric(data$othercondition_yesno == "Yes")
-)
-
-# Display the first few rows of the new data frame
-head(venn_data)
-venn_data <- venn_data[1:nrow(data), ]
-
-library(VennDiagram)
-
-venn.plot <- venn.diagram(
-    x = venn_data,
-    category.names = c("CVD", "Diabetes", "Cancer", "Blood Clot", "Other Condition"),
-    filename = NULL,
-    output = TRUE
-)
