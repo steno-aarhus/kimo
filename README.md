@@ -1,3 +1,5 @@
+**NOTE: THIS PROJECT HAS BEEN ABANDONED**
+
 # kimo: Unraveling the Relationship Between Kidney Function and Cardiovascular Risk
 
 This project aims to examine the association between eGFR, CVD and mortality in the general population, and examine whether this potential association is causal by employing the MR approach.
